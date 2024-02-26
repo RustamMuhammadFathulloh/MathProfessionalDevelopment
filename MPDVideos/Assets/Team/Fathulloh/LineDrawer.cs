@@ -22,7 +22,7 @@ namespace CommonFeatures
             StartCoroutine(DrawingLine());
         }
 
-        //public Vector2[] vectorTwoArray;
+        
         IEnumerator DrawingLine()
         {
             _lineRenderer.positionCount = 2;

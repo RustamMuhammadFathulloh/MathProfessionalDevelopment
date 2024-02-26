@@ -1,8 +1,7 @@
-using System.Collections;
-using UnityEngine;
-using DG.Tweening;
 using ScriptableObjectArchitecture;
+using System.Collections;
 using TMPro;
+using UnityEngine;
 
 namespace CommonFeatures
 {
@@ -30,24 +29,27 @@ namespace CommonFeatures
         public EachObject BottomWhiteTransition;
 
         public EachObject LetsLookAtTheText_1;
-        public EachObject LetsLookAtTheText_2;
-
-        public EachObject LessonTitleText;
+        public EachObject LetsLookAtTheText_2;        
+        //public EachObject LessonTitleText;
          
 
         [Header("Scriptable Objects")]
         public BoolVariable StartAnim;
         [HideInInspector] private StartTextSO _startTexts;
 
-
-        private void Awake()
-        {
-            //BottomTitlePanel.GetComponent<EachObject>().MoveOutBottom(0);
-        }
+        [Header("Top title panel")]
+        public GameObject TopTitlePrefab;
+        //private GameObject _topTitleObject;
+        [HideInInspector] public EachObject TopTitlePanel;
 
 
         void Start()
-        {            
+        {
+            GameObject _topTitleObject = Instantiate(TopTitlePrefab);
+            _topTitleObject.transform.SetParent(GameObject.Find("Canvas").transform, false);
+            TopTitlePanel = _topTitleObject.GetComponent<EachObject>();
+            TopTitlePanel.transform.GetChild(0).GetComponent<EachObject>().WriteText(_startTexts.LessonTitle);
+
             StartCoroutine(Animations());
         }
 
@@ -89,6 +91,7 @@ namespace CommonFeatures
             TopWhiteTransition.MoveToInitialPos(1);
             BottomWhiteTransition.MoveToInitialPos(1);
             yield return new WaitForSeconds(0.7f);
+            TopTitlePanel.MoveToInitialPos(0.5f);
             LetsLookAtTheText_1.MoveToInitialPos(0.5f);
             yield return new WaitForSeconds(1.3f);
 
@@ -99,14 +102,9 @@ namespace CommonFeatures
             }
 
             LetsLookAtTheText_1.FadeText(0, 1);
-            //TopWhiteTransition.transform.GetChild(0).GetComponent<EachObject>().FadeText(0, 1);
-            //BottomWhiteTransition.transform.GetChild(0).GetComponent<EachObject>().FadeText(0, 1);
             yield return new WaitForSeconds(1.5f);
-            LessonTitleText.FadeText(1, 1);
-
-
-
-            yield return new WaitForSeconds(1f);
+            //LessonTitleText.FadeText(1, 1);
+            
             StartAnim.Value = true;
         }
 
@@ -116,13 +114,12 @@ namespace CommonFeatures
             _startTexts = videoStartTexts;
 
             BottomTitlePanel.transform.GetChild(0).GetComponent<EachObject>().WriteText(_startTexts.LessonTitle);
-            TopWhiteTransition.transform.GetChild(0).transform.GetChild(0).GetComponent<EachObject>().WriteText(_startTexts.LessonTitle);
+            //TopWhiteTransition.transform.GetChild(0).transform.GetChild(0).GetComponent<EachObject>().WriteText(_startTexts.LessonTitle);
+            //TopTitlePanel.WriteText(_startTexts.LessonTitle);
             ExplainText.WriteText(_startTexts.InThisLesson);
 
             LetsLookAtTheText_1.WriteText(_startTexts.LetsLookAtThe_1);
             LetsLookAtTheText_2.WriteText(_startTexts.LetsLookAtThe_2);
-            LessonTitleText.WriteText(_startTexts.LessonTitle);
-            
         }
 
 
