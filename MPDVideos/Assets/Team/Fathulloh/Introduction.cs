@@ -6,25 +6,36 @@ public class Introduction : MonoBehaviour
     public GameObject StartFeatures;
     public GameObject FinishFeatures;
 
-    private GameObject _startParent;
-    private GameObject _finishParent;
+    //private GameObject _startParent;
+    //private GameObject _finishParent;
 
-        
-    public void VideoOpening()
+    
+    //public void VideoOpening()
+    //{
+    //    _startParent = Instantiate(StartFeatures, new Vector3(0, 0, 0), Quaternion.identity);
+    //    _startParent.transform.SetParent(GameObject.Find("Canvas").transform, false);        
+
+    //    _finishParent = Instantiate(FinishFeatures, new Vector3(0, 0, 0), Quaternion.identity);
+    //    _finishParent.transform.SetParent(GameObject.Find("Canvas").transform, false);
+    //}
+
+
+    //public void RemoveIntroduction()
+    //{
+    //    Destroy(_startParent);
+    //    Destroy(_finishParent);
+    //}
+
+
+    public void StartFeatureSwitch()
     {
-        _startParent = Instantiate(StartFeatures, new Vector3(0, 0, 0), Quaternion.identity);
-        _startParent.transform.SetParent(GameObject.Find("Canvas").transform, false);        
-
-        _finishParent = Instantiate(FinishFeatures, new Vector3(0, 0, 0), Quaternion.identity);
-        _finishParent.transform.SetParent(GameObject.Find("Canvas").transform, false);
+        StartFeatures.SetActive(false);
     }
 
 
-    public void RemoveIntroduction()
+    public void FinishFeatureSwitch(bool isTrue)
     {
-        Destroy(_startParent);
-        //Destroy(_finishParent);
+        FinishFeatures.SetActive(isTrue);
     }
-
 
 }
