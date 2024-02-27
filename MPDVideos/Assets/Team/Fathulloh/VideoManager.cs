@@ -1,7 +1,6 @@
 using CommonFeatures;
 using ScriptableObjectArchitecture;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace Math5_Lesson1
@@ -30,11 +29,18 @@ namespace Math5_Lesson1
 
         public void VideoAnimationMethod()
         {
-            Debug.Log("VideoManager work");
+            //Debug.Log("VideoManager work");
+
+            FinishFeatures.GetComponent<FinishFeatures>().FinishAnimation();
+
+            StartCoroutine(Transition());
         }
 
-
-
+        IEnumerator Transition()
+        {
+            yield return new WaitForSeconds(2.5f);
+            StartFeatureSwitch(false);
+        }
 
     }
 }
