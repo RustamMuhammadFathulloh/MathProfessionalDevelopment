@@ -92,16 +92,13 @@ namespace CommonFeatures
             CurrentRectTrans.DOAnchorPosY(CurrentRectTrans.sizeDelta.y / 2, duration);
         }
 
+        public void MoveToCenter(float duration)
+        {
+            CurrentRectTrans.DOAnchorPos(new Vector2(0, 0), duration);
+        }
 
         public void MoveOutBottom(float duration)
-        {
-            //Debug.Log(CurrentRectTrans.position);
-            //Debug.Log(CurrentRectTrans.transform.position);
-            //Debug.Log(CurrentRectTrans.localPosition);
-            //Debug.Log(CurrentRectTrans.rect);
-            //Debug.Log(CurrentRectTrans.rect.position); // -960, -60
-            //Debug.Log(CurrentRectTrans.sizeDelta);     // 1920, 120
-            //Debug.Log(CurrentRectTrans.anchoredPosition);
+        {            
             CurrentRectTrans.DOAnchorPosY(-CurrentRectTrans.sizeDelta.y / 2, duration);
         }
 
@@ -123,6 +120,22 @@ namespace CommonFeatures
         {
             Vector2 currentPos = CurrentRectTrans.anchoredPosition;
             CurrentRectTrans.DOAnchorPos(-currentPos, duration);
+        }
+
+
+        public void Movement(Vector2 newPos, float duration)
+        {
+            //Debug.Log(CurrentRectTrans.position);
+            //Debug.Log(CurrentRectTrans.transform.position);
+            //Debug.Log(CurrentRectTrans.localPosition);
+            //Debug.Log(CurrentRectTrans.rect);
+            //Debug.Log(CurrentRectTrans.rect.position); // -960, -60
+            //Debug.Log(CurrentRectTrans.sizeDelta);     // 1920, 120
+            //Debug.Log(CurrentRectTrans.anchoredPosition);
+            //Debug.Log("Screen.width = " + Screen.width + " Screen.height = " + Screen.height);
+            //CurrentRectTrans.localPosition = newPos;
+            CurrentRectTrans.DOAnchorPos(newPos, duration);
+            //Debug.Log("newPos = " + newPos);
         }
 
 

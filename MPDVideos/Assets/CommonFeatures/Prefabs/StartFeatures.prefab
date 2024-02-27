@@ -656,7 +656,7 @@ GameObject:
   - component: {fileID: 5926373714649064551}
   - component: {fileID: 4387353545408259749}
   m_Layer: 5
-  m_Name: Color1
+  m_Name: LeftFirstTransition
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -879,7 +879,7 @@ GameObject:
   - component: {fileID: 6577081440037860504}
   - component: {fileID: 9010655420498631326}
   m_Layer: 5
-  m_Name: WhiteBottomTransition
+  m_Name: BottomWhiteTransition
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1034,7 +1034,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.6156863}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.6862745}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2106,7 +2106,7 @@ GameObject:
   - component: {fileID: 478467842072142369}
   - component: {fileID: 7714207404440551553}
   m_Layer: 5
-  m_Name: Color2
+  m_Name: LeftSecondTransition
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2755,7 +2755,7 @@ GameObject:
   - component: {fileID: 5960636760974822374}
   - component: {fileID: 8501791391142705714}
   m_Layer: 5
-  m_Name: WhiteTopTransition
+  m_Name: TopWhiteTransition
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
