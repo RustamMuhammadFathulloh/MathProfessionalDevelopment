@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0069556f65d5a744999914d1607f3c19, type: 3}
-  m_Name: StartTexts
+  m_Name: StartData
   m_EditorClassIdentifier: 
   CurrentGrade: 1
   LessonOrder: 0
@@ -19,3 +19,5 @@ MonoBehaviour:
   LetsLookAtThe_1: Let's look at the <color=#909831> key ideas </color> in teaching
     <color=#909831> order of operations.</color>
   LetsLookAtThe_2: 
+  AudioInThisLesson: {fileID: 8300000, guid: e5d83ecf821309246863ceb365d68a04, type: 3}
+  AudioLetsLookAtThe: {fileID: 8300000, guid: 295a49556252a0e4abff74ebb58479f3, type: 3}

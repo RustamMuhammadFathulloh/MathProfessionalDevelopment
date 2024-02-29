@@ -1127,6 +1127,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StartFeatures
       objectReference: {fileID: 0}
+    - target: {fileID: 6247149553185009827, guid: bf2c3deece427d849beab78ebe80097b, type: 3}
+      propertyPath: StartData
+      value: 
+      objectReference: {fileID: 11400000, guid: 9a6809abaaa1b2e458733b1edd1d7d1b, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
