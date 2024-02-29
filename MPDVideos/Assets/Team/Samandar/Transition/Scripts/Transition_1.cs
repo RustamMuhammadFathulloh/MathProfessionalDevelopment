@@ -21,11 +21,13 @@ namespace Samandar
         {
             StartCoroutine(Animations());
         }
-
+        private void OnDisable()
+        {
+            TopRectangleTransition.DOAnchorPosY(47.5f, 0);
+        }
         IEnumerator Animations()
         {
-            //Transitions
-            //TopRectangleTransition.DOAnchorPosY(47.5f, 0);
+            //Transitions            
             LeftThirdTransition.DOScaleY(1, 0.5f);
             LeftThirdTransition.DOAnchorPosX(-1920, 0);
             LeftFirstTransition.DOAnchorPosX(0, 0.5f);
@@ -38,7 +40,6 @@ namespace Samandar
             LeftFirstTransition.DOAnchorPosX(-1920, 0);
             LeftSecondTransition.DOAnchorPosX(-1920, 0);
             LeftThirdTransition.DOScaleY(0, 0.5f);
-
         }
 
         // Update is called once per frame
