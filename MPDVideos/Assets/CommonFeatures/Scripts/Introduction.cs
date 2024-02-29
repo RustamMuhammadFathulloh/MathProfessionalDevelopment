@@ -4,16 +4,13 @@ using UnityEngine.UI;
 
 public class Introduction : MonoBehaviour
 {
-    public StartTextSO StartTexts;
+    //public StartDataSO StartTexts;
     public GameObject StartFeatures;
     public GameObject FinishFeatures;
 
     public GameObject FinishWhitePanel;
 
-    //private GameObject _startParent;
-    //private GameObject _finishParent;
-
-
+    
     //public void VideoOpening()
     //{
     //    _startParent = Instantiate(StartFeatures, new Vector3(0, 0, 0), Quaternion.identity);

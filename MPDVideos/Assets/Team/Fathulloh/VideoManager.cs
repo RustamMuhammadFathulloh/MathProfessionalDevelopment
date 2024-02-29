@@ -11,7 +11,7 @@ namespace Math5_Lesson1
 
         private void Awake()
         {
-            StartFeatures.GetComponent<StartFeature>().SetInitialTexts(StartTexts);
+            //StartFeatures.GetComponent<StartFeature>().SetInitialTexts(StartTexts);
             //VideoOpening();
         }
 
