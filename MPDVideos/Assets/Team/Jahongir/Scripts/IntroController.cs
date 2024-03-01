@@ -33,7 +33,6 @@ public class IntroController : MonoBehaviour
         transform.GetChild(2).GetChild(4).GetChild(1).GetComponent<TMP_Text>().text = Duration;
 
         transform.GetChild(3).GetChild(1).GetComponent<TMP_Text>().text = Description;
-        StartCoroutine(DuratetionTest());
     }
 
     // Update is called once per frame
@@ -60,10 +59,5 @@ public class IntroController : MonoBehaviour
         transform.GetChild(4).GetComponent<Image>().DOFade(0, 0.5f);
     }
 
-    public IEnumerator DuratetionTest()
-    {
-        yield return new WaitForSeconds(2);
-        FadeControl();
-
-    }
+   
 }
