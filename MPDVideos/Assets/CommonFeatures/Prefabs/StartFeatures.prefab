@@ -1373,6 +1373,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1b53537ea3581847a09b4f42ed3f972, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IntroductionPrefab: {fileID: 7019028342563210180, guid: 7617c0021611cd74c88cb6033b069599, type: 3}
   IntroPanel: {fileID: 2200363456810299993}
   IntroPanelText1: {fileID: 261332023176347366}
   IntroPanelText2: {fileID: 7150895613308789268}
@@ -1392,7 +1393,10 @@ MonoBehaviour:
   StartAnim: {fileID: 11400000, guid: 9a17404c7e4ae704795b3f88f5080fcd, type: 2}
   TopTitlePrefab: {fileID: 8245228031590522749, guid: 4ec15abee0c4469428c39f9a5e67b82f, type: 3}
   TopTitlePanel: {fileID: 0}
-  StartTexts: {fileID: 11400000, guid: 9a6809abaaa1b2e458733b1edd1d7d1b, type: 2}
+  StartData: {fileID: 0}
+  StartEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &3236851328295637687
 GameObject:
   m_ObjectHideFlags: 0
@@ -3923,7 +3927,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.8}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
