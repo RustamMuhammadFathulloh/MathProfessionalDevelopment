@@ -58,7 +58,12 @@ namespace CommonFeatures
         {
             IntroductionPage = Instantiate(IntroductionPrefab, new Vector3(0, 0, 0), Quaternion.identity);
             IntroductionPage.transform.SetParent(GameObject.Find("Canvas").transform, false);
-            
+
+            GameObject _topTitleObject = Instantiate(TopTitlePrefab);
+            _topTitleObject.transform.SetParent(GameObject.Find("Canvas").transform, false);
+            TopTitlePanel = _topTitleObject.GetComponent<EachObject>();
+            TopTitlePanel.transform.GetChild(0).GetComponent<EachObject>().WriteText(StartData.LessonTitle);
+
             SetInitialTexts();
         }
 
@@ -67,10 +72,7 @@ namespace CommonFeatures
         {
             audioSource = gameObject.GetComponent<AudioSource>();
 
-            GameObject _topTitleObject = Instantiate(TopTitlePrefab);
-            _topTitleObject.transform.SetParent(GameObject.Find("Canvas").transform, false);
-            TopTitlePanel = _topTitleObject.GetComponent<EachObject>();
-            TopTitlePanel.transform.GetChild(0).GetComponent<EachObject>().WriteText(StartData.LessonTitle);
+            
 
             StartCoroutine(Animations());
         }
@@ -103,7 +105,7 @@ namespace CommonFeatures
             InThisLessonBoardText.MoveToInitialPos(0.5f);
             yield return new WaitForSeconds(0.75f);
             audioSource.PlayOneShot(StartData.AudioInThisLesson);
-            Debug.Log("   " + StartData.AudioInThisLesson.length);
+            //Debug.Log("   " + StartData.AudioInThisLesson.length);
             ExplainText.MoveToInitialPos(0.5f);
             yield return new WaitForSeconds(StartData.AudioInThisLesson.length);
 
@@ -151,6 +153,10 @@ namespace CommonFeatures
 
             LetsLookAtTheText_1.WriteText(StartData.LetsLookAtThe_1);
             LetsLookAtTheText_2.WriteText(StartData.LetsLookAtThe_2);
+
+            TopTitlePanel.GetComponent<LessonTitleTop>().UnderstandingTime = StartData.UnderstandingTime;
+            TopTitlePanel.GetComponent<LessonTitleTop>().DemonstrationTime = StartData.DemonstrationTime;
+            TopTitlePanel.GetComponent<LessonTitleTop>().SummaryTime = StartData.SummaryTime;
         }
 
 
