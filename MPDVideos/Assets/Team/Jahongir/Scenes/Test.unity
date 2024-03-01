@@ -398,6 +398,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 906302843}
     m_Modifications:
+    - target: {fileID: 1959541088163583162, guid: 7617c0021611cd74c88cb6033b069599, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 824.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959541088163583162, guid: 7617c0021611cd74c88cb6033b069599, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 186.72
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959541088163583162, guid: 7617c0021611cd74c88cb6033b069599, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 168.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959541088163583162, guid: 7617c0021611cd74c88cb6033b069599, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -128.15
+      objectReference: {fileID: 0}
     - target: {fileID: 5165150903739845546, guid: 7617c0021611cd74c88cb6033b069599, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -477,6 +493,22 @@ PrefabInstance:
     - target: {fileID: 5165150903739845546, guid: 7617c0021611cd74c88cb6033b069599, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645394453113079085, guid: 7617c0021611cd74c88cb6033b069599, type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645394453113079085, guid: 7617c0021611cd74c88cb6033b069599, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645394453113079085, guid: 7617c0021611cd74c88cb6033b069599, type: 3}
+      propertyPath: m_fontSizeMin
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645394453113079085, guid: 7617c0021611cd74c88cb6033b069599, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7019028342563210180, guid: 7617c0021611cd74c88cb6033b069599, type: 3}
       propertyPath: m_Name

@@ -272,8 +272,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 68.55, y: -42.1}
-  m_SizeDelta: {x: 624.25, y: 49.5}
+  m_AnchoredPosition: {x: 458.47, y: -42.1}
+  m_SizeDelta: {x: 1404.09, y: 49.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3304212594513395481
 CanvasRenderer:
@@ -979,8 +979,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 14.62}
-  m_SizeDelta: {x: 487.15002, y: 63.93}
+  m_AnchoredPosition: {x: 614.28, y: 17.71}
+  m_SizeDelta: {x: 1715.7, y: 70.12}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3648549544619305007
 CanvasRenderer:
@@ -1037,10 +1037,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
+  m_fontSize: 59.8
   m_fontSizeBase: 50
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
@@ -1567,8 +1567,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 172.04, y: -178}
-  m_SizeDelta: {x: 831.24, y: 286.41}
+  m_AnchoredPosition: {x: 187.47, y: -144.77}
+  m_SizeDelta: {x: 862.1, y: 219.95}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3187538893930926907
 CanvasRenderer:
@@ -1628,10 +1628,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
+  m_fontSize: 33.45
   m_fontSizeBase: 30
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -1723,13 +1723,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc8e72839cefccd43984bfa5a276f6cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Headline: 
-  By: 
-  Level: 
-  Subject: 
-  Series: 
-  Duration: 
-  Description: 
+  Headline: hldfigeiflguhfdgdkjgguhdfkjv
+  By: fdjkngfdelkgnklgnbdfkljf
+  Level: fdklgnfelkgnjer;kgojndf;gjnfdg
+  Subject: kglnelgjnalgjnfdvkljefngearg
+  Series: dflgknearognadf;kgnadfjkvg
+  Duration: lkfadnaelrgnareljgndfkljg
+  Description: kdjnfgelkjargnadfmv df,vbaegkjvnkgjlnbdafkjvnagklbafdlkjvdfbavlgaergblakdjfvbndlkgbeargkjlvbdnklargnilabdfvkjadfbngilaergbvdkvbjaildfegbaef
 --- !u!1 &7670425208117383311
 GameObject:
   m_ObjectHideFlags: 0
