@@ -20,5 +20,7 @@ public class StartDataSO : ScriptableObject
     public AudioClip AudioInThisLesson;
     public AudioClip AudioLetsLookAtThe;
 
-
+    public float UnderstandingTime;
+    public float DemonstrationTime;
+    public float SummaryTime;
 }
