@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using DG.Tweening;
+using UnityEngine.UI;
 
 public class IntroController : MonoBehaviour
 {
@@ -17,6 +19,8 @@ public class IntroController : MonoBehaviour
 
     [Header("Order of Operation")]
     public string Description;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -29,11 +33,37 @@ public class IntroController : MonoBehaviour
         transform.GetChild(2).GetChild(4).GetChild(1).GetComponent<TMP_Text>().text = Duration;
 
         transform.GetChild(3).GetChild(1).GetComponent<TMP_Text>().text = Description;
+        StartCoroutine(DuratetionTest());
     }
 
     // Update is called once per frame
-    void Update()
+    public void FadeControl()
     {
-        
+        transform.GetChild(0).GetComponent<Image>().DOFade(0, 0.5f);
+
+        transform.GetChild(1).GetChild(0).GetComponent<TMP_Text>().DOFade(0, 0.5f);
+        transform.GetChild(1).GetChild(1).GetComponent<TMP_Text>().DOFade(0, 0.5f);
+
+        transform.GetChild(2).GetChild(0).GetComponent<TMP_Text>().DOFade(0, 0.5f);
+        transform.GetChild(2).GetChild(1).GetChild(0).GetComponent<TMP_Text>().DOFade(0, 0.5f);
+        transform.GetChild(2).GetChild(1).GetChild(1).GetComponent<TMP_Text>().DOFade(0, 0.5f);
+        transform.GetChild(2).GetChild(2).GetChild(0).GetComponent<TMP_Text>().DOFade(0, 0.5f);
+        transform.GetChild(2).GetChild(2).GetChild(1).GetComponent<TMP_Text>().DOFade(0, 0.5f);
+        transform.GetChild(2).GetChild(3).GetChild(0).GetComponent<TMP_Text>().DOFade(0, 0.5f);
+        transform.GetChild(2).GetChild(3).GetChild(1).GetComponent<TMP_Text>().DOFade(0, 0.5f);
+        transform.GetChild(2).GetChild(4).GetChild(0).GetComponent<TMP_Text>().DOFade(0, 0.5f);
+        transform.GetChild(2).GetChild(4).GetChild(1).GetComponent<TMP_Text>().DOFade(0, 0.5f);
+
+        transform.GetChild(3).GetChild(0).GetComponent<TMP_Text>().DOFade(0, 0.5f);
+        transform.GetChild(3).GetChild(1).GetComponent<TMP_Text>().DOFade(0, 0.5f);
+
+        transform.GetChild(4).GetComponent<Image>().DOFade(0, 0.5f);
+    }
+
+    public IEnumerator DuratetionTest()
+    {
+        yield return new WaitForSeconds(2);
+        FadeControl();
+
     }
 }
