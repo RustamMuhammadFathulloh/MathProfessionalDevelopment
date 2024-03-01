@@ -8,6 +8,10 @@ namespace CommonFeatures
 {
     public class StartFeature : MonoBehaviour
     {
+        [Header("Introduction Panel")]
+        public GameObject IntroductionPrefab;
+        private GameObject IntroductionPage;
+
         [Header("Intro Panel")]
         public GameObject IntroPanel;
         public GameObject IntroPanelText1;
@@ -51,7 +55,10 @@ namespace CommonFeatures
 
 
         private void Awake()
-        {            
+        {
+            IntroductionPage = Instantiate(IntroductionPrefab, new Vector3(0, 0, 0), Quaternion.identity);
+            IntroductionPage.transform.SetParent(GameObject.Find("Canvas").transform, false);
+            
             SetInitialTexts();
         }
 
@@ -72,7 +79,10 @@ namespace CommonFeatures
         IEnumerator Animations()
         {
             //IntroPanel.GetComponent<EachObject>().MoveOutLeft(0);
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(2.5f);
+            IntroductionPage.GetComponent<IntroController>().FadeControl();
+
+            yield return new WaitForSeconds(1f);
             IntroPanel.GetComponent<EachObject>().MoveToInitialPos(2f);
             yield return new WaitForSeconds(1f);
             IntroPanelText1.GetComponent<EachObject>().FadeText(1f, 0.75f);
@@ -120,7 +130,7 @@ namespace CommonFeatures
             {
                 LetsLookAtTheText_2.MoveToInitialPos(0.5f);
                 yield return new WaitForSeconds(1.3f);
-                Debug.Log("If work");
+                //Debug.Log("If work");
             }
 
             LetsLookAtTheText_1.FadeText(0, 1);
