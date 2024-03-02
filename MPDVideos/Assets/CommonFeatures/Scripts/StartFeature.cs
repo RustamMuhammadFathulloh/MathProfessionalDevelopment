@@ -9,8 +9,8 @@ namespace CommonFeatures
     public class StartFeature : MonoBehaviour
     {
         [Header("Introduction Panel")]
-        public GameObject IntroductionPrefab;
-        private GameObject IntroductionPage;
+        public GameObject IntroductionPage;
+        //private GameObject IntroductionPage;
 
         [Header("Intro Panel")]
         public GameObject IntroPanel;
@@ -56,8 +56,8 @@ namespace CommonFeatures
 
         private void Awake()
         {
-            IntroductionPage = Instantiate(IntroductionPrefab, new Vector3(0, 0, 0), Quaternion.identity);
-            IntroductionPage.transform.SetParent(GameObject.Find("Canvas").transform, false);
+            //IntroductionPage = Instantiate(IntroductionPrefab, new Vector3(0, 0, 0), Quaternion.identity);
+            //IntroductionPage.transform.SetParent(GameObject.Find("Canvas").transform, false);
 
             GameObject _topTitleObject = Instantiate(TopTitlePrefab);
             _topTitleObject.transform.SetParent(GameObject.Find("Canvas").transform, false);
@@ -70,9 +70,7 @@ namespace CommonFeatures
 
         void Start()
         {
-            audioSource = gameObject.GetComponent<AudioSource>();
-
-            
+            audioSource = gameObject.GetComponent<AudioSource>();            
 
             StartCoroutine(Animations());
         }
@@ -122,20 +120,22 @@ namespace CommonFeatures
             BottomWhiteTransition.MoveToInitialPos(1);
             yield return new WaitForSeconds(0.7f);
             TopTitlePanel.MoveToInitialPos(0.5f);
+
             LetsLookAtTheText_1.MoveToInitialPos(0.5f);
 
-            yield return new WaitForSeconds(0.3f);
-            audioSource.PlayOneShot(StartData.AudioLetsLookAtThe);
-            yield return new WaitForSeconds(StartData.AudioLetsLookAtThe.length + 1f);
-            
+            yield return new WaitForSeconds(0.1f);           
             if (LetsLookAtTheText_2.GetComponent<TMP_Text>().text.Length > 1)
             {
-                LetsLookAtTheText_2.MoveToInitialPos(0.5f);
-                yield return new WaitForSeconds(1.3f);
+                LetsLookAtTheText_2.MoveToInitialPos(0.5f);                
                 //Debug.Log("If work");
             }
+            yield return new WaitForSeconds(0.4f);
+
+            audioSource.PlayOneShot(StartData.AudioLetsLookAtThe);            
+            yield return new WaitForSeconds(StartData.AudioLetsLookAtThe.length + 0.1f);
 
             LetsLookAtTheText_1.FadeText(0, 1);
+            LetsLookAtTheText_2.FadeText(0, 1);
             yield return new WaitForSeconds(1.5f);
             //LessonTitleText.FadeText(1, 1);
 
