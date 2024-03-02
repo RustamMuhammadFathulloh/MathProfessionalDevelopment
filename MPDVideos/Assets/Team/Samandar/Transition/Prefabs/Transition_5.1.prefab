@@ -323,7 +323,6 @@ MonoBehaviour:
   LeftFirstTransition: {fileID: 2481157592433365150}
   LeftSecondTransition: {fileID: 3496551690582578962}
   LeftThirdTransition: {fileID: 2250959507923070700}
-  TopRectangleTransition: {fileID: 2579625678063504596}
 --- !u!1 &6905880331333193371
 GameObject:
   m_ObjectHideFlags: 0
@@ -416,7 +415,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2579625678063504596
 RectTransform:
   m_ObjectHideFlags: 0
