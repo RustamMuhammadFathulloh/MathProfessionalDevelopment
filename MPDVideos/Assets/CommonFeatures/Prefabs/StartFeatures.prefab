@@ -159,6 +159,7 @@ MonoBehaviour:
   CurrentText: {fileID: 0}
   IsTextFaded: 0
   IsImageFaded: 0
+  IsMinimized: 0
 --- !u!1 &261332023176347366
 GameObject:
   m_ObjectHideFlags: 0
@@ -225,7 +226,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: MATH <b>PROFESSIONAL</b> \nDEVELOPMENT
+  m_text: "<b>MATEMATIKA FANI O\u2018QITUVCHILARINI \\nKASBIY RIVOJLANTIRISH</b>\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -252,8 +253,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 120
-  m_fontSizeBase: 120
+  m_fontSize: 82
+  m_fontSizeBase: 82
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -312,6 +313,7 @@ MonoBehaviour:
   CurrentText: {fileID: 2744334026231781256}
   IsTextFaded: 1
   IsImageFaded: 0
+  IsMinimized: 0
 --- !u!1 &411548210174559887
 GameObject:
   m_ObjectHideFlags: 0
@@ -643,6 +645,7 @@ MonoBehaviour:
   CurrentText: {fileID: 4802904207714052048}
   IsTextFaded: 0
   IsImageFaded: 0
+  IsMinimized: 0
 --- !u!1 &914173371835787566
 GameObject:
   m_ObjectHideFlags: 0
@@ -737,6 +740,7 @@ MonoBehaviour:
   CurrentText: {fileID: 0}
   IsTextFaded: 0
   IsImageFaded: 0
+  IsMinimized: 0
 --- !u!1 &1104794994022645280
 GameObject:
   m_ObjectHideFlags: 0
@@ -975,6 +979,7 @@ MonoBehaviour:
   CurrentText: {fileID: 0}
   IsTextFaded: 0
   IsImageFaded: 0
+  IsMinimized: 0
 --- !u!1 &2200363456810299993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1069,6 +1074,7 @@ MonoBehaviour:
   CurrentText: {fileID: 0}
   IsTextFaded: 0
   IsImageFaded: 0
+  IsMinimized: 0
 --- !u!1 &2634539927333344678
 GameObject:
   m_ObjectHideFlags: 0
@@ -1223,6 +1229,7 @@ MonoBehaviour:
   CurrentText: {fileID: 9212577026799043997}
   IsTextFaded: 0
   IsImageFaded: 0
+  IsMinimized: 0
 --- !u!1 &3203451082402985512
 GameObject:
   m_ObjectHideFlags: 0
@@ -1551,6 +1558,7 @@ MonoBehaviour:
   CurrentText: {fileID: 1440084516726023813}
   IsTextFaded: 1
   IsImageFaded: 0
+  IsMinimized: 0
 --- !u!1 &3473529029053972216
 GameObject:
   m_ObjectHideFlags: 0
@@ -1704,6 +1712,7 @@ MonoBehaviour:
   CurrentText: {fileID: 8892015038765422126}
   IsTextFaded: 0
   IsImageFaded: 0
+  IsMinimized: 0
 --- !u!1 &4798927606755001422
 GameObject:
   m_ObjectHideFlags: 0
@@ -1801,6 +1810,7 @@ MonoBehaviour:
   CurrentText: {fileID: 0}
   IsTextFaded: 0
   IsImageFaded: 0
+  IsMinimized: 0
 --- !u!1 &5125806505659540513
 GameObject:
   m_ObjectHideFlags: 0
@@ -1954,6 +1964,7 @@ MonoBehaviour:
   CurrentText: {fileID: 4966749967578825115}
   IsTextFaded: 0
   IsImageFaded: 0
+  IsMinimized: 0
 --- !u!1 &5338265481340322893
 GameObject:
   m_ObjectHideFlags: 0
@@ -2061,7 +2072,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6755573491369777322
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2196,6 +2207,7 @@ MonoBehaviour:
   CurrentText: {fileID: 1232317752747010486}
   IsTextFaded: 1
   IsImageFaded: 0
+  IsMinimized: 0
 --- !u!1 &5597670724428206995
 GameObject:
   m_ObjectHideFlags: 0
@@ -2290,6 +2302,7 @@ MonoBehaviour:
   CurrentText: {fileID: 0}
   IsTextFaded: 0
   IsImageFaded: 0
+  IsMinimized: 0
 --- !u!1 &5600113209328207885
 GameObject:
   m_ObjectHideFlags: 0
@@ -2532,6 +2545,7 @@ MonoBehaviour:
   CurrentText: {fileID: 5701075575126621467}
   IsTextFaded: 0
   IsImageFaded: 0
+  IsMinimized: 0
 --- !u!1 &6252340042428408238
 GameObject:
   m_ObjectHideFlags: 0
@@ -2714,8 +2728,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60
-  m_fontSizeBase: 60
+  m_fontSize: 54
+  m_fontSizeBase: 54
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2774,6 +2788,7 @@ MonoBehaviour:
   CurrentText: {fileID: 2994002328654612928}
   IsTextFaded: 0
   IsImageFaded: 0
+  IsMinimized: 0
 --- !u!1 &6451187936084618552
 GameObject:
   m_ObjectHideFlags: 0
@@ -2844,6 +2859,7 @@ MonoBehaviour:
   CurrentText: {fileID: 0}
   IsTextFaded: 0
   IsImageFaded: 0
+  IsMinimized: 0
 --- !u!1 &6465505771061993282
 GameObject:
   m_ObjectHideFlags: 0
@@ -2954,6 +2970,7 @@ MonoBehaviour:
   CurrentText: {fileID: 0}
   IsTextFaded: 0
   IsImageFaded: 0
+  IsMinimized: 0
 --- !u!1 &6548472457032822453
 GameObject:
   m_ObjectHideFlags: 0
@@ -3137,6 +3154,7 @@ MonoBehaviour:
   CurrentText: {fileID: 0}
   IsTextFaded: 0
   IsImageFaded: 1
+  IsMinimized: 0
 --- !u!1 &6799626511042041183
 GameObject:
   m_ObjectHideFlags: 0
@@ -3291,6 +3309,7 @@ MonoBehaviour:
   CurrentText: {fileID: 5619564485694875587}
   IsTextFaded: 0
   IsImageFaded: 0
+  IsMinimized: 0
 --- !u!1 &6952435126345978437
 GameObject:
   m_ObjectHideFlags: 0
@@ -3539,7 +3558,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: TEACHER TRAINING SERIES
+  m_text: "O\u2018QITUVCHILARNING MALAKASINI OSHIRISH KURSLARI"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -3566,8 +3585,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 42
+  m_fontSizeBase: 42
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3626,6 +3645,7 @@ MonoBehaviour:
   CurrentText: {fileID: 7660870506235821255}
   IsTextFaded: 1
   IsImageFaded: 0
+  IsMinimized: 0
 --- !u!1 &7194674898281561994
 GameObject:
   m_ObjectHideFlags: 0
@@ -3868,6 +3888,7 @@ MonoBehaviour:
   CurrentText: {fileID: 0}
   IsTextFaded: 0
   IsImageFaded: 0
+  IsMinimized: 0
 --- !u!1 &8313180049970620401
 GameObject:
   m_ObjectHideFlags: 0
@@ -3963,6 +3984,7 @@ MonoBehaviour:
   CurrentText: {fileID: 0}
   IsTextFaded: 0
   IsImageFaded: 0
+  IsMinimized: 0
 --- !u!1 &8662831431467374518
 GameObject:
   m_ObjectHideFlags: 0
@@ -4164,6 +4186,7 @@ MonoBehaviour:
   CurrentText: {fileID: 0}
   IsTextFaded: 0
   IsImageFaded: 0
+  IsMinimized: 0
 --- !u!1001 &2027540384144390415
 PrefabInstance:
   m_ObjectHideFlags: 0

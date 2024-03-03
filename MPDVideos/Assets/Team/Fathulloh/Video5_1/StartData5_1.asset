@@ -10,16 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0069556f65d5a744999914d1607f3c19, type: 3}
-  m_Name: StartData
+  m_Name: StartData5_1
   m_EditorClassIdentifier: 
   CurrentGrade: 1
   LessonOrder: 0
-  LessonTitle: Order Of Operation
-  InThisLesson: You will learn how to teach order of operations.
-  LetsLookAtThe_1: <color=#909831>To'g'ri kasrni butun sonlarga ko'paytirishni</color>
-  LetsLookAtThe_2: 'o''quvchilarga o''rgatishga doir asosiy go''yalarni ko''rib chiqamiz. '
+  LessonTitle: Amallarni bajarish tartibi
+  InThisLesson: "Amallarni bajarish tartibini o\u2018quvchilarga qanday o\u2018rgatishni
+    o\u2018rganamiz."
+  LetsLookAtThe_1: "<color=#909831>Amallarni bajarish tartibini</color> o\u2018quvchilarga
+    o\u2018rgatishga doir "
+  LetsLookAtThe_2: "<color=#909831>asosiy g\u2018oyalarni</color>  ko\u2018rib chiqaylik."
   AudioInThisLesson: {fileID: 8300000, guid: b91d0cd2e2940f440bfdd802017d30a4, type: 3}
   AudioLetsLookAtThe: {fileID: 8300000, guid: 74ca7c196d34d254488b1be0c5a1035b, type: 3}
-  UnderstandingTime: 15
-  DemonstrationTime: 30
-  SummaryTime: 45
+  UnderstandingTime: 12
+  DemonstrationTime: 65
+  SummaryTime: 400
