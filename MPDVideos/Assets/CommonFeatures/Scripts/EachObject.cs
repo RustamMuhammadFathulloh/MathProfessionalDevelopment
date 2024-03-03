@@ -15,6 +15,7 @@ namespace CommonFeatures
         public TMP_Text CurrentText;        
         public bool IsTextFaded;
         public bool IsImageFaded;
+        public bool IsMinimized;
 
         private Vector2 _initialPos;
 
@@ -26,6 +27,11 @@ namespace CommonFeatures
 
             if (CurrentText != null && IsTextFaded)            
                 CurrentText.DOFade(0, 0);
+
+            if (IsMinimized)
+            {
+                ChangeObjectScale(0, 0);
+            }
             
             GetInitialData();
         }
@@ -72,6 +78,12 @@ namespace CommonFeatures
             {
                 CurrentText.DOFade(fadeNumber, duration);
             }
+        }
+
+
+        public void ChangeObjectScale(float scaleNumber, float duration)
+        {
+            gameObject.transform.DOScale(scaleNumber, duration);
         }
 
 
