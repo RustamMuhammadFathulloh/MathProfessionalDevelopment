@@ -24,7 +24,7 @@ public class Help5_2 : MonoBehaviour
     public Image ArrowImage;
 
 
-    void Start()
+    void Awake()
     {
         InitialTasksSet();
     }

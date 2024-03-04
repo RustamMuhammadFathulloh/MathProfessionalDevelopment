@@ -32,4 +32,4 @@ MonoBehaviour:
   - {fileID: 4451708281402702380, guid: 0e465238894d5ce4a9ce47aa0e421fa9, type: 3}
   - {fileID: 9107606024602389324, guid: 8d24fc4cbc7e6514fafda905f37c86aa, type: 3}
   - {fileID: 4451708281402702380, guid: 0e465238894d5ce4a9ce47aa0e421fa9, type: 3}
-  DistanceSummarize: 30
+  DistanceSummarize: 25
