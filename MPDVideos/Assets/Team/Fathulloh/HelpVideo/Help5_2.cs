@@ -45,7 +45,7 @@ public class Help5_2 : MonoBehaviour
         KasrImage.DOFade(1, 0.5f);
 
         float duration1 = 0.75f;
-        yield return new WaitForSeconds(duration1);
+        yield return new WaitForSeconds(1.5f);
         BracketLeft.DOFillAmount(1, duration1);
         BracketRight.DOFillAmount(1, duration1);
 
@@ -54,7 +54,7 @@ public class Help5_2 : MonoBehaviour
         {
             CircleParts[i].DOFade(1, duration1);
             CircleParts[i].gameObject.GetComponent<RectTransform>().DOAnchorPosY(CirclePartsY, duration1);
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(0.65f);
         }
         yield return new WaitForSeconds(duration1);
 
@@ -77,9 +77,6 @@ public class Help5_2 : MonoBehaviour
 
         yield return new WaitForSeconds(duration1);
         yield return new WaitForSeconds(duration1);
-        yield return new WaitForSeconds(duration1);
-        yield return new WaitForSeconds(duration1);
-
     }
 
 

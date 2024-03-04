@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: FinishData5_2
   m_EditorClassIdentifier: 
   CurrentGrade: 1
+  LetsSummarizeClip: {fileID: 8300000, guid: a946903a8d15ad945b5af1aca323bddf, type: 3}
+  ForYourPracticeClip: {fileID: 8300000, guid: b44d18b69f08ca643a2f0c61eac180aa, type: 3}
   SummarizeText1: "Kasrni butun songa ko\u2018paytirishni o\u2018rgatishda \u201CModdiy-Rasmli-Timsolli\u201D
     yondashuvidan foydalaning."
   SummarizeText2: "Matnli masalani taqdim qiling va tegishli kasr qismli doirachalardan

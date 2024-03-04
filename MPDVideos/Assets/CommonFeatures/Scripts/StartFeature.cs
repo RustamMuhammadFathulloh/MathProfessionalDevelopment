@@ -162,6 +162,7 @@ namespace CommonFeatures
             TopTitlePanel.GetComponent<LessonTitleTop>().UnderstandingTime = StartData.UnderstandingTime;
             TopTitlePanel.GetComponent<LessonTitleTop>().DemonstrationTime = StartData.DemonstrationTime;
             TopTitlePanel.GetComponent<LessonTitleTop>().SummaryTime = StartData.SummaryTime;
+            TopTitlePanel.GetComponent<LessonTitleTop>().PracticeTime = StartData.PracticeTime;
         }
 
 
