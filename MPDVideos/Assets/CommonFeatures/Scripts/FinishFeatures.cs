@@ -89,8 +89,8 @@ namespace CommonFeatures
                 newObj.transform.GetChild(0).GetComponent<EachObject>().MoveToCenter(0.5f);                
                 SummarizeObjects.Add(newObj);
 
-                //CurrentAudioSource.PlayOneShot(FinishDataSo.SummarizeClips[i]);
-                yield return new WaitForSeconds(/*FinishDataSo.SummarizeClips[i].length +*/ 1.5f);
+                CurrentAudioSource.PlayOneShot(FinishDataSo.SummarizeClips[i]);
+                yield return new WaitForSeconds(FinishDataSo.SummarizeClips[i].length + 1.5f);
             }
 
             // second transition
