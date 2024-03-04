@@ -13,18 +13,21 @@ namespace Samandar
     {
         public GameObject transition_1;
         public GameObject transition_2;
+        public GameObject Finish;
         public List<GameObject> Pages;
         //public List<float> PageTime;
         public List<GameObject> Page_2;
         public List<GameObject> Page_3;
         public List<GameObject> Page_4;
+        public List<GameObject> Page_5;
         public List<AudioSource> Audio;
         public UnityEvent PageEvent_1;
         public UnityEvent PageEvent_2;
         public UnityEvent PageEvent_3;
+        
         private void Start()
         {
-            PageEvent_3.Invoke();
+            
         }
         public void ChallengePage_2()
         {
@@ -40,6 +43,11 @@ namespace Samandar
         {
             StartCoroutine(PageController_4());
             StartCoroutine(AudioControllerPage_4());
+        }
+        public void ChallengePage_5()
+        {
+            StartCoroutine(PageController_5());
+            StartCoroutine(AudioControllerPage_5());
         }
         IEnumerator AudioControllerPage_2() 
         {
@@ -69,6 +77,17 @@ namespace Samandar
             yield return new WaitForSeconds(24);
             Audio[8].Play();
             yield return new WaitForSeconds(60);
+            Finish.SetActive(true);
+            Pages[2].SetActive(false);
+            PageEvent_3.Invoke();
+            yield return new WaitForSeconds(1.5f);
+            Audio[10].Play();
+        }
+        
+        IEnumerator AudioControllerPage_5()
+        {
+            Audio[9].Play();
+            yield return new WaitForSeconds(9.4f);            
         }
         IEnumerator PageController_2()
         {
@@ -133,6 +152,7 @@ namespace Samandar
             transition_1.SetActive(true);
             Pages[0].SetActive(false);
             yield return new WaitForSeconds(1.5f);
+            transition_1.SetActive(false);
             PageEvent_1.Invoke();
         }
         IEnumerator PageController_3()
@@ -180,6 +200,7 @@ namespace Samandar
             transition_1.SetActive(true);
             Pages[1].SetActive(false);            
             yield return new WaitForSeconds(1.5f);
+            transition_1.SetActive(false);
             PageEvent_2.Invoke();
         }
         IEnumerator PageController_4()
@@ -246,11 +267,11 @@ namespace Samandar
             yield return new WaitForSeconds(4);
             Page_4[22].SetActive(true);
             Page_4[22].GetComponent<RectTransform>().DOScale(1, 0.5f);
-            yield return new WaitForSeconds(1.3f);
-            Page_4[22].GetComponent<RectTransform>().DOAnchorPosX(-430, 0.8f);
-            yield return new WaitForSeconds(0.8f);
-            Page_4[22].GetComponent<RectTransform>().DOAnchorPosX(-140, 0.8f);
-            yield return new WaitForSeconds(0.8f);
+            yield return new WaitForSeconds(1);
+            Page_4[22].GetComponent<RectTransform>().DOAnchorPosX(-430, 0.7f);
+            yield return new WaitForSeconds(0.7f);
+            Page_4[22].GetComponent<RectTransform>().DOAnchorPosX(-140, 0.7f);
+            yield return new WaitForSeconds(0.7f);
             Page_4[22].GetComponent<RectTransform>().DOAnchorPosX(125, 0.8f);
             yield return new WaitForSeconds(0.8f);
             Page_4[22].GetComponent<RectTransform>().DOAnchorPosX(390, 0.8f);
@@ -279,7 +300,26 @@ namespace Samandar
             Page_4[23].SetActive(true);
             yield return new WaitForSeconds(1);
             Page_4[24].SetActive(true);
-            PageEvent_3.Invoke();
+            yield return new WaitForSeconds(5);
+            Page_4[25].GetComponent<RectTransform>().DOScale(0, 0.5f);
+            yield return new WaitForSeconds(0.5f);
+            Page_4[26].GetComponent<Help5_2>().FractionAnimate();
+            
+        }
+        IEnumerator PageController_5()
+        {
+            Pages[3].SetActive(true);            
+            
+            Page_5[0].SetActive(true);
+            Page_5[1].SetActive(true);
+            Page_5[0].GetComponent<RectTransform>().DOAnchorPosY(-20, 0.5f);
+            yield return new WaitForSeconds(4);
+            Page_5[1].SetActive(false);
+            Page_5[3].SetActive(true);
+            Page_5[2].SetActive(true);
+            Page_5[2].GetComponent<RectTransform>().DOAnchorPosY(-187, 0.5f);
+            yield return new WaitForSeconds(0.5f);
+            Page_5[3].SetActive(false);
         }
     }
 }
