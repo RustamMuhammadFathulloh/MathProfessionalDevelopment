@@ -403,7 +403,6 @@ MonoBehaviour:
   LeftFirstTransition: {fileID: 9094371563496859758}
   LeftSecondTransition: {fileID: 3862883772013739032}
   LeftThirdTransition: {fileID: 5796962231194867917}
-  TopRectangleTransition: {fileID: 5523312436693961192}
 --- !u!114 &94635191519623720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1637,7 +1636,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!222 &3283561374381664057
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2653,7 +2652,6 @@ MonoBehaviour:
   LeftFirstTransition: {fileID: 3495050251346834584}
   LeftSecondTransition: {fileID: 2479232953966441236}
   LeftThirdTransition: {fileID: 996207836597914346}
-  TopRectangleTransition: {fileID: 3540557062966110418}
 --- !u!1 &8694613803389643842
 GameObject:
   m_ObjectHideFlags: 0
