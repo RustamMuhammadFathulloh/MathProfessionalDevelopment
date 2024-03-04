@@ -96,6 +96,7 @@ MonoBehaviour:
   CurrentText: {fileID: 0}
   IsTextFaded: 0
   IsImageFaded: 0
+  IsMinimized: 0
 --- !u!1 &4006552281990802097
 GameObject:
   m_ObjectHideFlags: 0
@@ -189,8 +190,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
-  m_fontSizeBase: 72
+  m_fontSize: 68
+  m_fontSizeBase: 68
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -249,6 +250,7 @@ MonoBehaviour:
   CurrentText: {fileID: 3029327019692882320}
   IsTextFaded: 0
   IsImageFaded: 0
+  IsMinimized: 0
 --- !u!1 &4451708281402702380
 GameObject:
   m_ObjectHideFlags: 0
@@ -402,8 +404,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 48
-  m_fontSizeBase: 48
+  m_fontSize: 42
+  m_fontSizeBase: 42
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -462,3 +464,4 @@ MonoBehaviour:
   CurrentText: {fileID: 7953549857811488437}
   IsTextFaded: 0
   IsImageFaded: 0
+  IsMinimized: 0
