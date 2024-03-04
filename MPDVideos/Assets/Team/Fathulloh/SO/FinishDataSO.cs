@@ -8,6 +8,9 @@ public class FinishDataSO : ScriptableObject
     public enum MathGrade { None, Grade5, Grade6 };
     public MathGrade CurrentGrade;
 
+    public AudioClip LetsSummarizeClip;
+    public AudioClip ForYourPracticeClip;
+
     [TextAreaAttribute]
     public string SummarizeText1;
     [TextAreaAttribute]

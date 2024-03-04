@@ -66,7 +66,9 @@ namespace CommonFeatures
             yield return new WaitForSeconds(0.7f);
 
             SummarizeText.GetComponent<EachObject>().FadeText(1, 0.5f);
-            yield return new WaitForSeconds(1.5f);
+            yield return new WaitForSeconds(0.5f);
+            CurrentAudioSource.PlayOneShot(FinishDataSo.LetsSummarizeClip);
+            yield return new WaitForSeconds(FinishDataSo.LetsSummarizeClip.length);
 
             
             Vector2 newPos = new(0, 3 * Screen.height / 10);
@@ -117,12 +119,15 @@ namespace CommonFeatures
             yield return new WaitForSeconds(0.7f);
 
             ForYourPractice.transform.GetChild(0).GetComponent<EachObject>().FadeText(1, 0.5f);
-            yield return new WaitForSeconds(1f);
-            
+            yield return new WaitForSeconds(0.5f);
+            CurrentAudioSource.PlayOneShot(FinishDataSo.ForYourPracticeClip);
+            yield return new WaitForSeconds(1.5f);
+
             ForYourPractice.GetComponent<RectTransform>().DOAnchorPosY(MakeLocationToUpper(ForYourPractice, ForYourPractiseExplain), 0.75f);
             ForYourPractiseExplain.transform.GetChild(0).GetComponent<EachObject>().MoveToInitialPos(0.75f);
+            yield return new WaitForSeconds(FinishDataSo.ForYourPracticeClip.length);
 
-            yield return new WaitForSeconds(1.5f);
+            //yield return new WaitForSeconds(1.5f);
             float posY1 = ForYourPractice.GetComponent<RectTransform>().anchoredPosition.y;
             float posY2 = ForYourPractiseExplain.GetComponent<RectTransform>().anchoredPosition.y;
             ForYourPractice.GetComponent<RectTransform>().DOAnchorPosY(posY1 + 100, 0.5f);

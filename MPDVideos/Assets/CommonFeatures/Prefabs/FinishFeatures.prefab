@@ -94,6 +94,7 @@ MonoBehaviour:
   CurrentText: {fileID: 0}
   IsTextFaded: 0
   IsImageFaded: 0
+  IsMinimized: 0
 --- !u!1 &2430035300120988971
 GameObject:
   m_ObjectHideFlags: 0
@@ -203,6 +204,7 @@ MonoBehaviour:
   CurrentText: {fileID: 0}
   IsTextFaded: 0
   IsImageFaded: 0
+  IsMinimized: 0
 --- !u!1 &2852903398422712012
 GameObject:
   m_ObjectHideFlags: 0
@@ -398,6 +400,7 @@ MonoBehaviour:
   CurrentText: {fileID: 0}
   IsTextFaded: 0
   IsImageFaded: 0
+  IsMinimized: 0
 --- !u!1 &4061574475295900118
 GameObject:
   m_ObjectHideFlags: 0
@@ -754,6 +757,7 @@ MonoBehaviour:
   CurrentText: {fileID: 4426037089594646054}
   IsTextFaded: 1
   IsImageFaded: 0
+  IsMinimized: 0
 --- !u!1 &6043875273388505343
 GameObject:
   m_ObjectHideFlags: 0
@@ -907,6 +911,7 @@ MonoBehaviour:
   CurrentText: {fileID: 5474921901146215162}
   IsTextFaded: 1
   IsImageFaded: 0
+  IsMinimized: 0
 --- !u!1 &6776034739365176696
 GameObject:
   m_ObjectHideFlags: 0
@@ -942,7 +947,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 50}
-  m_SizeDelta: {x: 1480, y: 170}
+  m_SizeDelta: {x: 1480, y: 185}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &6660795569182073367
 MonoBehaviour:
@@ -1052,6 +1057,7 @@ MonoBehaviour:
   CurrentText: {fileID: 0}
   IsTextFaded: 0
   IsImageFaded: 0
+  IsMinimized: 0
 --- !u!1 &8536892525751294312
 GameObject:
   m_ObjectHideFlags: 0
@@ -1183,6 +1189,7 @@ MonoBehaviour:
   CurrentText: {fileID: 0}
   IsTextFaded: 0
   IsImageFaded: 0
+  IsMinimized: 0
 --- !u!1 &8961533059233054625
 GameObject:
   m_ObjectHideFlags: 0
@@ -1219,7 +1226,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: 0, y: 85}
-  m_SizeDelta: {x: 1480, y: 170}
+  m_SizeDelta: {x: 1480, y: 185}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6809465956574233907
 CanvasRenderer:
@@ -1337,3 +1344,4 @@ MonoBehaviour:
   CurrentText: {fileID: 683266322037962329}
   IsTextFaded: 0
   IsImageFaded: 0
+  IsMinimized: 0

@@ -9,10 +9,12 @@ public class LessonTitleTop : MonoBehaviour
     public string Understanding;
     public string Demonstration;
     public string Summary;
+    public string Practice;
 
     [HideInInspector] public float UnderstandingTime;
     [HideInInspector] public float DemonstrationTime;
     [HideInInspector] public float SummaryTime;
+    [HideInInspector] public float PracticeTime;
 
     public EachObject RightObject;
     //public TMP_Text timerText;
@@ -22,6 +24,7 @@ public class LessonTitleTop : MonoBehaviour
     private bool _isUnderstanding = true;
     private bool _isDemonstration = true;
     private bool _isSummary = true;
+    private bool _isPractice = true;
 
 
     void Start()
@@ -36,8 +39,14 @@ public class LessonTitleTop : MonoBehaviour
         if (timerActive)
         {
             currentTime += Time.deltaTime;
-            
-            if (currentTime >= SummaryTime && _isSummary)
+
+            if (currentTime >= PracticeTime && _isPractice)
+            {
+                _isPractice = false;
+                RightObject.FadeText(0, 0.5f);
+                StartCoroutine(WriteTextRightObject(Practice));
+            }
+            else if (currentTime >= SummaryTime && _isSummary)
             {
                 _isSummary = false;
                 RightObject.FadeText(0, 0.5f);

@@ -23,4 +23,5 @@ public class StartDataSO : ScriptableObject
     public float UnderstandingTime;
     public float DemonstrationTime;
     public float SummaryTime;
+    public float PracticeTime;
 }
