@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2465cd9249043c4bb91daded31a22df, type: 3}
+  m_Name: FinishData5_2
+  m_EditorClassIdentifier: 
+  CurrentGrade: 1
+  SummarizeText1: "Kasrni butun songa ko\u2018paytirishni o\u2018rgatishda \u201CModdiy-Rasmli-Timsolli\u201D
+    yondashuvidan foydalaning."
+  SummarizeText2: "Matnli masalani taqdim qiling va tegishli kasr qismli doirachalardan
+    berilgan butun son marta olishni ko\u2018rsatish bilan tushuntirishni boshlang."
+  SummarizeText3: Keyin kasr qismli doirachalardan butunlar hosil qilish uchun ularni
+    guruhlang.
+  SummarizeText4: "O\u2018quvchilarga buning mohiyatini \u201CModdiy-Rasmli-Timsolli\u201D
+    yondashuvi asosida ko\u2018rsatib berishlariga imkon bering."
+  SummarizeText5: 
+  SummarizeClips:
+  - {fileID: 8300000, guid: 29fe45f1b614ff94eabc003d0f3119e5, type: 3}
+  - {fileID: 8300000, guid: 5a4da00e649efd94f926018d911fd7c5, type: 3}
+  - {fileID: 8300000, guid: 2690cbf0b68712045a3aab3aebea3369, type: 3}
+  - {fileID: 8300000, guid: 8df535c594299f54eba60ea5654a1d79, type: 3}
+  SummarizePrefabs:
+  - {fileID: 4451708281402702380, guid: 0e465238894d5ce4a9ce47aa0e421fa9, type: 3}
+  - {fileID: 4451708281402702380, guid: 0e465238894d5ce4a9ce47aa0e421fa9, type: 3}
+  - {fileID: 9107606024602389324, guid: 8d24fc4cbc7e6514fafda905f37c86aa, type: 3}
+  - {fileID: 4451708281402702380, guid: 0e465238894d5ce4a9ce47aa0e421fa9, type: 3}
+  DistanceSummarize: 30
