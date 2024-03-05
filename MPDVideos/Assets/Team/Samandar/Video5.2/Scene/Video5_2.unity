@@ -1931,7 +1931,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 683266322037962329, guid: afea36f568df4bc478e64ef00482acb5, type: 3}
       propertyPath: m_text
-      value: "<color=#909831>  to\u2018g\u2018ri kasrni butun songa ko\u2018paytirishn</color>i
+      value: "<color=#909831>  to\u2018g\u2018ri kasrni butun songa ko\u2018paytirishni</color>
         \u201CModdiy-Rasmli-Timsolli\u201D yondashuv asosida qanday o\u2018rgatishingizni
         yozma bayon qilib bering."
       objectReference: {fileID: 0}
@@ -3357,7 +3357,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1000, y: 75}
+  m_SizeDelta: {x: 1300, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &537461483
 MonoBehaviour:
@@ -3413,7 +3413,7 @@ MonoBehaviour:
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535

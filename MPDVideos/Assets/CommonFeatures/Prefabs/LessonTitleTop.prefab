@@ -153,6 +153,7 @@ MonoBehaviour:
   CurrentText: {fileID: 6269844394547421360}
   IsTextFaded: 0
   IsImageFaded: 0
+  IsMinimized: 0
 --- !u!1 &4161800218053487868
 GameObject:
   m_ObjectHideFlags: 0
@@ -306,6 +307,7 @@ MonoBehaviour:
   CurrentText: {fileID: 1088845737543633088}
   IsTextFaded: 0
   IsImageFaded: 0
+  IsMinimized: 0
 --- !u!1 &8245228031590522749
 GameObject:
   m_ObjectHideFlags: 0
@@ -403,6 +405,7 @@ MonoBehaviour:
   CurrentText: {fileID: 0}
   IsTextFaded: 0
   IsImageFaded: 0
+  IsMinimized: 0
 --- !u!114 &2845585853268667228
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -418,7 +421,9 @@ MonoBehaviour:
   Understanding: Tushunish
   Demonstration: Namoyish
   Summary: Xulosa
+  Practice: Amaliyot
   UnderstandingTime: 0
   DemonstrationTime: 0
   SummaryTime: 0
+  PracticeTime: 0
   RightObject: {fileID: 7508099096887749356}

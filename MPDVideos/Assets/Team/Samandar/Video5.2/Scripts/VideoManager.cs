@@ -80,8 +80,6 @@ namespace Samandar
             Finish.SetActive(true);
             Pages[2].SetActive(false);
             PageEvent_3.Invoke();
-            yield return new WaitForSeconds(1.5f);
-            Audio[10].Play();
         }
         
         IEnumerator AudioControllerPage_5()
@@ -197,10 +195,10 @@ namespace Samandar
             Page_3[16].SetActive(true);
             Page_3[16].GetComponent<Image>().DOFillAmount(1, 0.2f);
             yield return new WaitForSeconds(2);
-            transition_1.SetActive(true);
+            transition_2.SetActive(true);
             Pages[1].SetActive(false);            
             yield return new WaitForSeconds(1.5f);
-            transition_1.SetActive(false);
+            transition_2.SetActive(false);
             PageEvent_2.Invoke();
         }
         IEnumerator PageController_4()
