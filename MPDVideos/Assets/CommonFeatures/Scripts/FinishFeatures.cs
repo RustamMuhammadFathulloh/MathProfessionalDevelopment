@@ -124,7 +124,8 @@ namespace CommonFeatures
             yield return new WaitForSeconds(1.5f);
 
             ForYourPractice.GetComponent<RectTransform>().DOAnchorPosY(MakeLocationToUpper(ForYourPractice, ForYourPractiseExplain), 0.75f);
-            ForYourPractiseExplain.transform.GetChild(0).GetComponent<EachObject>().MoveToInitialPos(0.75f);
+            //ForYourPractiseExplain.transform.GetChild(0).GetComponent<EachObject>().MoveToInitialPos(0.75f);
+            ForYourPractiseExplain.transform.GetChild(0).GetComponent<EachObject>().MoveToCenter(0.75f);
             yield return new WaitForSeconds(FinishDataSo.ForYourPracticeClip.length);
 
             //yield return new WaitForSeconds(1.5f);
