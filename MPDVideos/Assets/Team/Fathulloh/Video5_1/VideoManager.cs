@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
 using System;
+using TMPro;
 
 namespace Math5_Lesson1
 {
@@ -28,6 +29,17 @@ namespace Math5_Lesson1
         public Image[] LinesParent2;
         public GameObject GreenRect;
         public GameObject OrangeRect;
+        public Image SystemBracket;
+        public EachObject AbstractRepresentation;
+        public TMP_Text[] FadedTexts;
+
+        [Header("Third Parent")]
+        public GameObject ThirdParent;
+        public EachObject LetsBeginToTeach;
+        public EachObject TeachingOrderOfOperation;
+        public TMP_Text TaskNumberText;
+        public Image[] TaskTextImages;
+
 
         [Header("Common things")]
         public AudioClip[] AudioClips5_1;
@@ -47,9 +59,9 @@ namespace Math5_Lesson1
             // 1- audio play qilinmaydi. 2- va 3- audiolar esa StartFwatureni ichida play bo'ladi. 
             _audioIndex = 3;
 
-            StartCoroutine(FirstParentAnimations());
-            //StartCoroutine(SecondParentAnimation());
-
+            //StartCoroutine(FirstParentAnimations());
+            StartCoroutine(SecondParentAnimation());
+            //StartCoroutine(ThirdParentAnimation());
             //FinishFeatures.GetComponent<FinishFeatures>().FinishAnimation();
             //StartCoroutine(Transition());
         }
@@ -84,7 +96,7 @@ namespace Math5_Lesson1
                 LeftNodes[i].transform.DOScale(1, duration0);
                 yield return new WaitForSeconds(1.4f + i * 0.1f);
             }
-            yield return new WaitForSeconds((float)AudioClips5_1[4].length / 2);
+            yield return new WaitForSeconds((float)AudioClips5_1[4].length / 3);
 
             PlayAudio();  // 6
             Lines[3].DOFillAmount(1, duration0);
@@ -118,21 +130,26 @@ namespace Math5_Lesson1
 
         IEnumerator SecondParentAnimation()
         {
+            _audioIndex = 10;
             yield return new WaitForSeconds(0.1f);
             Transition1.SetActive(true);
-            yield return new WaitForSeconds(0.25f);
+            yield return new WaitForSeconds(0.5f);
             FirstParent.SetActive(false);
             SecondParent.SetActive(true);
+            yield return new WaitForSeconds(duration1);            
+            TasviriyAnanaviyText.FadeText(1, duration1);
             yield return new WaitForSeconds(duration1);
 
             PlayAudio();  // 11
-            TasviriyAnanaviyText.FadeText(1, duration1);
-            yield return new WaitForSeconds(5);
+            Transition1.SetActive(false);
+            yield return new WaitForSeconds(3);
             TasviriyAnanaviyText.FadeText(0, duration1);
             yield return new WaitForSeconds(duration1);
             UslubiyYondashuvText.MoveToInitialPos(duration1);
-            PicAbstractText.MoveToCenter(duration1);
+            PicAbstractText.MoveToInitialPos(duration1);
             yield return new WaitForSeconds(duration1);
+
+            PicRepreseText.MoveToInitialPos(duration1);
 
             for (int i = 0; i < LinesParent2.Length; i++)
             {
@@ -148,7 +165,71 @@ namespace Math5_Lesson1
                 }
             }
             yield return new WaitForSeconds(duration1);
-            PicRepreseText.MoveToCenter(duration1);
+
+            GreenRect.GetComponent<Image>().DOFade(1, duration1);
+            GreenRect.transform.GetChild(0).GetComponent<TMP_Text>().DOFade(1, duration1);
+            yield return new WaitForSeconds(duration1);
+            OrangeRect.GetComponent<Image>().DOFade(1, duration1);
+            OrangeRect.transform.GetChild(0).GetComponent<TMP_Text>().DOFade(1, duration1);
+            yield return new WaitForSeconds(duration1);
+
+            SystemBracket.DOFillAmount(1, durationOne);
+            yield return new WaitForSeconds(durationOne);
+
+            FadedTexts[0].DOFade(1, duration1);
+            yield return new WaitForSeconds(duration1);
+            FadedTexts[1].DOFade(1, duration1);
+            yield return new WaitForSeconds(duration1);
+
+            AbstractRepresentation.MoveToInitialPos(1);
+            yield return new WaitForSeconds(durationOne);
+
+            FadedTexts[2].DOFade(1, duration1);
+            yield return new WaitForSeconds(duration1);
+            FadedTexts[3].DOFade(1, duration1);
+            yield return new WaitForSeconds(2 * duration1);
+
+            StartCoroutine(ThirdParentAnimation());
+        }
+
+
+        IEnumerator ThirdParentAnimation()
+        {
+            _audioIndex = 11;
+            yield return new WaitForSeconds(0.1f);
+            Transition1.SetActive(true);
+            yield return new WaitForSeconds(0.5f);
+            SecondParent.SetActive(false);
+            ThirdParent.SetActive(true);
+            yield return new WaitForSeconds(duration1);
+            LetsBeginToTeach.FadeText(1, duration1);
+            yield return new WaitForSeconds(duration1);
+
+            PlayAudio();  // 12
+            Transition1.SetActive(false);
+            yield return new WaitForSeconds(AudioClips5_1[11].length);
+            LetsBeginToTeach.FadeText(0, duration1);
+            yield return new WaitForSeconds(duration1);
+
+            PlayAudio();  // 13
+            TeachingOrderOfOperation.MoveToInitialPos(duration1);
+            yield return new WaitForSeconds(AudioClips5_1[12].length - 1);
+                        
+            TaskNumberText.DOFade(1, duration1);
+            yield return new WaitForSeconds(duration1);
+
+            //Masala shartini ko'rsatish.
+            PlayAudio();  // 14
+            TaskTextImages[0].DOFade(0, durationOne);
+            yield return new WaitForSeconds(5 * durationOne);
+            TaskTextImages[1].DOFade(0, durationOne);
+            TaskTextImages[2].DOFade(0, durationOne);
+            yield return new WaitForSeconds(3 * durationOne);
+            TaskTextImages[3].DOFade(0, durationOne);
+            yield return new WaitForSeconds(3 * durationOne);
+            TaskTextImages[4].DOFade(0, durationOne);
+            yield return new WaitForSeconds(durationOne);
+
 
 
         }
@@ -167,6 +248,9 @@ namespace Math5_Lesson1
             Debug.Log(_audioIndex + 1 + "  =  " + AudioClips5_1[_audioIndex].length + "  =  " + DateTime.Now);
             _audioIndex++;
         }
+
+
+        
 
     }
 }

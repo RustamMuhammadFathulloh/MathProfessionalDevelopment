@@ -92,14 +92,16 @@ namespace CommonFeatures
 
 
         public void MoveOutLeft(float duration)
-        {              
-            CurrentRectTrans.anchoredPosition = new Vector2(-CurrentRectTrans.sizeDelta.x, duration);
+        {
+            //CurrentRectTrans.anchoredPosition = new Vector2(-CurrentRectTrans.sizeDelta.x, duration);
+            CurrentRectTrans.DOAnchorPosX(-CurrentRectTrans.sizeDelta.x, duration);
         }
 
 
         public void MoveOutRight(float duration)
         {
-            CurrentRectTrans.anchoredPosition = new Vector2(CurrentRectTrans.sizeDelta.x, duration);
+            //CurrentRectTrans.anchoredPosition = new Vector2(CurrentRectTrans.sizeDelta.x, duration);
+            CurrentRectTrans.DOAnchorPosX(CurrentRectTrans.sizeDelta.x, duration);
         }
 
 
