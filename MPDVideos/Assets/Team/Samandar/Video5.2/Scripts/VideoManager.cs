@@ -77,9 +77,10 @@ namespace Samandar
             yield return new WaitForSeconds(24);
             Audio[8].Play();
             yield return new WaitForSeconds(60);
-            Finish.SetActive(true);
             Pages[2].SetActive(false);
+            Finish.SetActive(true);
             PageEvent_3.Invoke();
+            
         }
         
         IEnumerator AudioControllerPage_5()
@@ -276,6 +277,7 @@ namespace Samandar
             yield return new WaitForSeconds(0.8f);
             Page_4[22].GetComponent<RectTransform>().DOAnchorPosX(650, 0.8f);
             yield return new WaitForSeconds(0.8f);
+            
             Page_4[22].GetComponent<RectTransform>().DOScale(0, 0.5f);
             yield return new WaitForSeconds(10);
             Page_4[12].GetComponent<RectTransform>().DORotate(new Vector3(0, 180, 0), 1);
@@ -299,7 +301,20 @@ namespace Samandar
             yield return new WaitForSeconds(1);
             Page_4[24].SetActive(true);
             yield return new WaitForSeconds(5);
-            Page_4[25].GetComponent<RectTransform>().DOScale(0, 0.5f);
+            for (int i = 5; i < 18; i++)
+            {
+                Page_4[i].GetComponent<Image>().DOFade(0, 1);
+            }
+            
+            for (int i = 39; i < 44; i++)
+            {
+                Page_4[i].GetComponent<RectTransform>().DOScale(0, 1);
+            }
+            for (int i = 27; i < 39; i++)
+            {
+                Page_4[i].GetComponent<RectTransform>().DOScale(0, 1);
+            }
+            //Page_4[25].GetComponent<RectTransform>().DOScale(0, 0.5f);
             yield return new WaitForSeconds(0.5f);
             Page_4[26].GetComponent<Help5_2>().FractionAnimate();
             
