@@ -35,8 +35,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 47.447502, y: 0}
-  m_SizeDelta: {x: -162.895, y: -2.39}
+  m_AnchoredPosition: {x: 47.44751, y: 0}
+  m_SizeDelta: {x: -162.895, y: 0.00000023841858}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2889627027034626670
 CanvasRenderer:
@@ -66,7 +66,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: Use the pictorial-abstract approach to teach order of operations.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -154,6 +154,7 @@ MonoBehaviour:
   IsTextFaded: 0
   IsImageFaded: 0
   IsMinimized: 0
+  IsImageFillAmount: 0
 --- !u!1 &7408696498553708456
 GameObject:
   m_ObjectHideFlags: 0
@@ -191,7 +192,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -116.9}
+  m_AnchoredPosition: {x: 0, y: -119}
   m_SizeDelta: {x: 1718, y: 111}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5600203220352624937
@@ -251,6 +252,7 @@ MonoBehaviour:
   IsTextFaded: 0
   IsImageFaded: 0
   IsMinimized: 0
+  IsImageFillAmount: 0
 --- !u!1 &8957678514022746655
 GameObject:
   m_ObjectHideFlags: 0
@@ -317,10 +319,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: N
+  m_text: 1
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d31cbe3b32faa1548b5d199237e3694d, type: 2}
+  m_sharedMaterial: {fileID: -3280472198573472277, guid: d31cbe3b32faa1548b5d199237e3694d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -405,6 +407,7 @@ MonoBehaviour:
   IsTextFaded: 0
   IsImageFaded: 0
   IsMinimized: 0
+  IsImageFillAmount: 0
 --- !u!1 &9107606024602389324
 GameObject:
   m_ObjectHideFlags: 0
