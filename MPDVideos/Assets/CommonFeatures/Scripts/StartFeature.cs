@@ -65,9 +65,9 @@ namespace CommonFeatures
             TopTitlePanel.transform.GetChild(0).GetComponent<EachObject>().WriteText(StartData.LessonTitle);
 
             int initialIndex = TopTitlePanel.transform.GetSiblingIndex();
-            Debug.Log(initialIndex);
+            //Debug.Log(initialIndex);
             TopTitlePanel.transform.SetSiblingIndex(initialIndex - 1);
-            Debug.Log(TopTitlePanel.transform.GetSiblingIndex());
+            //Debug.Log(TopTitlePanel.transform.GetSiblingIndex());
 
             SetInitialTexts();
         }

@@ -16,6 +16,7 @@ namespace CommonFeatures
         public bool IsTextFaded;
         public bool IsImageFaded;
         public bool IsMinimized;
+        public bool IsImageFillAmount;
 
         private Vector2 _initialPos;
 
@@ -23,7 +24,10 @@ namespace CommonFeatures
         public void Awake()
         {
             if (CurrentImage != null && IsImageFaded)            
-                CurrentImage.DOFade(0, 0);            
+                CurrentImage.DOFade(0, 0);
+
+            if (CurrentImage != null && IsImageFillAmount)
+                CurrentImage.DOFillAmount(0, 0);
 
             if (CurrentText != null && IsTextFaded)            
                 CurrentText.DOFade(0, 0);
