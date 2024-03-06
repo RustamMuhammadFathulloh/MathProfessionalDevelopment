@@ -39,14 +39,34 @@ namespace Math5_Lesson1
         public EachObject TeachingOrderOfOperation;
         public TMP_Text TaskNumberText;
         public Image[] TaskTextImages;
-
+        public GameObject BlackRectangleUpper;
+        public Image BlackLineAmount1;
+        public GameObject BlackRectangleLower;
+        public Image BlackLineAmount2;
+        public Image[] RectFadedImages;
+        public TMP_Text[] RectFadedTexts;
+        public GameObject HandCursor;
+        public GameObject SecondHandCursor;
+        public Image BlueArrow;
+        public BracketManager BracketUpper;
+        public BracketManager BracketLower;
+        public TMP_Text[] MisolTexts_1;
+        public TMP_Text[] MisolTexts_2;
+        public TMP_Text[] MisolTexts_3;
+        public GameObject TextRectangleParent;
 
         [Header("Common things")]
         public AudioClip[] AudioClips5_1;
         public GameObject Transition1;
         public GameObject Transition2;
+        
+
         private AudioSource _audioSource;
         private int _audioIndex;
+        readonly float durationHalf = 0.5f;
+        readonly float durationOne = 1;
+        readonly float durationSevenFive = 0.75f;
+        readonly float durationQuarter = 0.25f;
 
         private void Awake()
         {
@@ -65,20 +85,17 @@ namespace Math5_Lesson1
             //FinishFeatures.GetComponent<FinishFeatures>().FinishAnimation();
             //StartCoroutine(Transition());
         }
-
-
-        float duration1 = 0.5f;
-        float durationOne = 1;
+                
 
         IEnumerator FirstParentAnimations()
         {            
             yield return new WaitForSeconds(0.1f);
-            TitleObject.GetComponent<EachObject>().FadeText(1, duration1);
-            yield return new WaitForSeconds(duration1);
+            TitleObject.GetComponent<EachObject>().FadeText(1, durationHalf);
+            yield return new WaitForSeconds(durationHalf);
             PlayAudio();  //4
-            yield return new WaitForSeconds(duration1);
-            TitleObject.GetComponent<EachObject>().Movement(new Vector2(0, Screen.height / 4), duration1);
-            yield return new WaitForSeconds(2 * duration1);
+            yield return new WaitForSeconds(durationHalf);
+            TitleObject.GetComponent<EachObject>().Movement(new Vector2(0, Screen.height / 4), durationHalf);
+            yield return new WaitForSeconds(2 * durationHalf);
 
             //Lines
             float duration0 = 0.5f;
@@ -127,7 +144,6 @@ namespace Math5_Lesson1
             StartCoroutine(SecondParentAnimation());
         }
 
-
         IEnumerator SecondParentAnimation()
         {
             _audioIndex = 10;
@@ -136,20 +152,20 @@ namespace Math5_Lesson1
             yield return new WaitForSeconds(0.5f);
             FirstParent.SetActive(false);
             SecondParent.SetActive(true);
-            yield return new WaitForSeconds(duration1);            
-            TasviriyAnanaviyText.FadeText(1, duration1);
-            yield return new WaitForSeconds(duration1);
+            yield return new WaitForSeconds(durationHalf);            
+            TasviriyAnanaviyText.FadeText(1, durationHalf);
+            yield return new WaitForSeconds(durationHalf);
 
             PlayAudio();  // 11
-            Transition1.SetActive(false);
-            yield return new WaitForSeconds(3);
-            TasviriyAnanaviyText.FadeText(0, duration1);
-            yield return new WaitForSeconds(duration1);
-            UslubiyYondashuvText.MoveToInitialPos(duration1);
-            PicAbstractText.MoveToInitialPos(duration1);
-            yield return new WaitForSeconds(duration1);
+            Transition1.SetActive(false);  // Reset transition
+            yield return new WaitForSeconds(4);
+            TasviriyAnanaviyText.FadeText(0, durationHalf);
+            yield return new WaitForSeconds(durationHalf);
+            UslubiyYondashuvText.MoveToInitialPos(durationOne);
+            PicAbstractText.MoveToInitialPos(durationHalf);
+            yield return new WaitForSeconds(durationHalf);
 
-            PicRepreseText.MoveToInitialPos(duration1);
+            PicRepreseText.MoveToInitialPos(durationHalf);
 
             for (int i = 0; i < LinesParent2.Length; i++)
             {
@@ -164,34 +180,33 @@ namespace Math5_Lesson1
                     yield return new WaitForSeconds(0.8f);
                 }
             }
-            yield return new WaitForSeconds(duration1);
+            yield return new WaitForSeconds(durationHalf);
 
-            GreenRect.GetComponent<Image>().DOFade(1, duration1);
-            GreenRect.transform.GetChild(0).GetComponent<TMP_Text>().DOFade(1, duration1);
-            yield return new WaitForSeconds(duration1);
-            OrangeRect.GetComponent<Image>().DOFade(1, duration1);
-            OrangeRect.transform.GetChild(0).GetComponent<TMP_Text>().DOFade(1, duration1);
-            yield return new WaitForSeconds(duration1);
+            GreenRect.GetComponent<Image>().DOFade(1, durationHalf);
+            GreenRect.transform.GetChild(0).GetComponent<TMP_Text>().DOFade(1, durationHalf);
+            yield return new WaitForSeconds(durationHalf);
+            OrangeRect.GetComponent<Image>().DOFade(1, durationHalf);
+            OrangeRect.transform.GetChild(0).GetComponent<TMP_Text>().DOFade(1, durationHalf);
+            yield return new WaitForSeconds(durationHalf);
 
-            SystemBracket.DOFillAmount(1, durationOne);
-            yield return new WaitForSeconds(durationOne);
+            SystemBracket.DOFillAmount(1, durationHalf);
+            yield return new WaitForSeconds(durationHalf + 0.1f);
 
-            FadedTexts[0].DOFade(1, duration1);
-            yield return new WaitForSeconds(duration1);
-            FadedTexts[1].DOFade(1, duration1);
-            yield return new WaitForSeconds(duration1);
+            FadedTexts[0].DOFade(1, durationHalf - 0.1f);
+            yield return new WaitForSeconds(durationHalf);
+            FadedTexts[1].DOFade(1, durationHalf - 0.1f);
+            yield return new WaitForSeconds(durationHalf);
 
-            AbstractRepresentation.MoveToInitialPos(1);
-            yield return new WaitForSeconds(durationOne);
+            AbstractRepresentation.MoveToInitialPos(durationHalf);
+            yield return new WaitForSeconds(durationHalf + 0.1f);
 
-            FadedTexts[2].DOFade(1, duration1);
-            yield return new WaitForSeconds(duration1);
-            FadedTexts[3].DOFade(1, duration1);
-            yield return new WaitForSeconds(2 * duration1);
+            FadedTexts[2].DOFade(1, durationHalf);
+            yield return new WaitForSeconds(durationHalf);
+            FadedTexts[3].DOFade(1, durationHalf);
+            yield return new WaitForSeconds(2 * durationHalf);
 
             StartCoroutine(ThirdParentAnimation());
         }
-
 
         IEnumerator ThirdParentAnimation()
         {
@@ -201,37 +216,119 @@ namespace Math5_Lesson1
             yield return new WaitForSeconds(0.5f);
             SecondParent.SetActive(false);
             ThirdParent.SetActive(true);
-            yield return new WaitForSeconds(duration1);
-            LetsBeginToTeach.FadeText(1, duration1);
-            yield return new WaitForSeconds(duration1);
+            yield return new WaitForSeconds(durationHalf);
+            LetsBeginToTeach.FadeText(1, durationHalf);
+            yield return new WaitForSeconds(durationHalf);
 
             PlayAudio();  // 12
             Transition1.SetActive(false);
             yield return new WaitForSeconds(AudioClips5_1[11].length);
-            LetsBeginToTeach.FadeText(0, duration1);
-            yield return new WaitForSeconds(duration1);
-
+            
             PlayAudio();  // 13
-            TeachingOrderOfOperation.MoveToInitialPos(duration1);
+            LetsBeginToTeach.FadeText(0, durationOne);
+            yield return new WaitForSeconds(durationHalf);
+            TeachingOrderOfOperation.MoveToInitialPos(durationOne);
             yield return new WaitForSeconds(AudioClips5_1[12].length - 1);
                         
-            TaskNumberText.DOFade(1, duration1);
-            yield return new WaitForSeconds(duration1);
+            //TaskNumberText.DOFade(1, durationHalf);
+            yield return new WaitForSeconds(durationHalf);
 
             //Masala shartini ko'rsatish.
             PlayAudio();  // 14
+            TaskNumberText.DOFade(1, durationHalf);
+            yield return new WaitForSeconds(durationHalf);
             TaskTextImages[0].DOFade(0, durationOne);
-            yield return new WaitForSeconds(5 * durationOne);
+            yield return new WaitForSeconds(4.5f * durationOne);
             TaskTextImages[1].DOFade(0, durationOne);
             TaskTextImages[2].DOFade(0, durationOne);
-            yield return new WaitForSeconds(3 * durationOne);
+            yield return new WaitForSeconds(3.5f * durationOne);
             TaskTextImages[3].DOFade(0, durationOne);
             yield return new WaitForSeconds(3 * durationOne);
             TaskTextImages[4].DOFade(0, durationOne);
             yield return new WaitForSeconds(durationOne);
+            yield return new WaitForSeconds(2);
+
+            // Upper Rectangle
+            BlackRectangleUpper.transform.DOScale(1, 1);
+            yield return new WaitForSeconds(durationOne);
+            BlackLineAmount1.DOFillAmount(1, durationHalf);
+            yield return new WaitForSeconds(durationHalf);
+
+            RectFadedImages[0].DOFade(1, 1);
+            yield return new WaitForSeconds(durationOne);
+
+            HandCursor.transform.DOScale(1, durationHalf);
+            yield return new WaitForSeconds(durationHalf);
+            yield return new WaitForSeconds(1);
+
+            RectFadedTexts[0].DOFade(1, durationHalf);
+            yield return new WaitForSeconds(durationHalf);
+            RectFadedImages[1].DOFade(1, durationOne);
+            yield return new WaitForSeconds(durationOne);
+            RectFadedTexts[1].DOFade(1, durationHalf);
+            yield return new WaitForSeconds(durationHalf);
+            HandCursor.GetComponent<Image>().DOFade(0, durationHalf);
+            yield return new WaitForSeconds(durationOne);
+            BracketUpper.BracketFillAmount(1, durationOne);
+            yield return new WaitForSeconds(durationOne);
+            RectFadedTexts[2].DOFade(1, durationHalf);
+            yield return new WaitForSeconds(durationOne);
+            yield return new WaitForSeconds(1);
+
+            BlueArrow.DOFade(1, durationHalf);
+            yield return new WaitForSeconds(durationHalf);
+
+            // Lower Rectangle
+            BlackRectangleLower.transform.DOScale(1, 1);
+            yield return new WaitForSeconds(durationOne);
+            BlackLineAmount2.DOFillAmount(1, durationHalf);
+            yield return new WaitForSeconds(durationHalf);
+            RectFadedImages[2].DOFade(1, durationHalf);
+            RectFadedImages[3].DOFade(1, durationHalf);
+            RectFadedTexts[3].DOFade(1, durationHalf);
+            RectFadedTexts[4].DOFade(1, durationHalf);
+            yield return new WaitForSeconds(durationHalf);
+            yield return new WaitForSeconds(2);
+
+            BracketLower.BracketFillAmount(1, durationOne);
+            yield return new WaitForSeconds(durationOne);
+            RectFadedTexts[5].DOFade(1, durationHalf);
+            yield return new WaitForSeconds(durationOne);
+            SecondHandCursor.transform.DOScale(1, durationHalf);
+            yield return new WaitForSeconds(3 * durationOne);
+            SecondHandCursor.GetComponent<Image>().DOFade(0, durationOne);
+            yield return new WaitForSeconds(3);
 
 
+            for (int i = 0; i < MisolTexts_1.Length; i++)
+            {
+                MisolTexts_1[i].DOFade(1, durationHalf);
+                yield return new WaitForSeconds(durationHalf);
+            }
+            yield return new WaitForSeconds(6.5f * durationOne);
 
+            PlayAudio();  // 15      Ichida yozuvi bor kvadratni chizadi. 
+            TextRectangleParent.transform.GetChild(0).GetComponent<TMP_Text>().DOFade(1, durationOne);
+            for (int i = 1; i < TextRectangleParent.transform.childCount; i++)
+            {
+                TextRectangleParent.transform.GetChild(i).GetComponent<Image>().DOFillAmount(1, durationQuarter);
+                yield return new WaitForSeconds(durationQuarter + i/2 * durationQuarter);
+            }
+            yield return new WaitForSeconds(2 * durationOne);
+
+            for (int i = 0; i < MisolTexts_2.Length; i++)
+            {
+                MisolTexts_1[i].DOFade(1, durationHalf);
+                yield return new WaitForSeconds(durationSevenFive);
+            }
+
+            yield return new WaitForSeconds(durationOne);
+
+            for (int i = 0; i < MisolTexts_2.Length; i++)
+            {
+                MisolTexts_1[i].DOFade(1, durationHalf);
+                yield return new WaitForSeconds(durationSevenFive);
+            }
         }
 
 
