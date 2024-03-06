@@ -160,6 +160,7 @@ MonoBehaviour:
   IsTextFaded: 0
   IsImageFaded: 0
   IsMinimized: 0
+  IsImageFillAmount: 0
 --- !u!1 &261332023176347366
 GameObject:
   m_ObjectHideFlags: 0
@@ -226,7 +227,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "<b>MATEMATIKA FANI O\u2018QITUVCHILARINI \\nKASBIY RIVOJLANTIRISH</b>\n"
+  m_text: "MATEMATIKA <b>FANI O\u2018QITUVCHILARINI \\nKASBIY RIVOJLANTIRISH</b>\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -314,6 +315,7 @@ MonoBehaviour:
   IsTextFaded: 1
   IsImageFaded: 0
   IsMinimized: 0
+  IsImageFillAmount: 0
 --- !u!1 &411548210174559887
 GameObject:
   m_ObjectHideFlags: 0
@@ -560,8 +562,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'To''g''ri kasrni butun sonlarga ko''paytirishni '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1f5e8238203c52645a7af1f0266f6401, type: 2}
+  m_sharedMaterial: {fileID: -7897526610067410109, guid: 1f5e8238203c52645a7af1f0266f6401, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -646,6 +648,7 @@ MonoBehaviour:
   IsTextFaded: 0
   IsImageFaded: 0
   IsMinimized: 0
+  IsImageFillAmount: 0
 --- !u!1 &914173371835787566
 GameObject:
   m_ObjectHideFlags: 0
@@ -741,6 +744,7 @@ MonoBehaviour:
   IsTextFaded: 0
   IsImageFaded: 0
   IsMinimized: 0
+  IsImageFillAmount: 0
 --- !u!1 &1104794994022645280
 GameObject:
   m_ObjectHideFlags: 0
@@ -980,6 +984,7 @@ MonoBehaviour:
   IsTextFaded: 0
   IsImageFaded: 0
   IsMinimized: 0
+  IsImageFillAmount: 0
 --- !u!1 &2200363456810299993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1075,6 +1080,7 @@ MonoBehaviour:
   IsTextFaded: 0
   IsImageFaded: 0
   IsMinimized: 0
+  IsImageFillAmount: 0
 --- !u!1 &2634539927333344678
 GameObject:
   m_ObjectHideFlags: 0
@@ -1230,6 +1236,7 @@ MonoBehaviour:
   IsTextFaded: 0
   IsImageFaded: 0
   IsMinimized: 0
+  IsImageFillAmount: 0
 --- !u!1 &3203451082402985512
 GameObject:
   m_ObjectHideFlags: 0
@@ -1559,6 +1566,7 @@ MonoBehaviour:
   IsTextFaded: 1
   IsImageFaded: 0
   IsMinimized: 0
+  IsImageFillAmount: 0
 --- !u!1 &3473529029053972216
 GameObject:
   m_ObjectHideFlags: 0
@@ -1627,8 +1635,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'o''quvchilarga o''rgatishga doir asosiy go''yalarni ko''rib chiqamiz. '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1f5e8238203c52645a7af1f0266f6401, type: 2}
+  m_sharedMaterial: {fileID: -7897526610067410109, guid: 1f5e8238203c52645a7af1f0266f6401, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1713,6 +1721,7 @@ MonoBehaviour:
   IsTextFaded: 0
   IsImageFaded: 0
   IsMinimized: 0
+  IsImageFillAmount: 0
 --- !u!1 &4798927606755001422
 GameObject:
   m_ObjectHideFlags: 0
@@ -1811,6 +1820,7 @@ MonoBehaviour:
   IsTextFaded: 0
   IsImageFaded: 0
   IsMinimized: 0
+  IsImageFillAmount: 0
 --- !u!1 &5125806505659540513
 GameObject:
   m_ObjectHideFlags: 0
@@ -1879,8 +1889,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1904,13 +1914,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 48
-  m_fontSizeBase: 48
+  m_fontSize: 52
+  m_fontSizeBase: 52
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -1965,6 +1975,7 @@ MonoBehaviour:
   IsTextFaded: 0
   IsImageFaded: 0
   IsMinimized: 0
+  IsImageFillAmount: 0
 --- !u!1 &5338265481340322893
 GameObject:
   m_ObjectHideFlags: 0
@@ -2208,6 +2219,7 @@ MonoBehaviour:
   IsTextFaded: 1
   IsImageFaded: 0
   IsMinimized: 0
+  IsImageFillAmount: 0
 --- !u!1 &5597670724428206995
 GameObject:
   m_ObjectHideFlags: 0
@@ -2303,6 +2315,7 @@ MonoBehaviour:
   IsTextFaded: 0
   IsImageFaded: 0
   IsMinimized: 0
+  IsImageFillAmount: 0
 --- !u!1 &5600113209328207885
 GameObject:
   m_ObjectHideFlags: 0
@@ -2458,10 +2471,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: You will learn how to teach order of operations.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1f5e8238203c52645a7af1f0266f6401, type: 2}
+  m_sharedMaterial: {fileID: -7897526610067410109, guid: 1f5e8238203c52645a7af1f0266f6401, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2546,6 +2559,7 @@ MonoBehaviour:
   IsTextFaded: 0
   IsImageFaded: 0
   IsMinimized: 0
+  IsImageFillAmount: 0
 --- !u!1 &6252340042428408238
 GameObject:
   m_ObjectHideFlags: 0
@@ -2701,10 +2715,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Bu mashg\u2018ulotda"
+  m_text: "Bu mashg\u2018ulotda..."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f6e46b7c0f433ba4ab2018466dbe436e, type: 2}
+  m_sharedMaterial: {fileID: -6811552995762415097, guid: f6e46b7c0f433ba4ab2018466dbe436e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2734,7 +2748,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 3
+  m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -2789,6 +2803,7 @@ MonoBehaviour:
   IsTextFaded: 0
   IsImageFaded: 0
   IsMinimized: 0
+  IsImageFillAmount: 0
 --- !u!1 &6451187936084618552
 GameObject:
   m_ObjectHideFlags: 0
@@ -2860,6 +2875,7 @@ MonoBehaviour:
   IsTextFaded: 0
   IsImageFaded: 0
   IsMinimized: 0
+  IsImageFillAmount: 0
 --- !u!1 &6465505771061993282
 GameObject:
   m_ObjectHideFlags: 0
@@ -2971,6 +2987,7 @@ MonoBehaviour:
   IsTextFaded: 0
   IsImageFaded: 0
   IsMinimized: 0
+  IsImageFillAmount: 0
 --- !u!1 &6548472457032822453
 GameObject:
   m_ObjectHideFlags: 0
@@ -3155,6 +3172,7 @@ MonoBehaviour:
   IsTextFaded: 0
   IsImageFaded: 1
   IsMinimized: 0
+  IsImageFillAmount: 0
 --- !u!1 &6799626511042041183
 GameObject:
   m_ObjectHideFlags: 0
@@ -3310,6 +3328,7 @@ MonoBehaviour:
   IsTextFaded: 0
   IsImageFaded: 0
   IsMinimized: 0
+  IsImageFillAmount: 0
 --- !u!1 &6952435126345978437
 GameObject:
   m_ObjectHideFlags: 0
@@ -3646,6 +3665,7 @@ MonoBehaviour:
   IsTextFaded: 1
   IsImageFaded: 0
   IsMinimized: 0
+  IsImageFillAmount: 0
 --- !u!1 &7194674898281561994
 GameObject:
   m_ObjectHideFlags: 0
@@ -3889,6 +3909,7 @@ MonoBehaviour:
   IsTextFaded: 0
   IsImageFaded: 0
   IsMinimized: 0
+  IsImageFillAmount: 0
 --- !u!1 &8313180049970620401
 GameObject:
   m_ObjectHideFlags: 0
@@ -3985,6 +4006,7 @@ MonoBehaviour:
   IsTextFaded: 0
   IsImageFaded: 0
   IsMinimized: 0
+  IsImageFillAmount: 0
 --- !u!1 &8662831431467374518
 GameObject:
   m_ObjectHideFlags: 0
@@ -4187,6 +4209,7 @@ MonoBehaviour:
   IsTextFaded: 0
   IsImageFaded: 0
   IsMinimized: 0
+  IsImageFillAmount: 0
 --- !u!1001 &2027540384144390415
 PrefabInstance:
   m_ObjectHideFlags: 0

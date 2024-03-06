@@ -97,6 +97,7 @@ MonoBehaviour:
   IsTextFaded: 0
   IsImageFaded: 0
   IsMinimized: 0
+  IsImageFillAmount: 0
 --- !u!1 &4006552281990802097
 GameObject:
   m_ObjectHideFlags: 0
@@ -165,8 +166,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: N
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d31cbe3b32faa1548b5d199237e3694d, type: 2}
+  m_sharedMaterial: {fileID: -3280472198573472277, guid: d31cbe3b32faa1548b5d199237e3694d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -251,6 +252,7 @@ MonoBehaviour:
   IsTextFaded: 0
   IsImageFaded: 0
   IsMinimized: 0
+  IsImageFillAmount: 0
 --- !u!1 &4451708281402702380
 GameObject:
   m_ObjectHideFlags: 0
@@ -465,3 +467,4 @@ MonoBehaviour:
   IsTextFaded: 0
   IsImageFaded: 0
   IsMinimized: 0
+  IsImageFillAmount: 0
