@@ -79,8 +79,7 @@ namespace Samandar
             yield return new WaitForSeconds(60);
             Pages[2].SetActive(false);
             Finish.SetActive(true);
-            PageEvent_3.Invoke();
-            
+            PageEvent_3.Invoke();            
         }
         
         IEnumerator AudioControllerPage_5()
@@ -331,8 +330,9 @@ namespace Samandar
             Page_5[3].SetActive(true);
             Page_5[2].SetActive(true);
             Page_5[2].GetComponent<RectTransform>().DOAnchorPosY(-187, 0.5f);
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(4.5f);
             Page_5[3].SetActive(false);
+            FinishTransition();
         }
     }
 }
