@@ -1,11 +1,10 @@
 using CommonFeatures;
-using ScriptableObjectArchitecture;
-using System.Collections;
-using UnityEngine;
-using UnityEngine.UI;
 using DG.Tweening;
 using System;
+using System.Collections;
 using TMPro;
+using UnityEngine;
+using UnityEngine.UI;
 
 namespace Math5_Lesson1
 {
@@ -47,6 +46,7 @@ namespace Math5_Lesson1
         public TMP_Text[] RectFadedTexts;
         public GameObject HandCursor;
         public GameObject SecondHandCursor;
+        public GameObject ThirdHandCursor;
         public Image BlueArrow;
         public BracketManager BracketUpper;
         public BracketManager BracketLower;
@@ -55,13 +55,18 @@ namespace Math5_Lesson1
         public TMP_Text[] MisolTexts_3;
         public GameObject TextRectangleParent;
         public Image UnderLine;
+        public TMP_Text FinalAnswerText;
+
+        [Header("FourthParent")]
+        public GameObject FourthParent;
+        [Header("FivethParent")]
+        public GameObject FivethParent;
 
         [Header("Common things")]
         public AudioClip[] AudioClips5_1;
         public GameObject Transition1;
         public GameObject Transition2;
         
-
         private AudioSource _audioSource;
         private int _audioIndex;
         readonly float durationHalf = 0.5f;
@@ -72,7 +77,23 @@ namespace Math5_Lesson1
         private void Awake()
         {
             _audioSource = gameObject.GetComponent<AudioSource>();
-        }        
+        }
+
+
+        private void Start()
+        {
+            SecondParent.SetActive(false);
+            ThirdParent.SetActive(false);
+            FourthParent.SetActive(false);
+            FivethParent.SetActive(false);
+
+            SecondParent.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 0);
+            ThirdParent.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 0);
+            FourthParent.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 0);
+            FivethParent.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 0);
+
+            VideoAnimationMethod();
+        }
 
 
         public void VideoAnimationMethod()
@@ -82,7 +103,10 @@ namespace Math5_Lesson1
 
             //StartCoroutine(FirstParentAnimations());
             //StartCoroutine(SecondParentAnimation());
-            StartCoroutine(ThirdParentAnimation());
+            //StartCoroutine(ThirdParentAnimation());
+            //StartCoroutine(FourthParentAnimation());
+            StartCoroutine(FivethParentAnimation());
+
             //FinishFeatures.GetComponent<FinishFeatures>().FinishAnimation();
             //StartCoroutine(Transition());
         }
@@ -306,7 +330,13 @@ namespace Math5_Lesson1
                 MisolTexts_1[i].DOFade(1, durationHalf);
                 yield return new WaitForSeconds(durationHalf);
             }
-            yield return new WaitForSeconds(6.5f * durationOne);
+            yield return new WaitForSeconds(2 * durationOne);
+            ThirdHandCursor.transform.DOScale(1, durationOne);
+            yield return new WaitForSeconds(1 * durationOne);
+            ThirdHandCursor.GetComponent<EachObject>().MoveByPixelsByX(120, 1);
+            yield return new WaitForSeconds(2 * durationOne);
+            ThirdHandCursor.GetComponent<Image>().DOFade(0, durationOne);
+            yield return new WaitForSeconds(1.5f * durationOne);
 
             PlayAudio();  // 15      Ichida yozuvi bor kvadratni chizadi. 
             TextRectangleParent.transform.GetChild(0).GetComponent<TMP_Text>().DOFade(1, durationOne);
@@ -315,32 +345,68 @@ namespace Math5_Lesson1
                 TextRectangleParent.transform.GetChild(i).GetComponent<Image>().DOFillAmount(1, durationQuarter + i / 2 * durationQuarter);
                 yield return new WaitForSeconds(durationQuarter + i/2 * durationQuarter);
             }
-            yield return new WaitForSeconds(AudioClips5_1[14].length - 2 * durationOne);
+            yield return new WaitForSeconds(AudioClips5_1[14].length - 2.5f * durationOne);
 
             PlayAudio();  // 16
-            UnderLine.DOFillAmount(1, durationSevenFive);
-            yield return new WaitForSeconds(durationOne);
+            yield return new WaitForSeconds(2 * durationOne);
+            UnderLine.DOFillAmount(1, durationOne);
+            yield return new WaitForSeconds(3 * durationOne);
             for (int i = 0; i < MisolTexts_2.Length; i++)
             {
                 MisolTexts_2[i].DOFade(1, durationHalf);
-                yield return new WaitForSeconds(durationSevenFive);
+                yield return new WaitForSeconds(durationOne + durationHalf);
             }
 
-            yield return new WaitForSeconds(durationOne);
-
+            yield return new WaitForSeconds(durationHalf);
             for (int i = 0; i < MisolTexts_3.Length; i++)
             {
                 MisolTexts_3[i].DOFade(1, durationHalf);
-                yield return new WaitForSeconds(durationSevenFive);
+                yield return new WaitForSeconds(durationHalf + 0.2f);
             }
-        }
+            yield return new WaitForSeconds(durationHalf);
+            FinalAnswerText.DOFade(1, durationOne);
+            yield return new WaitForSeconds(AudioClips5_1[15].length - 13 * durationOne);
+            StartCoroutine(FourthParentAnimation());
+        }        
 
 
-        IEnumerator Transition()
+        IEnumerator FourthParentAnimation()
         {
-            yield return new WaitForSeconds(2.5f);
-            //StartFeatureSwitch(false);
+            _audioIndex = 16;
+            yield return new WaitForSeconds(0.1f);            
+            //yield return new WaitForSeconds(0.5f);
+            //ThirdParent.SetActive(false);
+            FourthParent.SetActive(true);
+            FourthParent.GetComponent<FourthPanel>().VideoAnimationMethod();
         }
+
+        public void FivethParentAnim()
+        {
+            StartCoroutine(FivethParentAnimation());
+        }
+
+
+        IEnumerator FivethParentAnimation()
+        {
+            _audioIndex = 20;
+            yield return new WaitForSeconds(0.1f);
+            FivethParent.SetActive(true);
+            FivethParent.GetComponent<FivethPanel>().VideoAnimationMethod();
+        }
+
+
+        public float LengthOfAudioClip(int audioOrder)
+        {
+            float lengthOfAudiopClip = AudioClips5_1[audioOrder].length;
+            return lengthOfAudiopClip;
+        }
+
+
+        //IEnumerator Transition()
+        //{
+        //    yield return new WaitForSeconds(2.5f);
+        //    //StartFeatureSwitch(false);
+        //}
 
         
         public void PlayAudio()
@@ -349,8 +415,6 @@ namespace Math5_Lesson1
             Debug.Log(_audioIndex + 1 + "  =  " + AudioClips5_1[_audioIndex].length + "  =  " + DateTime.Now);
             _audioIndex++;
         }
-
-
         
 
     }
