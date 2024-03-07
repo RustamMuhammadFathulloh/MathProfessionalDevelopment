@@ -36,8 +36,12 @@ namespace CommonFeatures
             {
                 ChangeObjectScale(0, 0);
             }
+
+            if (CurrentRectTrans != null)
+            {
+                GetInitialData();
+            }
             
-            GetInitialData();
         }
 
 
@@ -138,6 +142,12 @@ namespace CommonFeatures
         {
             Vector2 currentPos = CurrentRectTrans.anchoredPosition;
             CurrentRectTrans.DOAnchorPos(-currentPos, duration);
+        }
+
+
+        public void MoveByPixelsByX(float pixels, float duration)
+        {
+            CurrentRectTrans.DOAnchorPosX(_initialPos.x + pixels, duration);
         }
 
 
