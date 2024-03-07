@@ -54,6 +54,7 @@ namespace Math5_Lesson1
         public TMP_Text[] MisolTexts_2;
         public TMP_Text[] MisolTexts_3;
         public GameObject TextRectangleParent;
+        public Image UnderLine;
 
         [Header("Common things")]
         public AudioClip[] AudioClips5_1;
@@ -80,8 +81,8 @@ namespace Math5_Lesson1
             _audioIndex = 3;
 
             //StartCoroutine(FirstParentAnimations());
-            StartCoroutine(SecondParentAnimation());
-            //StartCoroutine(ThirdParentAnimation());
+            //StartCoroutine(SecondParentAnimation());
+            StartCoroutine(ThirdParentAnimation());
             //FinishFeatures.GetComponent<FinishFeatures>().FinishAnimation();
             //StartCoroutine(Transition());
         }
@@ -311,22 +312,25 @@ namespace Math5_Lesson1
             TextRectangleParent.transform.GetChild(0).GetComponent<TMP_Text>().DOFade(1, durationOne);
             for (int i = 1; i < TextRectangleParent.transform.childCount; i++)
             {
-                TextRectangleParent.transform.GetChild(i).GetComponent<Image>().DOFillAmount(1, durationQuarter);
+                TextRectangleParent.transform.GetChild(i).GetComponent<Image>().DOFillAmount(1, durationQuarter + i / 2 * durationQuarter);
                 yield return new WaitForSeconds(durationQuarter + i/2 * durationQuarter);
             }
-            yield return new WaitForSeconds(2 * durationOne);
+            yield return new WaitForSeconds(AudioClips5_1[14].length - 2 * durationOne);
 
+            PlayAudio();  // 16
+            UnderLine.DOFillAmount(1, durationSevenFive);
+            yield return new WaitForSeconds(durationOne);
             for (int i = 0; i < MisolTexts_2.Length; i++)
             {
-                MisolTexts_1[i].DOFade(1, durationHalf);
+                MisolTexts_2[i].DOFade(1, durationHalf);
                 yield return new WaitForSeconds(durationSevenFive);
             }
 
             yield return new WaitForSeconds(durationOne);
 
-            for (int i = 0; i < MisolTexts_2.Length; i++)
+            for (int i = 0; i < MisolTexts_3.Length; i++)
             {
-                MisolTexts_1[i].DOFade(1, durationHalf);
+                MisolTexts_3[i].DOFade(1, durationHalf);
                 yield return new WaitForSeconds(durationSevenFive);
             }
         }
