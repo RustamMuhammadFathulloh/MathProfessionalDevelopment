@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0069556f65d5a744999914d1607f3c19, type: 3}
+  m_Name: StartData5_4
+  m_EditorClassIdentifier: 
+  CurrentGrade: 1
+  LessonOrder: 4
+  LessonTitle: "To\u02BBg\u02BBri  kasrni butun songa ko\u02BBpaytirish"
+  InThisLesson: "Siz butun sonlarni kasr sifatida  bo\u2018lishni o\u2018quvchilarga
+    qanday o\u2018rgatishni o\u2018rganasiz."
+  LetsLookAtThe_1: " <color=#909831> Butun sonlarni kasr sifatida bo\u2018lishni
+    </color> "
+  LetsLookAtThe_2: "o\u2018rgatishdagi <color=#909831> asosiy g\u02BBoyalarni </color>
+    ko\u02BBrib chiqaylik."
+  AudioInThisLesson: {fileID: 8300000, guid: a21af37eac669b64dadebe8492b606d7, type: 3}
+  AudioLetsLookAtThe: {fileID: 8300000, guid: 098ad99f1badb544eaf75c5dee68aeb9, type: 3}
+  UnderstandingTime: 0
+  DemonstrationTime: 92
+  SummaryTime: 188
+  PracticeTime: 232

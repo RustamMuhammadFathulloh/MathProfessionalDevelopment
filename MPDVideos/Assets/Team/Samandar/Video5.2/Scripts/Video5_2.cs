@@ -9,7 +9,7 @@ using TMPro.Examples;
 using UnityEngine.Events;
 namespace Samandar
 {
-   public class VideoManager : Introduction
+   public class Video5_2 : Introduction
     {
         public GameObject transition_1;
         public GameObject transition_2;
