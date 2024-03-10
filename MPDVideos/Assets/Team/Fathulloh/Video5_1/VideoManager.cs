@@ -415,7 +415,7 @@ namespace Math5_Lesson1
             _audioIndex = 26;
             yield return new WaitForSeconds(0.1f);
             SixthParent.SetActive(true);
-            Debug.Log("Six parent Animation");
+            
             SixthParent.GetComponent<SixthPanel>().VideoAnimationMethod();
         }
 
@@ -423,8 +423,7 @@ namespace Math5_Lesson1
         public void ApplyParentCall()
         {
             _audioIndex = 33;
-            ApplyParent.SetActive(true);
-            Debug.Log("To apply");
+            ApplyParent.SetActive(true);            
             ApplyParent.GetComponent<ApplyLesson1>().ApplyAnim();
         }
 
@@ -449,7 +448,6 @@ namespace Math5_Lesson1
             EllipsTask2.transform.GetChild(1).GetComponent<TMP_Text>().DOFade(1, 1);
             yield return new WaitForSeconds(6f);
             FinishTransition();
-            Debug.Log("All of this finished.");
         }
 
 
@@ -470,7 +468,7 @@ namespace Math5_Lesson1
         public void PlayAudio()
         {
             _audioSource.PlayOneShot(AudioClips5_1[_audioIndex]);
-            Debug.Log(_audioIndex + 1 + "  =  " + AudioClips5_1[_audioIndex].length + "  =  " + DateTime.Now);
+            //Debug.Log(_audioIndex + 1 + "  =  " + AudioClips5_1[_audioIndex].length + "  =  " + DateTime.Now);
             _audioIndex++;
         }
         

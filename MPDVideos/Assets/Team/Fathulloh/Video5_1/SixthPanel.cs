@@ -164,7 +164,7 @@ namespace Math5_Lesson1
             yield return new WaitForSeconds(VideoManager5_1.LengthOfAudioClip(31) + durationHalf);
             VideoManager5_1.PlayAudio();  //  33
             yield return new WaitForSeconds(VideoManager5_1.LengthOfAudioClip(32) + durationHalf);
-            Debug.Log("Six end  parent Animation");
+            
 
             NextAnimations.Invoke();
         }

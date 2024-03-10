@@ -34,8 +34,7 @@ namespace Math5_Lesson1
 
                 
         public void ApplyAnim()
-        {
-            Debug.Log("Ishladi");
+        {            
             StartCoroutine(ApplyAnimation());
         }
 

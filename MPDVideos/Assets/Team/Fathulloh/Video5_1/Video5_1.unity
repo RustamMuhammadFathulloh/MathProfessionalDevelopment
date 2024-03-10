@@ -2893,8 +2893,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Amallar tartibini o\u2018qitish"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 44551d912cc2c164d89daf573216f24c, type: 2}
-  m_sharedMaterial: {fileID: -1737577178731310121, guid: 44551d912cc2c164d89daf573216f24c, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1f5e8238203c52645a7af1f0266f6401, type: 2}
+  m_sharedMaterial: {fileID: -7897526610067410109, guid: 1f5e8238203c52645a7af1f0266f6401, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2918,8 +2918,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 68
-  m_fontSizeBase: 68
+  m_fontSize: 64
+  m_fontSizeBase: 64
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3900,8 +3900,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Amallarni bajarish tartibi
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: be14484bb1e6db04987dc3ef6a55ece6, type: 2}
+  m_sharedMaterial: {fileID: -4836279883204036491, guid: be14484bb1e6db04987dc3ef6a55ece6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3925,8 +3925,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 96
-  m_fontSizeBase: 96
+  m_fontSize: 88
+  m_fontSizeBase: 88
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -10823,8 +10823,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Amallarni bajaring
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 44551d912cc2c164d89daf573216f24c, type: 2}
-  m_sharedMaterial: {fileID: -1737577178731310121, guid: 44551d912cc2c164d89daf573216f24c, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1f5e8238203c52645a7af1f0266f6401, type: 2}
+  m_sharedMaterial: {fileID: -7897526610067410109, guid: 1f5e8238203c52645a7af1f0266f6401, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -10848,8 +10848,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 68
-  m_fontSizeBase: 68
+  m_fontSize: 64
+  m_fontSizeBase: 64
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -13010,8 +13010,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Amallar tartibini o\u2018qitish"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 44551d912cc2c164d89daf573216f24c, type: 2}
-  m_sharedMaterial: {fileID: -1737577178731310121, guid: 44551d912cc2c164d89daf573216f24c, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1f5e8238203c52645a7af1f0266f6401, type: 2}
+  m_sharedMaterial: {fileID: -7897526610067410109, guid: 1f5e8238203c52645a7af1f0266f6401, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -13035,8 +13035,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 68
-  m_fontSizeBase: 68
+  m_fontSize: 64
+  m_fontSizeBase: 64
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -13918,8 +13918,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Amallar tartibini o\u2018qitish"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 44551d912cc2c164d89daf573216f24c, type: 2}
-  m_sharedMaterial: {fileID: -1737577178731310121, guid: 44551d912cc2c164d89daf573216f24c, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1f5e8238203c52645a7af1f0266f6401, type: 2}
+  m_sharedMaterial: {fileID: -7897526610067410109, guid: 1f5e8238203c52645a7af1f0266f6401, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -13943,8 +13943,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 68
-  m_fontSizeBase: 68
+  m_fontSize: 64
+  m_fontSizeBase: 64
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -17283,7 +17283,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -150, y: -50}
+  m_AnchoredPosition: {x: -150, y: 165}
   m_SizeDelta: {x: 300, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &984270251
@@ -21631,8 +21631,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Keling, endi o\u2018rgatish usulini namoyish qilishni boshlaylik."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 44551d912cc2c164d89daf573216f24c, type: 2}
-  m_sharedMaterial: {fileID: -1737577178731310121, guid: 44551d912cc2c164d89daf573216f24c, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1f5e8238203c52645a7af1f0266f6401, type: 2}
+  m_sharedMaterial: {fileID: -7897526610067410109, guid: 1f5e8238203c52645a7af1f0266f6401, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -24732,8 +24732,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Amallar tartibini o\u2018qitish"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 44551d912cc2c164d89daf573216f24c, type: 2}
-  m_sharedMaterial: {fileID: -1737577178731310121, guid: 44551d912cc2c164d89daf573216f24c, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1f5e8238203c52645a7af1f0266f6401, type: 2}
+  m_sharedMaterial: {fileID: -7897526610067410109, guid: 1f5e8238203c52645a7af1f0266f6401, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -24757,8 +24757,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 68
-  m_fontSizeBase: 68
+  m_fontSize: 64
+  m_fontSizeBase: 64
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -30128,8 +30128,8 @@ MonoBehaviour:
   m_text: "Bu mashg\u2018ulotda <color=#909831> \u201CTasviriy-An\u2019anaviy\u201D</color>yondashuvga
     asoslangan pedagogik usuldan foydalanamiz."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 44551d912cc2c164d89daf573216f24c, type: 2}
-  m_sharedMaterial: {fileID: -1737577178731310121, guid: 44551d912cc2c164d89daf573216f24c, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1f5e8238203c52645a7af1f0266f6401, type: 2}
+  m_sharedMaterial: {fileID: -7897526610067410109, guid: 1f5e8238203c52645a7af1f0266f6401, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
