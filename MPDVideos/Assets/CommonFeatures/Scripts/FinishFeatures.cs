@@ -23,9 +23,9 @@ namespace CommonFeatures
 
         public GameObject ForYourPractice;
         public GameObject ForYourPractiseExplain;
-                
-        public List<GameObject> SummarizeObjects;
-        public List<string> SummarizeStrings;
+
+        [HideInInspector] public List<GameObject> SummarizeObjects;
+        [HideInInspector] public List<string> SummarizeStrings;
 
         public FinishDataSO FinishDataSo;
         public UnityEvent FinishEvent;
@@ -42,6 +42,12 @@ namespace CommonFeatures
             SummarizeStrings.Add(FinishDataSo.SummarizeText3);
             SummarizeStrings.Add(FinishDataSo.SummarizeText4);
             SummarizeStrings.Add(FinishDataSo.SummarizeText5);
+
+            if (FinishDataSo.ForYourPractiseText != null)
+            {
+                ForYourPractiseExplain.transform.GetChild(0).GetComponent<EachObject>().WriteText(FinishDataSo.ForYourPractiseText);
+            }
+            
         }
 
         
@@ -128,7 +134,7 @@ namespace CommonFeatures
             ForYourPractiseExplain.transform.GetChild(0).GetComponent<EachObject>().MoveToCenter(0.75f);
             yield return new WaitForSeconds(FinishDataSo.ForYourPracticeClip.length);
 
-            //yield return new WaitForSeconds(1.5f);
+            
             float posY1 = ForYourPractice.GetComponent<RectTransform>().anchoredPosition.y;
             float posY2 = ForYourPractiseExplain.GetComponent<RectTransform>().anchoredPosition.y;
             ForYourPractice.GetComponent<RectTransform>().DOAnchorPosY(posY1 + 100, 0.5f);

@@ -1,7 +1,6 @@
 using CommonFeatures;
 using DG.Tweening;
 using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
@@ -119,14 +118,14 @@ namespace Math5_Lesson1
             FadedTexts[4].DOFade(1, durationHalf);
             yield return new WaitForSeconds(durationOne);
 
-            yield return new WaitForSeconds(8.5f * durationOne);
+            yield return new WaitForSeconds(8.5f * durationOne + durationHalf);
             for (int i = 0; i < MisolText1.Length; i++)
             {
                 MisolText1[i].DOFade(1, durationHalf);
                 yield return new WaitForSeconds(durationHalf);
             }
 
-            yield return new WaitForSeconds(2*durationOne);
+            yield return new WaitForSeconds(durationOne + durationHalf);
             ThirdHandCursor.transform.DOScale(1, durationHalf);
             yield return new WaitForSeconds(durationOne);
             ThirdHandCursor.GetComponent<EachObject>().MoveByPixelsByX(120, 1);

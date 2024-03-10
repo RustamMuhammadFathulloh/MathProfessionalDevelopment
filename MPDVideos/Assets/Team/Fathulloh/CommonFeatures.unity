@@ -214,7 +214,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &52654631
 RectTransform:
   m_ObjectHideFlags: 0
@@ -302,10 +302,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1138011189}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 60, y: -60}
+  m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &112162281
 MonoBehaviour:
@@ -1519,10 +1519,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1138011189}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 180, y: -60}
+  m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1304107247
 MonoBehaviour:
@@ -1818,9 +1818,52 @@ MonoBehaviour:
   StartFeatures: {fileID: 266901646}
   FinishFeatures: {fileID: 1796902596}
   FinishWhitePanel: {fileID: 6255860787975520724, guid: 64d794afc609a554492a9594d1ba7162, type: 3}
-  StartAnim: {fileID: 11400000, guid: 9a17404c7e4ae704795b3f88f5080fcd, type: 2}
+  FirstParent: {fileID: 0}
   TitleObject: {fileID: 0}
+  Lines: []
+  LeftNodes: []
+  RightNode: {fileID: 0}
+  OperationsEllips: {fileID: 0}
+  SecondParent: {fileID: 0}
+  TasviriyAnanaviyText: {fileID: 0}
+  UslubiyYondashuvText: {fileID: 0}
+  PicAbstractText: {fileID: 0}
+  PicRepreseText: {fileID: 0}
+  LinesParent2: []
+  GreenRect: {fileID: 0}
+  OrangeRect: {fileID: 0}
+  SystemBracket: {fileID: 0}
+  AbstractRepresentation: {fileID: 0}
+  FadedTexts: []
+  ThirdParent: {fileID: 0}
+  LetsBeginToTeach: {fileID: 0}
+  TeachingOrderOfOperation: {fileID: 0}
+  TaskNumberText: {fileID: 0}
+  TaskTextImages: []
+  BlackRectangleUpper: {fileID: 0}
+  BlackLineAmount1: {fileID: 0}
+  BlackRectangleLower: {fileID: 0}
+  BlackLineAmount2: {fileID: 0}
+  RectFadedImages: []
+  RectFadedTexts: []
+  HandCursor: {fileID: 0}
+  SecondHandCursor: {fileID: 0}
+  ThirdHandCursor: {fileID: 0}
+  BlueArrow: {fileID: 0}
+  BracketUpper: {fileID: 0}
+  BracketLower: {fileID: 0}
+  MisolTexts_1: []
+  MisolTexts_2: []
+  MisolTexts_3: []
+  TextRectangleParent: {fileID: 0}
+  UnderLine: {fileID: 0}
+  FinalAnswerText: {fileID: 0}
+  FourthParent: {fileID: 0}
+  FivethParent: {fileID: 0}
+  SixthParent: {fileID: 0}
   AudioClips5_1: []
+  Transition1: {fileID: 0}
+  Transition2: {fileID: 0}
 --- !u!1 &1432597484
 GameObject:
   m_ObjectHideFlags: 0
@@ -2003,10 +2046,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1138011189}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 180, y: -180}
+  m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1576532047
 MonoBehaviour:
@@ -2110,10 +2153,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 201350179}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 60, y: -60}
+  m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1618544163
 MonoBehaviour:
@@ -2185,10 +2228,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1138011189}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -180}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 60, y: -180}
+  m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1708868219
 MonoBehaviour:
@@ -2338,10 +2381,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 201350179}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 180, y: -60}
+  m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1920556465
 MonoBehaviour:
@@ -2681,11 +2724,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: FinishFeatures
       objectReference: {fileID: 0}
+    - target: {fileID: 5889142232997062632, guid: afea36f568df4bc478e64ef00482acb5, type: 3}
+      propertyPath: FinishDataSo
+      value: 
+      objectReference: {fileID: 11400000, guid: e29e136a8de263c4d819776433b9fef5, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: afea36f568df4bc478e64ef00482acb5, type: 3}
+--- !u!114 &1407153751518894533 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5889142232997062632, guid: afea36f568df4bc478e64ef00482acb5, type: 3}
+  m_PrefabInstance: {fileID: 1407153751518894532}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1796902596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2587a7322a7d0994fb8d9d98081aa579, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &3358176348134507523
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2813,18 +2871,18 @@ PrefabInstance:
     - target: {fileID: 6247149553185009827, guid: bf2c3deece427d849beab78ebe80097b, type: 3}
       propertyPath: StartEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 52654632}
+      objectReference: {fileID: 1407153751518894533}
     - target: {fileID: 6247149553185009827, guid: bf2c3deece427d849beab78ebe80097b, type: 3}
       propertyPath: StartEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6247149553185009827, guid: bf2c3deece427d849beab78ebe80097b, type: 3}
       propertyPath: StartEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: FractionAnimate
+      value: FinishAnimation
       objectReference: {fileID: 0}
     - target: {fileID: 6247149553185009827, guid: bf2c3deece427d849beab78ebe80097b, type: 3}
       propertyPath: StartEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: Help5_2, Assembly-CSharp
+      value: CommonFeatures.FinishFeatures, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6247149553185009827, guid: bf2c3deece427d849beab78ebe80097b, type: 3}
       propertyPath: StartEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName

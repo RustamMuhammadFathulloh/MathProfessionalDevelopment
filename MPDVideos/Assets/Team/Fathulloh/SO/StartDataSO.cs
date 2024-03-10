@@ -8,7 +8,10 @@ public class StartDataSO : ScriptableObject
 
     [Range(1, 21)]
     public int LessonOrder;
+
+    [TextAreaAttribute]
     public string LessonTitle;
+    [TextAreaAttribute]
     public string InThisLesson;
 
     [TextAreaAttribute]
