@@ -12,6 +12,9 @@ public class FinishDataSO : ScriptableObject
     public AudioClip ForYourPracticeClip;
 
     [TextAreaAttribute]
+    public string ForYourPractiseText;
+
+    [TextAreaAttribute]
     public string SummarizeText1;
     [TextAreaAttribute]
     public string SummarizeText2;

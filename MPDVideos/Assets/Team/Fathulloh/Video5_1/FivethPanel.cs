@@ -3,6 +3,7 @@ using DG.Tweening;
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 namespace Math5_Lesson1
@@ -39,9 +40,19 @@ namespace Math5_Lesson1
         public Image UnderLine;
         public TMP_Text FinalAnswerText;
 
+        public TMP_Text[] ErrorMisolText1;
+        public TMP_Text[] ErrorMisolText2;
+        public TMP_Text[] ErrorMisolText3;
+        public Image BlueUnderLine;
+        public TMP_Text ErrorFinalAnswerText;
+        public GameObject ErrorTextRectangleParent;
+
         readonly float durationOne = 1;
         readonly float durationHalf = 0.5f;
         readonly float durationQuarter = 0.25f;
+
+        public UnityEvent NextAnimations;
+
 
         private void Awake()
         {
@@ -73,6 +84,7 @@ namespace Math5_Lesson1
             }
             yield return new WaitForSeconds(durationOne);
 
+            // First rect model.
             RectModel.transform.DOScale(1, durationOne);
             yield return new WaitForSeconds(durationOne);
 
@@ -141,7 +153,7 @@ namespace Math5_Lesson1
 
             MisolText3[0].DOFade(1, durationHalf);
             MisolText3[1].DOFade(1, durationHalf);
-            yield return new WaitForSeconds(2 * durationOne);
+            yield return new WaitForSeconds(1.5f * durationOne);
 
             FinalAnswerText.DOFade(1, durationOne);
             yield return new WaitForSeconds(VideoManager5_1.LengthOfAudioClip(23) - 11 * durationOne);
@@ -154,20 +166,44 @@ namespace Math5_Lesson1
             UnderLine.DOFade(0, durationOne);
 
             for (int i = 0; i < MisolText2.Length; i++)
-                MisolText2[i].DOFade(0, durationHalf);
+                MisolText2[i].DOFade(0, durationOne);
 
             for (int i = 0; i < MisolText1.Length; i++)
-                MisolText1[i].DOFade(0, durationHalf);
+                MisolText1[i].DOFade(0, durationOne);
 
             TextRectangleParent.transform.GetChild(0).GetComponent<TMP_Text>().DOFade(0, durationOne);
             for (int i = 1; i < TextRectangleParent.transform.childCount; i++)            
                 TextRectangleParent.transform.GetChild(i).GetComponent<Image>().DOFade(0, durationOne);
-            
+            yield return new WaitForSeconds(4 * durationOne);
+            for (int i = 0; i < ErrorMisolText1.Length; i++)
+                ErrorMisolText1[i].DOFade(1, durationHalf - 0.1f);
+            yield return new WaitForSeconds(VideoManager5_1.LengthOfAudioClip(24) - 4 * durationOne);
 
-            yield return new WaitForSeconds(VideoManager5_1.LengthOfAudioClip(24));
-            VideoManager5_1.PlayAudio();  // 26
+            VideoManager5_1.PlayAudio();  // 26                        
+            yield return new WaitForSeconds(4 * durationOne);
+            BlueUnderLine.DOFillAmount(1, durationOne);
+            yield return new WaitForSeconds(4 * durationOne);
 
+            for (int i = 0; i < ErrorMisolText2.Length; i++)
+                ErrorMisolText2[i].DOFade(1, durationHalf - 0.1f);
+            yield return new WaitForSeconds(2 * durationHalf);
 
+            for (int i = 0; i < ErrorMisolText3.Length; i++)
+                ErrorMisolText3[i].DOFade(1, durationHalf - 0.1f);
+            yield return new WaitForSeconds(2 * durationHalf);
+
+            ErrorFinalAnswerText.DOFade(1, durationOne);
+            yield return new WaitForSeconds(2 * durationHalf);
+
+            ErrorTextRectangleParent.transform.GetChild(0).GetComponent<TMP_Text>().DOFade(1, durationOne);
+            for (int i = 1; i < ErrorTextRectangleParent.transform.childCount; i++)
+            {
+                ErrorTextRectangleParent.transform.GetChild(i).GetComponent<Image>().DOFillAmount(1, durationQuarter + i / 2 * durationQuarter);
+                yield return new WaitForSeconds(durationQuarter + i / 2 * durationQuarter);
+            }
+
+            yield return new WaitForSeconds(VideoManager5_1.LengthOfAudioClip(25) - 13 * durationHalf);//4
+            NextAnimations.Invoke();
         }
 
 

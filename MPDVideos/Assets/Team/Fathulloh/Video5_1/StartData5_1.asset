@@ -17,11 +17,11 @@ MonoBehaviour:
   LessonTitle: Amallarni bajarish tartibi
   InThisLesson: "Amallarni bajarish tartibini o\u2018quvchilarga qanday o\u2018rgatishni
     o\u2018rganamiz."
-  LetsLookAtThe_1: "<color=#909831>Amallarni bajarish tartibini</color> o\u2018quvchilarga
-    o\u2018rgatishga doir "
+  LetsLookAtThe_1: "<color=#909831>Amallarni bajarish tartibini</color>  o\u2018rgatishdagi "
   LetsLookAtThe_2: "<color=#909831>asosiy g\u2018oyalarni</color>  ko\u2018rib chiqaylik."
   AudioInThisLesson: {fileID: 8300000, guid: b91d0cd2e2940f440bfdd802017d30a4, type: 3}
   AudioLetsLookAtThe: {fileID: 8300000, guid: 74ca7c196d34d254488b1be0c5a1035b, type: 3}
   UnderstandingTime: 12
-  DemonstrationTime: 65
-  SummaryTime: 400
+  DemonstrationTime: 80
+  SummaryTime: 460
+  PracticeTime: 504

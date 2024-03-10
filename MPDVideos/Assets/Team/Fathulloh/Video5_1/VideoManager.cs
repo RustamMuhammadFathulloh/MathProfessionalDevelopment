@@ -61,6 +61,10 @@ namespace Math5_Lesson1
         public GameObject FourthParent;
         [Header("FivethParent")]
         public GameObject FivethParent;
+        [Header("SixthParent")]
+        public GameObject SixthParent;
+        [Header("ApplyParent")]
+        public GameObject ApplyParent;
 
         [Header("Common things")]
         public AudioClip[] AudioClips5_1;
@@ -86,13 +90,16 @@ namespace Math5_Lesson1
             ThirdParent.SetActive(false);
             FourthParent.SetActive(false);
             FivethParent.SetActive(false);
+            SixthParent.SetActive(false);
+            ApplyParent.SetActive(false);
 
             SecondParent.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 0);
             ThirdParent.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 0);
             FourthParent.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 0);
             FivethParent.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 0);
-
-            VideoAnimationMethod();
+            SixthParent.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 0);
+            ApplyParent.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 0);
+            //VideoAnimationMethod();
         }
 
 
@@ -101,11 +108,12 @@ namespace Math5_Lesson1
             // 1- audio play qilinmaydi. 2- va 3- audiolar esa StartFwatureni ichida play bo'ladi. 
             _audioIndex = 3;
 
-            //StartCoroutine(FirstParentAnimations());
+            StartCoroutine(FirstParentAnimations());
             //StartCoroutine(SecondParentAnimation());
             //StartCoroutine(ThirdParentAnimation());
             //StartCoroutine(FourthParentAnimation());
-            StartCoroutine(FivethParentAnimation());
+            //StartCoroutine(FivethParentAnimation());
+            //StartCoroutine(SixthParentAnimation());
 
             //FinishFeatures.GetComponent<FinishFeatures>().FinishAnimation();
             //StartCoroutine(Transition());
@@ -183,7 +191,7 @@ namespace Math5_Lesson1
 
             PlayAudio();  // 11
             Transition1.SetActive(false);  // Reset transition
-            yield return new WaitForSeconds(4);
+            yield return new WaitForSeconds(5 + 0.5f);
             TasviriyAnanaviyText.FadeText(0, durationHalf);
             yield return new WaitForSeconds(durationHalf);
             UslubiyYondashuvText.MoveToInitialPos(durationOne);
@@ -229,6 +237,7 @@ namespace Math5_Lesson1
             yield return new WaitForSeconds(durationHalf);
             FadedTexts[3].DOFade(1, durationHalf);
             yield return new WaitForSeconds(2 * durationHalf);
+            yield return new WaitForSeconds(durationOne);
 
             StartCoroutine(ThirdParentAnimation());
         }
@@ -392,6 +401,55 @@ namespace Math5_Lesson1
             yield return new WaitForSeconds(0.1f);
             FivethParent.SetActive(true);
             FivethParent.GetComponent<FivethPanel>().VideoAnimationMethod();
+        }
+
+
+        public void SixthParentAnim()
+        {
+            StartCoroutine(SixthParentAnimation());
+        }
+
+
+        IEnumerator SixthParentAnimation()
+        {
+            _audioIndex = 26;
+            yield return new WaitForSeconds(0.1f);
+            SixthParent.SetActive(true);
+            Debug.Log("Six parent Animation");
+            SixthParent.GetComponent<SixthPanel>().VideoAnimationMethod();
+        }
+
+
+        public void ApplyParentCall()
+        {
+            _audioIndex = 33;
+            ApplyParent.SetActive(true);
+            Debug.Log("To apply");
+            ApplyParent.GetComponent<ApplyLesson1>().ApplyAnim();
+        }
+
+
+        public void LastAnimation()
+        {
+            StartCoroutine(LastTasks());
+        }
+
+        public GameObject EllipsTask1;
+        public GameObject EllipsTask2;
+
+        IEnumerator LastTasks()
+        {
+            yield return new WaitForSeconds(0.1f);
+            EllipsTask1.GetComponent<Image>().DOFade(1, 1);
+            EllipsTask1.transform.GetChild(0).GetComponent<TMP_Text>().DOFade(1, 1);
+            EllipsTask1.transform.GetChild(1).GetComponent<TMP_Text>().DOFade(1, 1);
+            yield return new WaitForSeconds(4f);
+            EllipsTask2.GetComponent<Image>().DOFade(1, 1);
+            EllipsTask2.transform.GetChild(0).GetComponent<TMP_Text>().DOFade(1, 1);
+            EllipsTask2.transform.GetChild(1).GetComponent<TMP_Text>().DOFade(1, 1);
+            yield return new WaitForSeconds(6f);
+            FinishTransition();
+            Debug.Log("All of this finished.");
         }
 
 

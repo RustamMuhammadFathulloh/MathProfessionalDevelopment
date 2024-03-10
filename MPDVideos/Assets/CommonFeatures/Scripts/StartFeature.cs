@@ -96,12 +96,14 @@ namespace CommonFeatures
             IntroPanelText2.GetComponent<EachObject>().FadeText(1f, 0.5f);                       
             yield return new WaitForSeconds(1f);
             IntroPanelText3.GetComponent<EachObject>().FadeText(1f, 0.5f);
-            yield return new WaitForSeconds(0.75f);
-            BottomTitlePanel.GetComponent<EachObject>().MoveToInitialPos(0.5f);
-
             yield return new WaitForSeconds(1f);
+
             ColorPanel.FadeImage(1, 0.5f);
             yield return new WaitForSeconds(1f);
+            BottomTitlePanel.transform.GetChild(0).GetComponent<EachObject>().FadeText(1, 0.5f);
+            yield return new WaitForSeconds(1.5f);
+            BottomTitlePanel.transform.GetChild(0).GetComponent<EachObject>().FadeText(0, 0.5f);
+            yield return new WaitForSeconds(0.75f);
             InThisLessonBoard.MoveToInitialPos(0.5f);            
             
             yield return new WaitForSeconds(0.75f);            

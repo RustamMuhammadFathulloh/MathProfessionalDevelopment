@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2465cd9249043c4bb91daded31a22df, type: 3}
+  m_Name: FinishData5_1
+  m_EditorClassIdentifier: 
+  CurrentGrade: 1
+  LetsSummarizeClip: {fileID: 8300000, guid: aaa92e7706b68a04fbad0a2bec86a087, type: 3}
+  ForYourPracticeClip: {fileID: 8300000, guid: 36e91f6714fc24b4b83b629720d59073, type: 3}
+  ForYourPractiseText: "quyidagi ikki matnli masalani yeching va amallarni bajarish
+    tartibini qanday o\u2018rgatishingizni \u201CTasviriy-An\u2019anaviy\u201D yondashuv
+    asosida ko\u2018rsatib bering."
+  SummarizeText1: "Amallar tartibini o\u2018qitish uchun Tasviri-An\u2018anaviy yondashuvdan
+    foydalaning."
+  SummarizeText2: "Bu bir xil ustuvorlik darajasidagi amallar bilan avval ishlashni
+    va keyin turli darajadagi amallar bilan ishlashni ko\u2018rsatish uchun mos g\u2018oyani
+    beradi."
+  SummarizeText3: "Chizma-modelni arifmetik ifodalar bilan bog\u2018lang."
+  SummarizeText4: "Sonli ifodalar qiymatini aralash amallarni bajarish bilan  hisoblashga
+    doir misollarga o\u2018ting."
+  SummarizeText5: 
+  SummarizeClips:
+  - {fileID: 8300000, guid: f2748ecdedd808b438e65036b5ea3b8d, type: 3}
+  - {fileID: 8300000, guid: 60e348d64217efb4e99a6b82dc059260, type: 3}
+  - {fileID: 8300000, guid: 8d9e7bf4b98ae5a43abb99bc3a23cc2a, type: 3}
+  - {fileID: 8300000, guid: 2dc1df83f2e00074b8e9765093632e38, type: 3}
+  SummarizePrefabs:
+  - {fileID: 9107606024602389324, guid: 8d24fc4cbc7e6514fafda905f37c86aa, type: 3}
+  - {fileID: 4451708281402702380, guid: 0e465238894d5ce4a9ce47aa0e421fa9, type: 3}
+  - {fileID: 9107606024602389324, guid: 8d24fc4cbc7e6514fafda905f37c86aa, type: 3}
+  - {fileID: 9107606024602389324, guid: 8d24fc4cbc7e6514fafda905f37c86aa, type: 3}
+  DistanceSummarize: 40
