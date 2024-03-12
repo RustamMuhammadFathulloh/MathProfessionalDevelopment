@@ -33,10 +33,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 8740020585538827986}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 740, y: 0}
-  m_SizeDelta: {x: -1580, y: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 763, y: -45}
+  m_SizeDelta: {x: 340, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2492453321036953882
 CanvasRenderer:
@@ -154,6 +154,7 @@ MonoBehaviour:
   IsTextFaded: 0
   IsImageFaded: 0
   IsMinimized: 0
+  IsImageFillAmount: 0
 --- !u!1 &4161800218053487868
 GameObject:
   m_ObjectHideFlags: 0
@@ -308,6 +309,7 @@ MonoBehaviour:
   IsTextFaded: 0
   IsImageFaded: 0
   IsMinimized: 0
+  IsImageFillAmount: 0
 --- !u!1 &8245228031590522749
 GameObject:
   m_ObjectHideFlags: 0
@@ -406,6 +408,7 @@ MonoBehaviour:
   IsTextFaded: 0
   IsImageFaded: 0
   IsMinimized: 0
+  IsImageFillAmount: 0
 --- !u!114 &2845585853268667228
 MonoBehaviour:
   m_ObjectHideFlags: 0
