@@ -15,12 +15,12 @@ MonoBehaviour:
   CurrentGrade: 1
   LessonOrder: 2
   LessonTitle: "To\u02BBg\u02BBri  kasrni butun songa ko\u02BBpaytirish"
-  InThisLesson: "To\u02BBg\u02BBri  kasrni butun songa ko\u02BBpaytirishni o\u02BBquvchilarga
-    qanday o\u02BBrgatishni o\u02BBrganamiz."
-  LetsLookAtThe_1: " <color=#909831> To\u02BBg\u02BBri  kasrni butun songa ko\u02BBpaytirishni
+  InThisLesson: "To\u2018g\u2018ri  kasrni butun songa ko\u2018paytirishni  o\u2018quvchilarga
+    o\u2018rgatishga doir yo\u2018riqlarini ko\u2018rib chiqamiz."
+  LetsLookAtThe_1: " <color=#909831> To\u2018g\u2018ri  kasrni butun songa ko\u2018paytirishni
     </color> "
-  LetsLookAtThe_2: "o\u02BBquvchilarga o\u02BBrgatishga doir <color=#909831> asosiy
-    g\u02BBoyalarni </color> ko\u02BBrib chiqaylik..."
+  LetsLookAtThe_2: "o\u2018quvchilarga o\u2018rgatishdagi <color=#909831> asosiy
+    g\u02BBoyalarni </color> ko\u02BBrib  chiqaylik..."
   AudioInThisLesson: {fileID: 8300000, guid: e5d83ecf821309246863ceb365d68a04, type: 3}
   AudioLetsLookAtThe: {fileID: 8300000, guid: 295a49556252a0e4abff74ebb58479f3, type: 3}
   UnderstandingTime: 0
