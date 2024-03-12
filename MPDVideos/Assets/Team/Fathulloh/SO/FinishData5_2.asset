@@ -17,12 +17,12 @@ MonoBehaviour:
   ForYourPracticeClip: {fileID: 8300000, guid: b44d18b69f08ca643a2f0c61eac180aa, type: 3}
   SummarizeText1: "Kasrni butun songa ko\u2018paytirishni o\u2018rgatishda \u201CModdiy-Rasmli-Timsolli\u201D
     yondashuvidan foydalaning."
-  SummarizeText2: "Matnli masalani taqdim qiling va tegishli kasr qismli doirachalardan
-    berilgan butun son marta olishni ko\u2018rsatish bilan tushuntirishni boshlang."
+  SummarizeText2: Matnli masalani taqdim eting va uni berilgan kasr qismli doirachalardan
+    berilgan butun son marta olish bilan boshlang.
   SummarizeText3: Keyin kasr qismli doirachalardan butunlar hosil qilish uchun ularni
     guruhlang.
-  SummarizeText4: "O\u2018quvchilarga buning mohiyatini \u201CModdiy-Rasmli-Timsolli\u201D
-    yondashuvi asosida ko\u2018rsatib berishlariga imkon bering."
+  SummarizeText4: "O\u2018quvchilarga buni, \u201CModdiy-Rasmli-Timsolli\u201D yondashuvga
+    asosida ko\u2018rsatib berishlariga imkon bering."
   SummarizeText5: 
   SummarizeClips:
   - {fileID: 8300000, guid: 29fe45f1b614ff94eabc003d0f3119e5, type: 3}
