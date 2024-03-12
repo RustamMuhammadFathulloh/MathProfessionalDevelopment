@@ -79,7 +79,8 @@ public class LessonTitleTop : MonoBehaviour
         RightObject.WriteText(str);
         RightObject.FadeText(1, 0);
         yield return new WaitForSeconds(0.1f);
-        RightObject.MoveToInitialPos(0.5f);
+        RightObject.MoveToInitialPos(1f);
+        yield return new WaitForSeconds(1f);
     }
 
 }
