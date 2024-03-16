@@ -24,6 +24,6 @@ MonoBehaviour:
   AudioInThisLesson: {fileID: 8300000, guid: e5d83ecf821309246863ceb365d68a04, type: 3}
   AudioLetsLookAtThe: {fileID: 8300000, guid: 295a49556252a0e4abff74ebb58479f3, type: 3}
   UnderstandingTime: 0
-  DemonstrationTime: 92
-  SummaryTime: 188
-  PracticeTime: 232
+  DemonstrationTime: 93
+  SummaryTime: 189
+  PracticeTime: 233

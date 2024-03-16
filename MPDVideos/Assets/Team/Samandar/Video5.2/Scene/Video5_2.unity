@@ -15129,6 +15129,34 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -507.68994
       objectReference: {fileID: 0}
+    - target: {fileID: 4977964399348982733, guid: bf2c3deece427d849beab78ebe80097b, type: 3}
+      propertyPath: By
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4977964399348982733, guid: bf2c3deece427d849beab78ebe80097b, type: 3}
+      propertyPath: Level
+      value: 5-Sinf
+      objectReference: {fileID: 0}
+    - target: {fileID: 4977964399348982733, guid: bf2c3deece427d849beab78ebe80097b, type: 3}
+      propertyPath: Series
+      value: "O\u2018qituvchilarning malakasini oshirish kurslari "
+      objectReference: {fileID: 0}
+    - target: {fileID: 4977964399348982733, guid: bf2c3deece427d849beab78ebe80097b, type: 3}
+      propertyPath: Subject
+      value: Matematika
+      objectReference: {fileID: 0}
+    - target: {fileID: 4977964399348982733, guid: bf2c3deece427d849beab78ebe80097b, type: 3}
+      propertyPath: Duration
+      value: 4:17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4977964399348982733, guid: bf2c3deece427d849beab78ebe80097b, type: 3}
+      propertyPath: Headline
+      value: "To\u2018g\u2018ri  kasrni butun songa ko\u2018paytirish"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4977964399348982733, guid: bf2c3deece427d849beab78ebe80097b, type: 3}
+      propertyPath: Description
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6247149553185009827, guid: bf2c3deece427d849beab78ebe80097b, type: 3}
       propertyPath: StartData
       value: 
