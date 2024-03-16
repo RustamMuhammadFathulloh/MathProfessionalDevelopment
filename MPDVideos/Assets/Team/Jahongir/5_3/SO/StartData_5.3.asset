@@ -23,7 +23,7 @@ MonoBehaviour:
     </color> ko\u02BBrib chiqaylik..."
   AudioInThisLesson: {fileID: 8300000, guid: 9a405d1f7a08a394cbf630cb294e8495, type: 3}
   AudioLetsLookAtThe: {fileID: 8300000, guid: ecfdfef331778634ea76f1e4d00acd23, type: 3}
-  UnderstandingTime: 14
-  DemonstrationTime: 55
-  SummaryTime: 0
-  PracticeTime: 0
+  UnderstandingTime: 0
+  DemonstrationTime: 62
+  SummaryTime: 223
+  PracticeTime: 250
