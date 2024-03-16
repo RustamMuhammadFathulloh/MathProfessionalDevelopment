@@ -1291,8 +1291,8 @@ MonoBehaviour:
   m_text: "\u201C\xD7\u201D, \u201C\xF7\u201D - bir xil ustuvorlik darajasidagi amallardir.
     Chapdan o\u2018ngga qarab bajaramiz"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1328,7 +1328,7 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_lineSpacing: -8
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -1997,8 +1997,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 7
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2531,8 +2531,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 6
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2736,7 +2736,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Tasvir orqali ifodalash
+  m_text: Rasm orqali tasvirlash
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -2893,8 +2893,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Amallar tartibini o\u2018qitish"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1f5e8238203c52645a7af1f0266f6401, type: 2}
-  m_sharedMaterial: {fileID: -7897526610067410109, guid: 1f5e8238203c52645a7af1f0266f6401, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f5c16424b5550dd46963ff4f642ae8ea, type: 2}
+  m_sharedMaterial: {fileID: -7730817534473439927, guid: f5c16424b5550dd46963ff4f642ae8ea, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2918,8 +2918,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 64
-  m_fontSizeBase: 64
+  m_fontSize: 54
+  m_fontSizeBase: 54
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3127,8 +3127,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -584.33, y: 49}
-  m_SizeDelta: {x: 644.98, y: 50}
+  m_AnchoredPosition: {x: -571.1601, y: 47.6}
+  m_SizeDelta: {x: 671.32, y: 52.81}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &176246981
 MonoBehaviour:
@@ -4055,8 +4055,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '?'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4498,8 +4498,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -296, y: -1.2}
-  m_SizeDelta: {x: 1150, y: 50}
+  m_AnchoredPosition: {x: -267.61, y: -1.2}
+  m_SizeDelta: {x: 1206.77, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &270469964
 MonoBehaviour:
@@ -4711,8 +4711,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 520, y: 114}
-  m_SizeDelta: {x: 525, y: 70}
+  m_AnchoredPosition: {x: 427, y: 76}
+  m_SizeDelta: {x: 645, y: 130}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &280423353
 MonoBehaviour:
@@ -5482,7 +5482,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -526.4, y: -374}
-  m_SizeDelta: {x: 400, y: 60}
+  m_SizeDelta: {x: 560, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &319546476
 MonoBehaviour:
@@ -5524,10 +5524,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Chizma-modeli
+  m_text: '"Tasmali" chizma-modeli '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5636,7 +5636,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -858.39996, y: 50.199997}
+  m_AnchoredPosition: {x: -858.39996, y: 54.4}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &326724363
@@ -5681,8 +5681,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 3.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5932,8 +5932,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '?'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6258,8 +6258,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -316.81, y: 49}
-  m_SizeDelta: {x: 1180, y: 50}
+  m_AnchoredPosition: {x: -307.05, y: 49}
+  m_SizeDelta: {x: 1199.51, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &356966491
 MonoBehaviour:
@@ -6505,8 +6505,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 2
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6794,8 +6794,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 10, y: 227}
-  m_SizeDelta: {x: 1650, y: 150}
+  m_AnchoredPosition: {x: 10, y: 225}
+  m_SizeDelta: {x: 1650, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &369903881
 MonoBehaviour:
@@ -6839,10 +6839,10 @@ MonoBehaviour:
       m_Calls: []
   m_text: "3 ta patnisning har birida 8 tadan xom pechenye bor edi. \nPechenyelar
     pishirilgandan so\u2018ng 6 tadan qilib qadoqlandi. \r\nPechenyelar nechta qadoqqa
-    solingan?\n\n"
+    solingan?\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6874,7 +6874,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -10300,8 +10300,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 1.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -10536,8 +10536,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 261, y: 49}
-  m_SizeDelta: {x: 1050, y: 50}
+  m_AnchoredPosition: {x: 275.25, y: 47.598}
+  m_SizeDelta: {x: 1021.5, y: 52.805}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &622009700
 MonoBehaviour:
@@ -10823,8 +10823,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Amallarni bajaring
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1f5e8238203c52645a7af1f0266f6401, type: 2}
-  m_sharedMaterial: {fileID: -7897526610067410109, guid: 1f5e8238203c52645a7af1f0266f6401, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f5c16424b5550dd46963ff4f642ae8ea, type: 2}
+  m_sharedMaterial: {fileID: -7730817534473439927, guid: f5c16424b5550dd46963ff4f642ae8ea, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -10848,8 +10848,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 64
-  m_fontSizeBase: 64
+  m_fontSize: 54
+  m_fontSizeBase: 54
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -11228,8 +11228,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '?'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -11479,8 +11479,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '?'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -11589,7 +11589,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 449.2, y: 71.7}
+  m_AnchoredPosition: {x: 458.5, y: 71.7}
   m_SizeDelta: {x: 140, y: 6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &674096785
@@ -12292,8 +12292,8 @@ MonoBehaviour:
   m_text: Qavslar ichidagi amallar eng yuqori ustuvorlik darajasidagi amallar hisoblanadi.
     Avval () ni bajaramiz.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -12317,8 +12317,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 34
+  m_fontSizeBase: 34
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -12329,7 +12329,7 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_lineSpacing: -4
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -12402,8 +12402,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -474, y: -454}
-  m_SizeDelta: {x: 600, y: 100}
+  m_AnchoredPosition: {x: -474, y: -440}
+  m_SizeDelta: {x: 620, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &693276204
 MonoBehaviour:
@@ -12445,10 +12445,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Jami 47 stul bor edi.
+  m_text: "Jami stullar soni 47 ta bo\u2018ldi. "
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -12855,8 +12855,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 7
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -13035,8 +13035,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45
-  m_fontSizeBase: 45
+  m_fontSize: 54
+  m_fontSizeBase: 54
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -13357,8 +13357,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 8
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -13592,7 +13592,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 538.7, y: -181.4}
+  m_AnchoredPosition: {x: 499.3, y: -181.4}
   m_SizeDelta: {x: 120, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &749069162
@@ -13662,8 +13662,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 42
-  m_fontSizeBase: 42
+  m_fontSize: 48
+  m_fontSizeBase: 48
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -13918,8 +13918,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Amallar tartibini o\u2018qitish"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1f5e8238203c52645a7af1f0266f6401, type: 2}
-  m_sharedMaterial: {fileID: -7897526610067410109, guid: 1f5e8238203c52645a7af1f0266f6401, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f5c16424b5550dd46963ff4f642ae8ea, type: 2}
+  m_sharedMaterial: {fileID: -7730817534473439927, guid: f5c16424b5550dd46963ff4f642ae8ea, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -13943,8 +13943,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 64
-  m_fontSizeBase: 64
+  m_fontSize: 54
+  m_fontSizeBase: 54
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -14495,7 +14495,7 @@ GameObject:
   - component: {fileID: 790700506}
   - component: {fileID: 790700505}
   m_Layer: 5
-  m_Name: QuestionMark(TMP)_1
+  m_Name: TwentySix(TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14562,8 +14562,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 26
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -15524,8 +15524,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 6
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -16154,8 +16154,8 @@ MonoBehaviour:
     markalari kvadrat shaklidagi markalaridan 64 taga ko\u2018p.  Mahmudda kvadrat
     shakldagi markadan nechta bor?"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -16179,8 +16179,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 42
-  m_fontSizeBase: 42
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -17039,8 +17039,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 7
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -17871,7 +17871,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -397.8, y: -454}
+  m_AnchoredPosition: {x: -397.8, y: -440}
   m_SizeDelta: {x: 660, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1020444136
@@ -17916,8 +17916,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Har bir idishda 9 ta tugma bor.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -18609,8 +18609,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 5
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -18816,8 +18816,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '?'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -21032,8 +21032,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '?'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -21631,8 +21631,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Keling, endi o\u2018rgatish usulini namoyish qilishni boshlaylik."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1f5e8238203c52645a7af1f0266f6401, type: 2}
-  m_sharedMaterial: {fileID: -7897526610067410109, guid: 1f5e8238203c52645a7af1f0266f6401, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -22490,8 +22490,8 @@ MonoBehaviour:
     qolgan tugmalarni teng qilib ikkita idishga joylashtirdi. Har bir idishda nechta
     tugma bor?"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -22821,8 +22821,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 8
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -22935,8 +22935,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 10, y: 227}
-  m_SizeDelta: {x: 1650, y: 150}
+  m_AnchoredPosition: {x: 10, y: 225}
+  m_SizeDelta: {x: 1650, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1347783159
 MonoBehaviour:
@@ -22981,8 +22981,8 @@ MonoBehaviour:
   m_text: "Bir qatorda 5 ta stul bor edi. \nMurod ularga yana har birida 7 tadan
     stul bo\u2018lgan 6 qatorni qo\u2018shdi.\nJami nechta stul bo\u2018ldi?"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -23014,7 +23014,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -23136,8 +23136,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '?'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -23633,7 +23633,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 559.7, y: 72.1}
+  m_AnchoredPosition: {x: 568.1, y: 72.1}
   m_SizeDelta: {x: 6, y: 140}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1383709809
@@ -23774,8 +23774,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '?'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -24732,8 +24732,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Amallar tartibini o\u2018qitish"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1f5e8238203c52645a7af1f0266f6401, type: 2}
-  m_sharedMaterial: {fileID: -7897526610067410109, guid: 1f5e8238203c52645a7af1f0266f6401, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f5c16424b5550dd46963ff4f642ae8ea, type: 2}
+  m_sharedMaterial: {fileID: -7730817534473439927, guid: f5c16424b5550dd46963ff4f642ae8ea, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -24757,8 +24757,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 64
-  m_fontSizeBase: 64
+  m_fontSize: 54
+  m_fontSizeBase: 54
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -25205,8 +25205,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 8
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -25664,7 +25664,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 64b87c808d6c68f429f7941879f767e9, type: 3}
   - {fileID: 8300000, guid: c0128bfb1dda13e4f92674035dc6b78b, type: 3}
   - {fileID: 8300000, guid: 0563bb92f05e3f54ab4d6ce0a4755d2d, type: 3}
-  - {fileID: 8300000, guid: fc8d2da3fef2ed146ad31fd0a856ae11, type: 3}
+  - {fileID: 8300000, guid: c30f86f15183c9d47b4b7ff4c87aa696, type: 3}
   - {fileID: 8300000, guid: 4ce34e19b3d1c9e49b3112afd35db3fb, type: 3}
   - {fileID: 8300000, guid: 6d0c66e93b4edb44695b1b46ec3e2b4d, type: 3}
   - {fileID: 8300000, guid: 05ce3954c03e3334ea04de3f1286f5ab, type: 3}
@@ -25681,7 +25681,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 6e80c57cc98a4cd418567a18c517d6d5, type: 3}
   - {fileID: 8300000, guid: b78aad7aa29d61047893a58c496d83f2, type: 3}
   - {fileID: 8300000, guid: dcef9614f2382bf43b1797e09c2a9329, type: 3}
-  - {fileID: 8300000, guid: 8c6cd6fd52a113941939b46d66096649, type: 3}
+  - {fileID: 8300000, guid: cc11157318178c4489814b01792bfc0b, type: 3}
   - {fileID: 8300000, guid: a41531c70e0aeab4c856981cb13f4d6c, type: 3}
   - {fileID: 8300000, guid: 35c6d6a57b4f9644e80e9ae4a51e0e44, type: 3}
   - {fileID: 8300000, guid: 9b1d03abd7f72284fb8d007e5c250388, type: 3}
@@ -25690,11 +25690,11 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 60bc86775521bd64bbe56b9afedc9100, type: 3}
   - {fileID: 8300000, guid: fe6400207f0e62d46abd8ca1e10192a2, type: 3}
   - {fileID: 8300000, guid: aaa92e7706b68a04fbad0a2bec86a087, type: 3}
-  - {fileID: 8300000, guid: f2748ecdedd808b438e65036b5ea3b8d, type: 3}
+  - {fileID: 8300000, guid: 3ecd7ff59774e4e43bee78e611f13d38, type: 3}
   - {fileID: 8300000, guid: 60e348d64217efb4e99a6b82dc059260, type: 3}
   - {fileID: 8300000, guid: 8d9e7bf4b98ae5a43abb99bc3a23cc2a, type: 3}
   - {fileID: 8300000, guid: 2dc1df83f2e00074b8e9765093632e38, type: 3}
-  - {fileID: 8300000, guid: 36e91f6714fc24b4b83b629720d59073, type: 3}
+  - {fileID: 8300000, guid: e2c4e1d6b062e0a49848aaedf7ea76b6, type: 3}
   Transition1: {fileID: 1620943646}
   Transition2: {fileID: 33426549}
   EllipsTask1: {fileID: 6350857310221460643}
@@ -27264,8 +27264,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 4.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -27576,8 +27576,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 281, y: -0.6}
-  m_SizeDelta: {x: 862.5, y: 50}
+  m_AnchoredPosition: {x: 473.1, y: -10}
+  m_SizeDelta: {x: 687.34, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1529455201
 MonoBehaviour:
@@ -28011,8 +28011,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 7
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -28359,8 +28359,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 7
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -28468,8 +28468,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -200.81, y: -1.2}
-  m_SizeDelta: {x: 1272.38, y: 50}
+  m_AnchoredPosition: {x: -166, y: -1.2}
+  m_SizeDelta: {x: 1342, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1550598242
 MonoBehaviour:
@@ -28544,7 +28544,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -474, y: -454}
+  m_AnchoredPosition: {x: -474, y: -440}
   m_SizeDelta: {x: 600, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1552574216
@@ -28589,8 +28589,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Navbatda 13 kishi bo\u2018ldi."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -28795,8 +28795,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 474, y: -122}
-  m_SizeDelta: {x: 320, y: 60}
+  m_AnchoredPosition: {x: 426, y: -122}
+  m_SizeDelta: {x: 360, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1560271464
 MonoBehaviour:
@@ -28865,8 +28865,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 42
-  m_fontSizeBase: 42
+  m_fontSize: 48
+  m_fontSizeBase: 48
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -28993,7 +28993,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u201CTasviriy-An\u2019anaviy\u201D yondashuv"
+  m_text: '"Rasmli-Timsolli" yondashuv'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 44551d912cc2c164d89daf573216f24c, type: 2}
   m_sharedMaterial: {fileID: -1737577178731310121, guid: 44551d912cc2c164d89daf573216f24c, type: 2}
@@ -29151,8 +29151,8 @@ MonoBehaviour:
   m_text: "Nima uchun amalarni bajarish tartibi mantiqan to\u2018g\u2018ri bo\u2018lmasligini
     muhokama qilishsin."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -29176,8 +29176,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 38
-  m_fontSizeBase: 38
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -29188,7 +29188,7 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_lineSpacing: -4
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -29306,8 +29306,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 8
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -29461,8 +29461,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 7
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -30125,11 +30125,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Bu mashg\u2018ulotda <color=#909831> \u201CTasviriy-An\u2019anaviy\u201D</color>
-    yondashuvga asoslangan pedagogik usuldan foydalanamiz."
+  m_text: "Bu mashg\u2018ulotda <color=#909831> \"Rasmli-Timsolli\"</color> yondashuvga
+    asoslangan usuldan foydalanamiz."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1f5e8238203c52645a7af1f0266f6401, type: 2}
-  m_sharedMaterial: {fileID: -7897526610067410109, guid: 1f5e8238203c52645a7af1f0266f6401, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -30238,8 +30238,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -35}
-  m_SizeDelta: {x: 525, y: 70}
+  m_AnchoredPosition: {x: 0, y: -65}
+  m_SizeDelta: {x: 645, y: 130}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1645674964
 MonoBehaviour:
@@ -30281,7 +30281,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Tasvir orqali ifodalash
+  m_text: Matematik belgi va timsollar orqali ifodalash
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -30315,7 +30315,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: -2
@@ -31027,8 +31027,8 @@ MonoBehaviour:
     amallaridan ustuvorligi yuqori bo\u2018lgan amallardir. \u201C+\u201D yoki \u201C-
     \u201C dan oldin \u201C\xD7\u201D va \u201C\xF7\u201Dni bajaring."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -31052,8 +31052,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 34
+  m_fontSizeBase: 34
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -31064,7 +31064,7 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_lineSpacing: -4
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -31183,8 +31183,8 @@ MonoBehaviour:
   m_text: "\u201C+\u201D va \u201C-\u201D - bir xil ustuvorlik darajasidagi amallardir.
     \nChapdan o\u2018ngga qarab bajaramiz."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -31220,7 +31220,7 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_lineSpacing: -8
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -31868,8 +31868,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -485.2, y: -0.6}
-  m_SizeDelta: {x: 680, y: 51}
+  m_AnchoredPosition: {x: -347.88, y: -10.5}
+  m_SizeDelta: {x: 954.64, y: 54}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1788757802
 MonoBehaviour:
@@ -32677,8 +32677,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 5
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -33259,8 +33259,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -442, y: -51}
-  m_SizeDelta: {x: 790, y: 50}
+  m_AnchoredPosition: {x: -442, y: -52.999992}
+  m_SizeDelta: {x: 790, y: 54}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1866060746
 MonoBehaviour:
@@ -33829,7 +33829,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -474, y: -454}
+  m_AnchoredPosition: {x: -474, y: -440}
   m_SizeDelta: {x: 600, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1917470382
@@ -33872,10 +33872,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 4 ta qadoq pecheniy bor edi.
+  m_text: 4 qadoq pecheniy bor edi.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -35747,8 +35747,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 10
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -36090,7 +36090,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -474, y: -454}
+  m_AnchoredPosition: {x: -474, y: -440}
   m_SizeDelta: {x: 600, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2053285502
@@ -36133,10 +36133,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Jami 77 stul bor edi.
+  m_text: "Jami 77 ta stul bo\u2018ldi. "
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -37486,7 +37486,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -858.4, y: 50.19995}
+  m_AnchoredPosition: {x: -858.4001, y: 54.8}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2116113881
@@ -37531,8 +37531,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 2.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -37813,8 +37813,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '?'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -38229,12 +38229,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Azizada 40 ta qizil munchoqlar bor edi. Unda qizil munchoqlardan 3 baravar
+  m_text: "Azizada 40 ta qizil munchoq bor edi. Unda qizil munchoqlardan 3 baravar
     ko\u2018p yashil munchoqlar bor edi. U munchoqlardan 137 tasini do\u2018stlariga
-    berdi. Azizada qancha munchoq qoldi?"
+    berdi. Azizada qancha munchoq qoldi? "
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -38258,8 +38258,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 42
-  m_fontSizeBase: 42
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -38696,7 +38696,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4977964399348982733, guid: bf2c3deece427d849beab78ebe80097b, type: 3}
       propertyPath: Duration
-      value: 7:20
+      value: 8:50
       objectReference: {fileID: 0}
     - target: {fileID: 4977964399348982733, guid: bf2c3deece427d849beab78ebe80097b, type: 3}
       propertyPath: Headline
@@ -39187,8 +39187,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 41.952515, y: 0}
-  m_SizeDelta: {x: -173.905, y: 0}
+  m_AnchoredPosition: {x: 48.03003, y: 0}
+  m_SizeDelta: {x: -161.74, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &8209050939605265055
 MonoBehaviour:
@@ -39212,8 +39212,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '?'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
