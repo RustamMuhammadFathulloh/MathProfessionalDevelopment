@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentGrade: 1
   LetsSummarizeClip: {fileID: 8300000, guid: aaa92e7706b68a04fbad0a2bec86a087, type: 3}
-  ForYourPracticeClip: {fileID: 8300000, guid: 36e91f6714fc24b4b83b629720d59073, type: 3}
+  ForYourPracticeClip: {fileID: 8300000, guid: e2c4e1d6b062e0a49848aaedf7ea76b6, type: 3}
   ForYourPractiseText: "quyidagi ikki matnli masalani yeching va amallarni bajarish
-    tartibini qanday o\u2018rgatishingizni \u201CTasviriy-An\u2019anaviy\u201D yondashuv
-    asosida ko\u2018rsatib bering."
-  SummarizeText1: "Amallar tartibini o\u2018qitish uchun Tasviri-An\u2018anaviy yondashuvdan
-    foydalaning."
+    tartibini qanday o\u2018rgatishingizni \"Rasmli-Timsolli\" yondashuv \r\nasosida
+    ko\u2018rsatib bering."
+  SummarizeText1: "Amallarni bajarish tartibini o\u2018qitish uchun \"Rasmli-Timsolli\"
+    yondashuvdan foydalaning."
   SummarizeText2: "Bu bir xil ustuvorlik darajasidagi amallar bilan avval ishlashni
     va keyin turli darajadagi amallar bilan ishlashni ko\u2018rsatish uchun mos g\u2018oyani
     beradi."
@@ -28,7 +28,7 @@ MonoBehaviour:
     doir misollarga o\u2018ting."
   SummarizeText5: 
   SummarizeClips:
-  - {fileID: 8300000, guid: f2748ecdedd808b438e65036b5ea3b8d, type: 3}
+  - {fileID: 8300000, guid: 3ecd7ff59774e4e43bee78e611f13d38, type: 3}
   - {fileID: 8300000, guid: 60e348d64217efb4e99a6b82dc059260, type: 3}
   - {fileID: 8300000, guid: 8d9e7bf4b98ae5a43abb99bc3a23cc2a, type: 3}
   - {fileID: 8300000, guid: 2dc1df83f2e00074b8e9765093632e38, type: 3}
