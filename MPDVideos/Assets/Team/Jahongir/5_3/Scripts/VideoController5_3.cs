@@ -12,7 +12,7 @@ public class VideoController5_3 : MonoBehaviour
     [Header("Prefabs")]
     public GameObject Introduction;
     public GameObject StartFeature;
-    public GameObject Transition;
+    public GameObject FinishFeatures;
 
     [Header("First Page")]
     public GameObject FirstPage;
@@ -52,6 +52,8 @@ public class VideoController5_3 : MonoBehaviour
 
     [Header("Fourth Page")]
     public GameObject FourPage;
+    public GameObject Task1;
+    public GameObject Task2;
 
 
     [Header("Common things")]
@@ -315,7 +317,7 @@ public class VideoController5_3 : MonoBehaviour
         yield return new WaitForSeconds(1f);
         Personaj3.transform.GetChild(3).transform.GetChild(2).GetComponent<TMP_Text>().DOFade(1, 1f);
 
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(2.5f);
         _audioSource.PlayOneShot(AudioClips5_3[12]);  // 13
         yield return new WaitForSeconds(2f);
 
@@ -424,10 +426,21 @@ public class VideoController5_3 : MonoBehaviour
         }
         yield return new WaitForSeconds(2f);
         _audioSource.PlayOneShot(AudioClips5_3[17]);  // 18
-        yield return new WaitForSeconds(2f);
-        FourPage.transform.GetChild(5).transform.DOScale(1.2f, 0.8f);
+        yield return new WaitForSeconds(4f);
+        FourPage.transform.GetChild(5).transform.DOScale(1f, 0.8f);
         yield return new WaitForSeconds(0.8f);
         FourPage.transform.GetChild(5).transform.DOScale(1f, 0.8f);
+
+
+        yield return new WaitForSeconds(5f);
+        FinishFeatures.GetComponent<FinishFeatures>().FinishAnimation();
+
+    }
+
+    public void LastAnim()
+    {
+        Task1.transform.DOScale(1.4f, 1);
+        Task2.transform.DOScale(1.4f, 1);
     }
     public void PlayAudio()
     {

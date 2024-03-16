@@ -7417,7 +7417,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 10, y: 225}
-  m_SizeDelta: {x: 1650, y: 150}
+  m_SizeDelta: {x: 1650, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &422533867
 MonoBehaviour:
@@ -7463,8 +7463,8 @@ MonoBehaviour:
     2 kishi muzqaymoq sotib olib ketishdi. Yana besh kishi navbatga qo\u2018shildi.
     \nNavbatda nechta kishi bo\u2018ldi? "
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7496,7 +7496,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -8994,7 +8994,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 445, y: 49}
+  m_AnchoredPosition: {x: 508.7, y: 49}
   m_SizeDelta: {x: 400, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &531827843
@@ -13010,8 +13010,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Amallar tartibini o\u2018qitish"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1f5e8238203c52645a7af1f0266f6401, type: 2}
-  m_sharedMaterial: {fileID: -7897526610067410109, guid: 1f5e8238203c52645a7af1f0266f6401, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f5c16424b5550dd46963ff4f642ae8ea, type: 2}
+  m_sharedMaterial: {fileID: -7730817534473439927, guid: f5c16424b5550dd46963ff4f642ae8ea, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -13035,8 +13035,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 64
-  m_fontSizeBase: 64
+  m_fontSize: 45
+  m_fontSizeBase: 45
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -24456,8 +24456,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 111, y: -1.2}
-  m_SizeDelta: {x: 690, y: 50}
+  m_AnchoredPosition: {x: 155.31, y: -1.2}
+  m_SizeDelta: {x: 710.14, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1410204285
 MonoBehaviour:
@@ -26213,8 +26213,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -316.81, y: 49}
-  m_SizeDelta: {x: 1123.63, y: 50}
+  m_AnchoredPosition: {x: -286.51, y: 49}
+  m_SizeDelta: {x: 1184.23, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1449507450
 MonoBehaviour:
@@ -30125,8 +30125,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Bu mashg\u2018ulotda <color=#909831> \u201CTasviriy-An\u2019anaviy\u201D</color>yondashuvga
-    asoslangan pedagogik usuldan foydalanamiz."
+  m_text: "Bu mashg\u2018ulotda <color=#909831> \u201CTasviriy-An\u2019anaviy\u201D</color>
+    yondashuvga asoslangan pedagogik usuldan foydalanamiz."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1f5e8238203c52645a7af1f0266f6401, type: 2}
   m_sharedMaterial: {fileID: -7897526610067410109, guid: 1f5e8238203c52645a7af1f0266f6401, type: 2}
@@ -36369,8 +36369,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -530.4, y: -1.2}
-  m_SizeDelta: {x: 590, y: 50}
+  m_AnchoredPosition: {x: -515.56, y: -1.2}
+  m_SizeDelta: {x: 619.67, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2069875207
 MonoBehaviour:
@@ -38684,7 +38684,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4977964399348982733, guid: bf2c3deece427d849beab78ebe80097b, type: 3}
       propertyPath: Level
-      value: 5-sinf
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4977964399348982733, guid: bf2c3deece427d849beab78ebe80097b, type: 3}
       propertyPath: Series
@@ -38704,7 +38704,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4977964399348982733, guid: bf2c3deece427d849beab78ebe80097b, type: 3}
       propertyPath: Description
-      value: 
+      value: "Bu mashg\u2018ulotda o\u2018quvchilarga amallarni bajarish tartibini 
+        \"Rasmli-Timsolli\" yondashuv asosida o\u2018rgatish namoyish qilingan. Mavzuni
+        yoritish - muayyan tizimga solingan matnli masalalar  yordamida, eng past
+        ustuvorlikda bo\u2018lgan amallar bilan ishlashdan, aralash amallar bilan
+        ishlashgacha rivojlantirib boriladi."
       objectReference: {fileID: 0}
     - target: {fileID: 6247149553185009827, guid: bf2c3deece427d849beab78ebe80097b, type: 3}
       propertyPath: StartData
