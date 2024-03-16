@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2465cd9249043c4bb91daded31a22df, type: 3}
+  m_Name: FinishData5_3
+  m_EditorClassIdentifier: 
+  CurrentGrade: 0
+  LetsSummarizeClip: {fileID: 8300000, guid: ee21e1b1179ff1a43be0928b6994d9ea, type: 3}
+  ForYourPracticeClip: {fileID: 8300000, guid: dc2ffd3c5f2783849835b5f1cc7d0bad, type: 3}
+  ForYourPractiseText: "Mavzuni mustahkamlash uchun quyidagi ikki to\u2018g\u2018ri
+    kasrni \u201CTasviriy-An\u2018anaviy\u201D yondashuv asosida qanday o\u2018rgatishingizni
+    yozma bayon qiling."
+  SummarizeText1: "Ikkita to\u2018g\u2018ri kasrni ko\u2018paytirishni Tasviriy-An\u2018anaviy
+    yondashuvdan foydalanib o\u2018rgating."
+  SummarizeText2: "Avval to\u2018g\u2018ri to\u2018rtburchakda ikkinchi kasrni chiziq
+    bilan bo\u2018yang, so\u2018ngra bo\u2018yalgan qismlarini ifodalovchi kasrni
+    toping."
+  SummarizeText3: "Bo\u2018yalgan qismi kasrlar ko\u2018paytmasini ko\u2018rsatadi."
+  SummarizeText4: "Ba\u2018zi misollarni ko\u2018rsatgandan so\u2018ng, o\u2018quvchilarga
+    qoida tuzishga yordam bering."
+  SummarizeText5: "O\u2018quvchilardan ko\u2018paytma berilgan ikki kasrdan kichikroq
+    ekanligiga e\u2018tibor berishlarini so\u2018rang."
+  SummarizeClips:
+  - {fileID: 8300000, guid: c2a7850f3df0c3c44988fa6c00aedc09, type: 3}
+  - {fileID: 8300000, guid: 511a1f920aa107148afa2a466b725a94, type: 3}
+  - {fileID: 8300000, guid: 3e3fa4e73fd397942892c43b1c057f5b, type: 3}
+  - {fileID: 8300000, guid: bf1b92951f43ba542a419cde6b2cc8f9, type: 3}
+  - {fileID: 8300000, guid: 449ed3d413a2e5e4381166265f888a84, type: 3}
+  SummarizePrefabs:
+  - {fileID: 9107606024602389324, guid: 8d24fc4cbc7e6514fafda905f37c86aa, type: 3}
+  - {fileID: 4451708281402702380, guid: 0e465238894d5ce4a9ce47aa0e421fa9, type: 3}
+  - {fileID: 9107606024602389324, guid: 8d24fc4cbc7e6514fafda905f37c86aa, type: 3}
+  - {fileID: 9107606024602389324, guid: 8d24fc4cbc7e6514fafda905f37c86aa, type: 3}
+  - {fileID: 9107606024602389324, guid: 8d24fc4cbc7e6514fafda905f37c86aa, type: 3}
+  DistanceSummarize: 30
