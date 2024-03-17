@@ -2893,8 +2893,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Amallar tartibini o\u2018qitish"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f5c16424b5550dd46963ff4f642ae8ea, type: 2}
-  m_sharedMaterial: {fileID: -7730817534473439927, guid: f5c16424b5550dd46963ff4f642ae8ea, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d31cbe3b32faa1548b5d199237e3694d, type: 2}
+  m_sharedMaterial: {fileID: -3280472198573472277, guid: d31cbe3b32faa1548b5d199237e3694d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -10823,8 +10823,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Amallarni bajaring
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f5c16424b5550dd46963ff4f642ae8ea, type: 2}
-  m_sharedMaterial: {fileID: -7730817534473439927, guid: f5c16424b5550dd46963ff4f642ae8ea, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d31cbe3b32faa1548b5d199237e3694d, type: 2}
+  m_sharedMaterial: {fileID: -3280472198573472277, guid: d31cbe3b32faa1548b5d199237e3694d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -13010,8 +13010,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Amallar tartibini o\u2018qitish"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f5c16424b5550dd46963ff4f642ae8ea, type: 2}
-  m_sharedMaterial: {fileID: -7730817534473439927, guid: f5c16424b5550dd46963ff4f642ae8ea, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d31cbe3b32faa1548b5d199237e3694d, type: 2}
+  m_sharedMaterial: {fileID: -3280472198573472277, guid: d31cbe3b32faa1548b5d199237e3694d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -13918,8 +13918,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Amallar tartibini o\u2018qitish"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f5c16424b5550dd46963ff4f642ae8ea, type: 2}
-  m_sharedMaterial: {fileID: -7730817534473439927, guid: f5c16424b5550dd46963ff4f642ae8ea, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d31cbe3b32faa1548b5d199237e3694d, type: 2}
+  m_sharedMaterial: {fileID: -3280472198573472277, guid: d31cbe3b32faa1548b5d199237e3694d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -22061,7 +22061,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 464, y: -180}
+  m_AnchoredPosition: {x: 455, y: -180}
   m_SizeDelta: {x: 700, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1267474143
@@ -22106,8 +22106,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Uslubiy yondashuv
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 44551d912cc2c164d89daf573216f24c, type: 2}
-  m_sharedMaterial: {fileID: -1737577178731310121, guid: 44551d912cc2c164d89daf573216f24c, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d31cbe3b32faa1548b5d199237e3694d, type: 2}
+  m_sharedMaterial: {fileID: -3280472198573472277, guid: d31cbe3b32faa1548b5d199237e3694d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -24732,8 +24732,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Amallar tartibini o\u2018qitish"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f5c16424b5550dd46963ff4f642ae8ea, type: 2}
-  m_sharedMaterial: {fileID: -7730817534473439927, guid: f5c16424b5550dd46963ff4f642ae8ea, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d31cbe3b32faa1548b5d199237e3694d, type: 2}
+  m_sharedMaterial: {fileID: -3280472198573472277, guid: d31cbe3b32faa1548b5d199237e3694d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
