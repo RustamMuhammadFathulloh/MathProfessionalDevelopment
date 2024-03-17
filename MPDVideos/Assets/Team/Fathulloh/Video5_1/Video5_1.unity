@@ -6678,7 +6678,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "(b)  90 - 30 \xD7 8 \xF7 4 "
+  m_text: "(c)  90 - 30 \xD7 8 \xF7 4 "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -10030,7 +10030,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -504, y: 283}
+  m_AnchoredPosition: {x: -504, y: 270}
   m_SizeDelta: {x: 720, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &599518865
@@ -21631,8 +21631,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Keling, endi o\u2018rgatish usulini namoyish qilishni boshlaylik."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
-  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: be14484bb1e6db04987dc3ef6a55ece6, type: 2}
+  m_sharedMaterial: {fileID: -4836279883204036491, guid: be14484bb1e6db04987dc3ef6a55ece6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -30128,8 +30128,8 @@ MonoBehaviour:
   m_text: "Bu mashg\u2018ulotda <color=#909831> \"Rasmli-Timsolli\"</color> yondashuvga
     asoslangan usuldan foydalanamiz."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
-  m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: be14484bb1e6db04987dc3ef6a55ece6, type: 2}
+  m_sharedMaterial: {fileID: -4836279883204036491, guid: be14484bb1e6db04987dc3ef6a55ece6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -38688,7 +38688,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4977964399348982733, guid: bf2c3deece427d849beab78ebe80097b, type: 3}
       propertyPath: Series
-      value: "O\u2018qituvchilarning malakasini oshirish kurslari "
+      value: "5-sinf matematika fani o\u2018qituvchilarini kasbiy rivojlantirish "
       objectReference: {fileID: 0}
     - target: {fileID: 4977964399348982733, guid: bf2c3deece427d849beab78ebe80097b, type: 3}
       propertyPath: Subject
@@ -38696,11 +38696,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4977964399348982733, guid: bf2c3deece427d849beab78ebe80097b, type: 3}
       propertyPath: Duration
-      value: 8:50
+      value: 8:50 minut
       objectReference: {fileID: 0}
     - target: {fileID: 4977964399348982733, guid: bf2c3deece427d849beab78ebe80097b, type: 3}
       propertyPath: Headline
-      value: Amallarni bajarish tartibi
+      value: 1-mavzu. Amallarni bajarish tartibi
       objectReference: {fileID: 0}
     - target: {fileID: 4977964399348982733, guid: bf2c3deece427d849beab78ebe80097b, type: 3}
       propertyPath: Description
