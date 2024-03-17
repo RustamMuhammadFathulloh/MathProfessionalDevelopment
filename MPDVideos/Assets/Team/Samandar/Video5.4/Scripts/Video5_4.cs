@@ -18,7 +18,7 @@ namespace Samandar
         //public List<float> PageTime;
         public List<GameObject> Page_2;
         public List<GameObject> Page_3;
-        public List<GameObject> Page_4;
+        public List<GameObject> Page4_1;
         public List<GameObject> Page_5;
         public List<AudioSource> Audio;
         public UnityEvent PageEvent_1;
@@ -41,8 +41,8 @@ namespace Samandar
         }
         public void ChallengePage_4()
         {
-            StartCoroutine(PageController_4());
-            StartCoroutine(AudioControllerPage_4());
+            StartCoroutine(PageController4_1());
+            StartCoroutine(AudioControllerPage4_1());
         }
         public void ChallengePage_5()
         {
@@ -68,7 +68,7 @@ namespace Samandar
             Audio[5].Play();
             yield return new WaitForSeconds(15.4f);
         }
-        IEnumerator AudioControllerPage_4()
+        IEnumerator AudioControllerPage4_1()
         {
             Audio[6].Play();
             yield return new WaitForSeconds(4);
@@ -77,7 +77,15 @@ namespace Samandar
             Audio[8].Play();
             yield return new WaitForSeconds(6.5f);
             Audio[9].Play();
-            yield return new WaitForSeconds(60);
+            yield return new WaitForSeconds(12.3f);
+            Audio[10].Play();
+            yield return new WaitForSeconds(11.5f);
+            Audio[11].Play();
+            yield return new WaitForSeconds(3.5f);
+            Audio[12].Play();
+            yield return new WaitForSeconds(7.2f);
+            Audio[13].Play();
+            yield return new WaitForSeconds(9.5f);
             //Pages[2].SetActive(false);
             //Finish.SetActive(true);
             //PageEvent_3.Invoke();
@@ -202,142 +210,98 @@ namespace Samandar
             //transition_2.SetActive(false);
             PageEvent_2.Invoke();
         }
-        IEnumerator PageController_4()
+        IEnumerator PageController4_1()
         {
             Pages[2].SetActive(true);
-            Page_4[0].SetActive(true);
-            Page_4[1].SetActive(true);
-            Page_4[0].GetComponent<RectTransform>().DOAnchorPosY(0, 0.5f);
+            Page4_1[0].SetActive(true);
+            Page4_1[1].SetActive(true);
+            Page4_1[0].GetComponent<RectTransform>().DOAnchorPosY(0, 0.5f);
             yield return new WaitForSeconds(0.5f);
-            Page_4[1].SetActive(false);
+            Page4_1[1].SetActive(false);
             yield return new WaitForSeconds(3.5f);
-            Page_4[2].SetActive(true);
-            Page_4[0].GetComponent<TMP_Text>().DOFade(1, 0.5f);
-            Page_4[2].GetComponent<TMP_Text>().DOFade(1, 0.5f);
+            Page4_1[2].SetActive(true);
+            Page4_1[0].GetComponent<TMP_Text>().DOFade(1, 0.5f);
+            Page4_1[2].GetComponent<TMP_Text>().DOFade(1, 0.5f);
             yield return new WaitForSeconds(0.5f);
-            Page_4[0].SetActive(false);
+            Page4_1[0].SetActive(false);
             yield return new WaitForSeconds(4.5f);
-            Page_4[4].SetActive(true);
-            Page_4[3].SetActive(true);
-            Page_4[3].GetComponent<RectTransform>().DOAnchorPosY(243, 1);
+            Page4_1[4].SetActive(true);
+            Page4_1[3].SetActive(true);
+            Page4_1[3].GetComponent<RectTransform>().DOAnchorPosY(240, 1);
             yield return new WaitForSeconds(3);
-            Page_4[4].SetActive(false);
-            Page_4[6].SetActive(true);
-            Page_4[5].SetActive(true);
-            Page_4[5].GetComponent<RectTransform>().DOAnchorPosY(160, 1);
-            yield return new WaitForSeconds(6);
-            Page_4[6].SetActive(false);
-            Page_4[7].SetActive(true);
-            Page_4[7].GetComponent<RectTransform>().DOScale(1, 0.5f);           
+            Page4_1[4].SetActive(false);
+            Page4_1[6].SetActive(true);
+            Page4_1[5].SetActive(true);
+            Page4_1[5].GetComponent<RectTransform>().DOAnchorPosY(182, 1);
+            yield return new WaitForSeconds(4);
+            Page4_1[6].SetActive(false);
+            Page4_1[7].SetActive(true);
+            Page4_1[7].GetComponent<RectTransform>().DOScale(1, 0.5f);           
             yield return new WaitForSeconds(1);
-            Page_4[8].SetActive(true);
-            Page_4[8].GetComponent<RectTransform>().DOScale(1, 0.5f);
+            Page4_1[8].SetActive(true);
+            Page4_1[8].GetComponent<RectTransform>().DOScale(1, 0.5f);
             yield return new WaitForSeconds(0.3f);
-            Page_4[9].SetActive(true);
-            Page_4[9].GetComponent<RectTransform>().DOScale(1, 0.5f);
-            //yield return new WaitForSeconds(3);
-            //Page_4[11].SetActive(true);
-            //Page_4[5].SetActive(true);
-            //Page_4[5].GetComponent<RectTransform>().DOAnchorPosY(60, 0.3f);
-            //yield return new WaitForSeconds(0.15f);
-            //Page_4[6].SetActive(true);
-            //Page_4[6].GetComponent<RectTransform>().DOAnchorPosY(60, 0.3f);
-            //yield return new WaitForSeconds(0.15f);
-            //Page_4[7].SetActive(true);
-            //Page_4[7].GetComponent<RectTransform>().DOAnchorPosY(60, 0.3f);
-            //yield return new WaitForSeconds(0.15f);
-            //Page_4[8].SetActive(true);
-            //Page_4[8].GetComponent<RectTransform>().DOAnchorPosY(60, 0.3f);
-            //yield return new WaitForSeconds(0.15f);
-            //Page_4[9].SetActive(true);
-            //Page_4[9].GetComponent<RectTransform>().DOAnchorPosY(60, 0.3f);
-            //yield return new WaitForSeconds(0.15f);
-            //Page_4[10].SetActive(true);
-            //Page_4[10].GetComponent<RectTransform>().DOAnchorPosY(60, 0.3f);
-            //yield return new WaitForSeconds(0.15f);
-            //Page_4[11].SetActive(false);
-            //yield return new WaitForSeconds(4);
-            //Page_4[18].SetActive(true);
-            //Page_4[12].SetActive(true);
-            //Page_4[12].GetComponent<RectTransform>().DOAnchorPosY(-19, 0.3f);
-            //yield return new WaitForSeconds(0.15f);
-            //Page_4[13].SetActive(true);
-            //Page_4[13].GetComponent<RectTransform>().DOAnchorPosY(-19, 0.3f);
-            //yield return new WaitForSeconds(0.15f);
-            //Page_4[14].SetActive(true);
-            //Page_4[14].GetComponent<RectTransform>().DOAnchorPosY(-19, 0.3f);
-            //yield return new WaitForSeconds(0.15f);
-            //Page_4[15].SetActive(true);
-            //Page_4[15].GetComponent<RectTransform>().DOAnchorPosY(-19, 0.3f);
-            //yield return new WaitForSeconds(0.15f);
-            //Page_4[16].SetActive(true);
-            //Page_4[16].GetComponent<RectTransform>().DOAnchorPosY(-19, 0.3f);
-            //yield return new WaitForSeconds(0.15f);
-            //Page_4[17].SetActive(true);
-            //Page_4[17].GetComponent<RectTransform>().DOAnchorPosY(-19, 0.3f);
-            //yield return new WaitForSeconds(0.15f);
-            //Page_4[18].SetActive(false);
-            //yield return new WaitForSeconds(6);
-            //Page_4[19].SetActive(true);
-            //yield return new WaitForSeconds(3);
-            //Page_4[20].SetActive(true);
-            //yield return new WaitForSeconds(3);
-            //Page_4[21].SetActive(true);
-            //yield return new WaitForSeconds(4);
-            //Page_4[22].SetActive(true);
-            //Page_4[22].GetComponent<RectTransform>().DOScale(1, 0.5f);
-            //yield return new WaitForSeconds(1);
-            //Page_4[22].GetComponent<RectTransform>().DOAnchorPosX(-430, 0.7f);
-            //yield return new WaitForSeconds(0.7f);
-            //Page_4[22].GetComponent<RectTransform>().DOAnchorPosX(-140, 0.7f);
-            //yield return new WaitForSeconds(0.7f);
-            //Page_4[22].GetComponent<RectTransform>().DOAnchorPosX(125, 0.8f);
-            //yield return new WaitForSeconds(0.8f);
-            //Page_4[22].GetComponent<RectTransform>().DOAnchorPosX(390, 0.8f);
-            //yield return new WaitForSeconds(0.8f);
-            //Page_4[22].GetComponent<RectTransform>().DOAnchorPosX(650, 0.8f);
-            //yield return new WaitForSeconds(0.8f);
-
-            //Page_4[22].GetComponent<RectTransform>().DOScale(0, 0.5f);
-            //yield return new WaitForSeconds(10);
-            //Page_4[12].GetComponent<RectTransform>().DORotate(new Vector3(0, 180, 0), 1);
-            //Page_4[13].GetComponent<RectTransform>().DOAnchorPosX(-540, 1);
-            //yield return new WaitForSeconds(1);
-            //Page_4[14].GetComponent<RectTransform>().DOAnchorPosX(-540, 1);
-            //Page_4[14].GetComponent<RectTransform>().DOAnchorPosY(-161.5f, 1);
-            //Page_4[14].GetComponent<RectTransform>().DORotate(new Vector3(0, 0, 180), 1);
-            ////yield return new WaitForSeconds(1);
-            //Page_4[14].GetComponent<RectTransform>().DORotate(new Vector3(0, 0, 270), 1);
-            //yield return new WaitForSeconds(1);
-            //Page_4[15].GetComponent<RectTransform>().DOAnchorPosX(-683, 1);
-            //Page_4[15].GetComponent<RectTransform>().DOAnchorPosY(-161.5f, 1);
-            //Page_4[15].GetComponent<RectTransform>().DORotate(new Vector3(0, 0, 180), 1);
-            //yield return new WaitForSeconds(1);
-            //Page_4[16].GetComponent<RectTransform>().DOAnchorPosX(-180, 1);
-            //Page_4[17].GetComponent<RectTransform>().DOAnchorPosX(-324, 1);
-            //Page_4[17].GetComponent<RectTransform>().DORotate(new Vector3(0, 180, 0), 1);
-            //yield return new WaitForSeconds(10);
-            //Page_4[23].SetActive(true);
-            //yield return new WaitForSeconds(1);
-            //Page_4[24].SetActive(true);
-            //yield return new WaitForSeconds(5);
-            //for (int i = 5; i < 18; i++)
-            //{
-            //    Page_4[i].GetComponent<Image>().DOFade(0, 1);
-            //}
-
-            //for (int i = 39; i < 44; i++)
-            //{
-            //    Page_4[i].GetComponent<RectTransform>().DOScale(0, 1);
-            //}
-            //for (int i = 27; i < 39; i++)
-            //{
-            //    Page_4[i].GetComponent<RectTransform>().DOScale(0, 1);
-            //}
-            ////Page_4[25].GetComponent<RectTransform>().DOScale(0, 0.5f);
-            //yield return new WaitForSeconds(0.5f);
-            //Page_4[26].GetComponent<Help5_2>().FractionAnimate();
-
+            Page4_1[9].SetActive(true);
+            Page4_1[9].GetComponent<RectTransform>().DOScale(1, 0.5f);
+            yield return new WaitForSeconds(4);
+            Page4_1[10].SetActive(true);
+            Page4_1[10].GetComponent<RectTransform>().DOScale(1, 0.5f);
+            yield return new WaitForSeconds(0.5f);
+            Page4_1[11].SetActive(true);
+            Page4_1[11].GetComponent<RectTransform>().DOScale(1, 0.5f);
+            yield return new WaitForSeconds(7);
+            Page4_1[7].SetActive(false);
+            Page4_1[11].GetComponent<RectTransform>().DOScale(0.5f, 0.5f);
+            Page4_1[11].GetComponent<RectTransform>().DOAnchorPos(new Vector2(410, -7), 0.5f);
+            yield return new WaitForSeconds(0.5f);
+            Page4_1[10].GetComponent<RectTransform>().DOScale(0.5f, 0.5f);
+            Page4_1[10].GetComponent<RectTransform>().DOAnchorPos(new Vector2(510, -333), 0.5f);
+            yield return new WaitForSeconds(7);
+            Page4_1[12].SetActive(true);
+            Page4_1[12].GetComponent<RectTransform>().DOScale(1, 1);
+            yield return new WaitForSeconds(1);
+            Page4_1[13].SetActive(true);
+            Page4_1[13].GetComponent<RectTransform>().DOScale(1, 1);
+            yield return new WaitForSeconds(7);
+            Page4_1[14].SetActive(true);
+            Page4_1[14].GetComponent<RectTransform>().DOScale(1, 1);
+            yield return new WaitForSeconds(6);
+            Page4_1[15].SetActive(true);
+            Page4_1[15].GetComponent<RectTransform>().DOScale(1, 1);
+            yield return new WaitForSeconds(1);
+            Page4_1[16].SetActive(true);
+            Page4_1[16].GetComponent<RectTransform>().DOScale(1, 1);
+            yield return new WaitForSeconds(1);
+            Page4_1[17].SetActive(true);
+            Page4_1[17].GetComponent<RectTransform>().DOScale(1, 1);
+            Page4_1[18].SetActive(true);
+            Page4_1[18].GetComponent<RectTransform>().DOScale(1, 1);
+            yield return new WaitForSeconds(3);
+            Page4_1[19].SetActive(true);
+            Page4_1[19].GetComponent<RectTransform>().DOScale(1, 1);
+            yield return new WaitForSeconds(1);
+            Page4_1[20].SetActive(true);
+            Page4_1[20].GetComponent<RectTransform>().DOScale(1, 1);
+            yield return new WaitForSeconds(1);
+            Page4_1[21].SetActive(true);
+            Page4_1[21].GetComponent<Image>().DOFillAmount(1, 1);
+            yield return new WaitForSeconds(1);
+            Page4_1[3].GetComponent<TMP_Text>().DOFade(0, 0.5f);
+            Page4_1[5].GetComponent<TMP_Text>().DOFade(0, 0.5f);
+            Page4_1[12].GetComponent<TMP_Text>().DOFade(0, 0.5f);
+            Page4_1[15].GetComponent<TMP_Text>().DOFade(0, 0.5f);
+            Page4_1[17].GetComponent<TMP_Text>().DOFade(0, 0.5f);
+            Page4_1[19].GetComponent<TMP_Text>().DOFade(0, 0.5f);
+            Page4_1[8].GetComponent<Image>().DOFade(0, 0.5f);
+            Page4_1[9].GetComponent<Image>().DOFade(0, 0.5f);
+            Page4_1[10].GetComponent<Image>().DOFade(0, 0.5f);
+            Page4_1[11].GetComponent<Image>().DOFade(0, 0.5f);
+            Page4_1[13].transform.GetChild(0).GetComponent<TMP_Text>().DOFade(0, 0.5f);
+            Page4_1[13].transform.GetChild(1).GetComponent<Image>().DOFade(0, 0.5f);
+            Page4_1[13].transform.GetChild(2).GetComponent<TMP_Text>().DOFade(0, 0.5f);
+            Page4_1[14].transform.GetChild(0).GetComponent<TMP_Text>().DOFade(0, 0.5f);
+            Page4_1[14].transform.GetChild(1).GetComponent<Image>().DOFade(0, 0.5f);
+            Page4_1[14].transform.GetChild(2).GetComponent<TMP_Text>().DOFade(0, 0.5f);
         }
         IEnumerator PageController_5()
         {
