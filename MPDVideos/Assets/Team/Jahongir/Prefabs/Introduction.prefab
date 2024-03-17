@@ -1764,8 +1764,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -459.99997, y: 0}
-  m_SizeDelta: {x: 421.30005, y: 51.07}
+  m_AnchoredPosition: {x: -386.19705, y: -8.408}
+  m_SizeDelta: {x: 568.9059, y: 67.8859}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1810556211522520395
 CanvasRenderer:
@@ -1795,7 +1795,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: :Primary Mathematics Professional Development
+  m_text: ":5-sinf matematika fani o\u2018qituvchilarini kasbiy rivojlantirish "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
