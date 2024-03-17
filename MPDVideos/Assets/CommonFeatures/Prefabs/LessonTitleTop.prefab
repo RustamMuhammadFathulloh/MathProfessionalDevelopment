@@ -325,7 +325,7 @@ GameObject:
   - component: {fileID: 2845585853268667228}
   m_Layer: 5
   m_Name: LessonTitleTop
-  m_TagString: Untagged
+  m_TagString: LessonTitleTop
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
