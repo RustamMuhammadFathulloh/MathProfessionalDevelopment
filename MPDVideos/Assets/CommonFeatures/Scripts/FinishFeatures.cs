@@ -178,9 +178,8 @@ namespace CommonFeatures
 
         IEnumerator FindLessonTitleTop()
         {
-            yield return new WaitForSeconds(5f);
+            yield return new WaitForSeconds(3f);
             TopTitlePanel = GameObject.FindWithTag("LessonTitleTop");
-            Debug.Log("Work");
         }
 
     }
