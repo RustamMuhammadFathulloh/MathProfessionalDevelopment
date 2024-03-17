@@ -675,8 +675,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Mavzuni mustahkamlash uchun
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1f5e8238203c52645a7af1f0266f6401, type: 2}
-  m_sharedMaterial: {fileID: -7897526610067410109, guid: 1f5e8238203c52645a7af1f0266f6401, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: be14484bb1e6db04987dc3ef6a55ece6, type: 2}
+  m_sharedMaterial: {fileID: -4836279883204036491, guid: be14484bb1e6db04987dc3ef6a55ece6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -830,8 +830,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Keling, xulosa qilaylik.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1f5e8238203c52645a7af1f0266f6401, type: 2}
-  m_sharedMaterial: {fileID: -7897526610067410109, guid: 1f5e8238203c52645a7af1f0266f6401, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: be14484bb1e6db04987dc3ef6a55ece6, type: 2}
+  m_sharedMaterial: {fileID: -4836279883204036491, guid: be14484bb1e6db04987dc3ef6a55ece6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1266,8 +1266,8 @@ MonoBehaviour:
   m_text: demonstrate ho you teach <color=#909831> order of operations</color> based
     on the pictorial-abstract approach using the 2 word problems shown
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1f5e8238203c52645a7af1f0266f6401, type: 2}
-  m_sharedMaterial: {fileID: -7897526610067410109, guid: 1f5e8238203c52645a7af1f0266f6401, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: be14484bb1e6db04987dc3ef6a55ece6, type: 2}
+  m_sharedMaterial: {fileID: -4836279883204036491, guid: be14484bb1e6db04987dc3ef6a55ece6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
