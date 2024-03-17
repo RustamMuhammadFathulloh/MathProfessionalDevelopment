@@ -454,7 +454,7 @@ GameObject:
   - component: {fileID: 5889142232997062632}
   m_Layer: 5
   m_Name: FinishFeatures
-  m_TagString: Untagged
+  m_TagString: FInishFeatures
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -603,6 +603,7 @@ MonoBehaviour:
   ForYourPractiseExplain: {fileID: 6776034739365176696}
   SummarizeObjects: []
   SummarizeStrings: []
+  TopTitlePanel: {fileID: 0}
   FinishDataSo: {fileID: 11400000, guid: 149909bbdc3e50a4f831407cd3625cb0, type: 2}
   FinishEvent:
     m_PersistentCalls:
@@ -1263,8 +1264,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: demonstrate ho you teach <color=#909831> order of operations</color> based
-    on the pictorial-abstract approach using the 2 word problems shown
+  m_text: "quyidagi ikki matnli masalani yeching va <color=#909831><b>amallarni bajarish
+    tartibini</b></color> qanday o\u2018rgatishingizni \"Rasmli-Timsolli\" yondashuv
+    \r\nasosida ko\u2018rsatib bering."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}
   m_sharedMaterial: {fileID: -5972927417718077286, guid: b3c67503a4f8c90408e9ae18279c19dc, type: 2}

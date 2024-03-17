@@ -15,9 +15,9 @@ MonoBehaviour:
   CurrentGrade: 1
   LetsSummarizeClip: {fileID: 8300000, guid: aaa92e7706b68a04fbad0a2bec86a087, type: 3}
   ForYourPracticeClip: {fileID: 8300000, guid: e2c4e1d6b062e0a49848aaedf7ea76b6, type: 3}
-  ForYourPractiseText: "quyidagi ikki matnli masalani yeching va amallarni bajarish
-    tartibini qanday o\u2018rgatishingizni \"Rasmli-Timsolli\" yondashuv \r\nasosida
-    ko\u2018rsatib bering."
+  ForYourPractiseText: "quyidagi ikki matnli masalani yeching va <color=#909831>amallarni
+    bajarish tartibini</color> qanday o\u2018rgatishingizni \"Rasmli-Timsolli\" yondashuv
+    \r\nasosida ko\u2018rsatib bering."
   SummarizeText1: "Amallarni bajarish tartibini o\u2018qitish uchun \"Rasmli-Timsolli\"
     yondashuvdan foydalaning."
   SummarizeText2: "Bu bir xil ustuvorlik darajasidagi amallar bilan avval ishlashni

@@ -40,20 +40,19 @@ public class LessonTitleTop : MonoBehaviour
         {
             currentTime += Time.deltaTime;
 
-            if (currentTime >= PracticeTime && _isPractice)
-            {
-                _isPractice = false;
-                RightObject.FadeText(0, 0.5f);
-                StartCoroutine(WriteTextRightObject(Practice));
-            }
-            else if (currentTime >= SummaryTime && _isSummary)
-            {
-                _isSummary = false;
-                RightObject.FadeText(0, 0.5f);
-                StartCoroutine(WriteTextRightObject(Summary));
-                //Debug.Log("currentTime = " + currentTime);
-            }
-            else if (currentTime >= DemonstrationTime && _isDemonstration)
+            //if (currentTime >= PracticeTime && _isPractice)
+            //{
+            //    _isPractice = false;
+            //    RightObject.FadeText(0, 0.5f);
+            //    StartCoroutine(WriteTextRightObject(Practice));
+            //}
+            //else if (currentTime >= SummaryTime && _isSummary)
+            //{
+            //    _isSummary = false;
+            //    RightObject.FadeText(0, 0.5f);
+            //    StartCoroutine(WriteTextRightObject(Summary));
+            //}
+            /*else*/ if (currentTime >= DemonstrationTime && _isDemonstration)
             {
                 _isDemonstration = false;
                 RightObject.FadeText(0, 0.5f);
@@ -68,6 +67,20 @@ public class LessonTitleTop : MonoBehaviour
                 //Debug.Log("currentTime = " + currentTime);
             }
         }
+    }
+
+
+    public void WriteSummary()
+    {
+        RightObject.FadeText(0, 0.5f);
+        StartCoroutine(WriteTextRightObject(Summary));
+    }
+
+
+    public void WritePractice()
+    {
+        RightObject.FadeText(0, 0.5f);
+        StartCoroutine(WriteTextRightObject(Practice));
     }
 
 

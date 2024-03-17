@@ -27,6 +27,8 @@ namespace CommonFeatures
         [HideInInspector] public List<GameObject> SummarizeObjects;
         [HideInInspector] public List<string> SummarizeStrings;
 
+        public GameObject TopTitlePanel;
+
         public FinishDataSO FinishDataSo;
         public UnityEvent FinishEvent;
 
@@ -47,7 +49,8 @@ namespace CommonFeatures
             {
                 ForYourPractiseExplain.transform.GetChild(0).GetComponent<EachObject>().WriteText(FinishDataSo.ForYourPractiseText);
             }
-            
+
+            StartCoroutine(FindLessonTitleTop());
         }
 
         
@@ -71,6 +74,8 @@ namespace CommonFeatures
             BottomWhiteTransition.MoveToInitialPos(1);
             yield return new WaitForSeconds(0.7f);
 
+            // TopTitle summerize
+            TopTitlePanel.GetComponent<LessonTitleTop>().WriteSummary();
             SummarizeText.GetComponent<EachObject>().FadeText(1, 0.5f);
             yield return new WaitForSeconds(0.5f);
             CurrentAudioSource.PlayOneShot(FinishDataSo.LetsSummarizeClip);
@@ -124,6 +129,8 @@ namespace CommonFeatures
             BottomWhiteTransition.MoveToInitialPos(1);
             yield return new WaitForSeconds(0.7f);
 
+            // TopTitle Practice
+            TopTitlePanel.GetComponent<LessonTitleTop>().WritePractice();
             ForYourPractice.transform.GetChild(0).GetComponent<EachObject>().FadeText(1, 0.5f);
             yield return new WaitForSeconds(0.5f);
             CurrentAudioSource.PlayOneShot(FinishDataSo.ForYourPracticeClip);
@@ -168,6 +175,13 @@ namespace CommonFeatures
             return newY;
         }
 
+
+        IEnumerator FindLessonTitleTop()
+        {
+            yield return new WaitForSeconds(5f);
+            TopTitlePanel = GameObject.FindWithTag("LessonTitleTop");
+            Debug.Log("Work");
+        }
 
     }
 }
