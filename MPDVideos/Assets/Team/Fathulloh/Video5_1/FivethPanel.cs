@@ -202,7 +202,7 @@ namespace Math5_Lesson1
                 yield return new WaitForSeconds(durationQuarter + i / 2 * durationQuarter);
             }
 
-            yield return new WaitForSeconds(VideoManager5_1.LengthOfAudioClip(25) - 16 * durationHalf);//4
+            yield return new WaitForSeconds(VideoManager5_1.LengthOfAudioClip(25) - 16 * durationHalf - 1);//4
             NextAnimations.Invoke();
         }
 
