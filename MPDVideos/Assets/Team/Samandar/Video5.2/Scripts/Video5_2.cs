@@ -62,7 +62,7 @@ namespace Samandar
         IEnumerator AudioControllerPage_3()
         {            
             Audio[3].Play();
-            yield return new WaitForSeconds(16);
+            yield return new WaitForSeconds(15.7f);
             Audio[4].Play();
             yield return new WaitForSeconds(12.5f);
             //Audio[5].Play();
