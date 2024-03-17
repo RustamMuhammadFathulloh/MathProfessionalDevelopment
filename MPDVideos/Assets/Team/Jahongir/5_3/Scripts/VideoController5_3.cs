@@ -439,6 +439,7 @@ public class VideoController5_3 : MonoBehaviour
 
     public void LastAnim()
     {
+        _audioSource.PlayOneShot(AudioClips5_3[26]);  // 27
         Task1.transform.DOScale(1.4f, 1);
         Task2.transform.DOScale(1.4f, 1);
     }

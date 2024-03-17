@@ -16,13 +16,13 @@ MonoBehaviour:
   LetsSummarizeClip: {fileID: 8300000, guid: ee21e1b1179ff1a43be0928b6994d9ea, type: 3}
   ForYourPracticeClip: {fileID: 8300000, guid: dc2ffd3c5f2783849835b5f1cc7d0bad, type: 3}
   ForYourPractiseText: "Mavzuni mustahkamlash uchun quyidagi ikki to\u2018g\u2018ri
-    kasrni \u201CTasviriy-An\u2018anaviy\u201D yondashuv asosida qanday o\u2018rgatishingizni
+    kasrni \u201CRasmli-Timsolli\u201D yondashuv asosida qanday o\u2018rgatishingizni
     yozma bayon qiling."
-  SummarizeText1: "Ikkita to\u2018g\u2018ri kasrni ko\u2018paytirishni Tasviriy-An\u2018anaviy
+  SummarizeText1: "Ikkita to\u2018g\u2018ri kasrni ko\u2018paytirishni \"Rasmli-Timsolli\"
     yondashuvdan foydalanib o\u2018rgating."
-  SummarizeText2: "Avval to\u2018g\u2018ri to\u2018rtburchakda ikkinchi kasrni chiziq
-    bilan bo\u2018yang, so\u2018ngra bo\u2018yalgan qismlarini ifodalovchi kasrni
-    toping."
+  SummarizeText2: "Avval to\u2018g\u2018ri to\u2018rtburchakda birinchi kasrni vertikal
+    (tik), ikkinchi kasrni gorizontal (bo'ylama) chiziqlar bilan bo\u2018yab ko'rsating.
+    So\u2018ng bo\u2018yalgan qismlar kesishmasini ifodalovchi kasrni toping."
   SummarizeText3: "Bo\u2018yalgan qismi kasrlar ko\u2018paytmasini ko\u2018rsatadi."
   SummarizeText4: "Ba\u2018zi misollarni ko\u2018rsatgandan so\u2018ng, o\u2018quvchilarga
     qoida tuzishga yordam bering."
